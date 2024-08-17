@@ -135,7 +135,7 @@ public class EmployeeServiceImpl implements EmployeeService {
                 .orElseThrow(() -> new ResourceNotFoundException("Employee not found with ID: " + employeeId));
 
         SportDto sport = sportService.getSportById(sportId);
-        if(sport != null) {
+        if(sport == null) {
             throw new ResourceNotFoundException("Sport not found with ID: " + sportId);
         }
 
@@ -158,7 +158,11 @@ public class EmployeeServiceImpl implements EmployeeService {
                 .orElseThrow(() -> new ResourceNotFoundException("Employee not found with ID: " + employeeId));
 
         SportDto sport = sportService.getSportById(sportId);
-        employee.getSports().remove(SportMapper.mapToSport(sport));
+        boolean removed = employee.getSports().removeIf(existingSport -> existingSport.getId() == sportId);
+
+        if (!removed) {
+            throw new ResourceNotFoundException("Sport not found or not assigned to Employee with ID: " + employeeId);
+        }
 
         Employee updatedEmployee = employeeRepository.save(employee);
         logger.info("Removing sport {} to Employee {}", sport.getName(), employee.getName());

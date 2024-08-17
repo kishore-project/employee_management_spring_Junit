@@ -7,7 +7,7 @@ import java.time.Period;
  *<p>
  * Validating various type of input.
  * </p>
- * @author  Kishore
+ * @author Kishore
  */
 public class Validator {
 

@@ -696,3 +696,62 @@ com.ideas2it.employeemanagement.exceptions.ResourceAlreadyExistsException: Sport
 [INFO ] 2024-08-16 19:10:53.765 [main] SportControllerTest - No active profile set, falling back to 1 default profile: "default"
 [INFO ] 2024-08-16 19:10:56.263 [main] SportControllerTest - Started SportControllerTest in 3.141 seconds (process running for 6.421)
 [INFO ] 2024-08-17 12:02:47.204 [main] SportServiceImpl - Retrieving list of all active employees in sport with name: Cricket
+[INFO ] 2024-08-17 12:03:57.794 [main] SportServiceImpl - Adding sport with name: Cricket
+[INFO ] 2024-08-17 12:03:57.828 [main] SportServiceImpl - Retrieving list of all active employees in sport with name: Cricket
+[INFO ] 2024-08-17 12:03:57.833 [main] SportServiceImpl - Retrieving list of all active sports
+[INFO ] 2024-08-17 12:03:57.838 [main] SportServiceImpl - Retrieving sport with ID: 1
+[ERROR] 2024-08-17 12:03:57.844 [main] SportServiceImpl - Sport already exists with name: Cricket
+[INFO ] 2024-08-17 12:03:57.856 [main] SportServiceImpl - Updated sport with name: Football
+[INFO ] 2024-08-17 12:03:57.860 [main] SportServiceImpl - Sport is deleted with name: Cricket
+[INFO ] 2024-08-17 12:08:02.175 [main] EmployeemanagementApplication - Starting EmployeemanagementApplication using Java 22.0.2 with PID 17936 (C:\Users\kishorekumar.n\Documents\spring\employeemanagement\target\classes started by kishorekumar.n in C:\Users\kishorekumar.n\Documents\spring\employeemanagement)
+[DEBUG] 2024-08-17 12:08:02.193 [main] EmployeemanagementApplication - Running with Spring Boot v3.3.2, Spring v6.1.11
+[INFO ] 2024-08-17 12:08:02.196 [main] EmployeemanagementApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2024-08-17 12:08:46.890 [main] EmployeemanagementApplication - Starting EmployeemanagementApplication using Java 22.0.2 with PID 18332 (C:\Users\kishorekumar.n\Documents\spring\employeemanagement\target\classes started by kishorekumar.n in C:\Users\kishorekumar.n\Documents\spring\employeemanagement)
+[DEBUG] 2024-08-17 12:08:46.911 [main] EmployeemanagementApplication - Running with Spring Boot v3.3.2, Spring v6.1.11
+[INFO ] 2024-08-17 12:08:46.912 [main] EmployeemanagementApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2024-08-17 12:09:34.246 [main] EmployeemanagementApplication - Starting EmployeemanagementApplication using Java 22.0.2 with PID 16320 (C:\Users\kishorekumar.n\Documents\spring\employeemanagement\target\classes started by kishorekumar.n in C:\Users\kishorekumar.n\Documents\spring\employeemanagement)
+[DEBUG] 2024-08-17 12:09:34.261 [main] EmployeemanagementApplication - Running with Spring Boot v3.3.2, Spring v6.1.11
+[INFO ] 2024-08-17 12:09:34.263 [main] EmployeemanagementApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2024-08-17 12:09:39.206 [main] EmployeemanagementApplication - Started EmployeemanagementApplication in 5.469 seconds (process running for 6.841)
+[INFO ] 2024-08-17 12:09:39.209 [main] EmployeemanagementApplication - Application Started
+[INFO ] 2024-08-17 12:09:44.776 [http-nio-8080-exec-1] EmployeeController - Request to retrieve all employees
+[INFO ] 2024-08-17 12:09:44.982 [http-nio-8080-exec-1] DepartmentServiceImpl - Retrieving list of all Employees
+[INFO ] 2024-08-17 12:09:44.982 [http-nio-8080-exec-1] EmployeeController - Retrieved 3 employees
+[INFO ] 2024-08-17 12:39:55.210 [main] DepartmentServiceImpl - Adding Employee with name: Santhosh department ID: null
+[INFO ] 2024-08-17 12:41:12.387 [main] DepartmentServiceImpl - Retrieving list of all Employees
+[ERROR] 2024-08-17 12:42:17.761 [main] DepartmentServiceImpl - Employee is deleted with ID: 1
+[INFO ] 2024-08-17 12:44:14.015 [main] DepartmentServiceImpl - Adding Employee with name: Santhosh department ID: null
+[ERROR] 2024-08-17 12:44:14.049 [main] DepartmentServiceImpl - Employee is deleted with ID: 1
+[INFO ] 2024-08-17 12:44:14.055 [main] DepartmentServiceImpl - Updated Employee with name Santhosh
+[INFO ] 2024-08-17 12:44:14.058 [main] DepartmentServiceImpl - Retrieving list of all Employees
+[INFO ] 2024-08-17 12:44:14.063 [main] DepartmentServiceImpl - Removing sport Basketball to Employee Santhosh
+[ERROR] 2024-08-17 12:44:14.070 [main] DepartmentServiceImpl - Employee is deleted with ID: 1
+[ERROR] 2024-08-17 12:44:14.080 [main] DepartmentServiceImpl - Employee not found  with ID: 1
+[INFO ] 2024-08-17 12:44:14.090 [main] DepartmentServiceImpl - Removing sport Basketball to Employee Santhosh
+[INFO ] 2024-08-17 12:48:11.632 [main] DepartmentServiceImpl - Adding sport Basketball to Employee Santhosh
+[INFO ] 2024-08-17 12:48:37.450 [main] DepartmentServiceImpl - Removing sport Basketball to Employee Santhosh
+[INFO ] 2024-08-17 12:48:49.110 [main] DepartmentServiceImpl - Removing sport Basketball to Employee Santhosh
+[INFO ] 2024-08-17 12:53:00.685 [main] DepartmentServiceImpl - Removing sport Basketball to Employee Santhosh
+[INFO ] 2024-08-17 12:53:17.926 [main] DepartmentServiceImpl - Adding Employee with name: Santhosh department ID: null
+[INFO ] 2024-08-17 12:53:17.951 [main] DepartmentServiceImpl - Adding sport Basketball to Employee Santhosh
+[ERROR] 2024-08-17 12:53:17.962 [main] DepartmentServiceImpl - Employee is deleted with ID: 1
+[INFO ] 2024-08-17 12:53:17.968 [main] DepartmentServiceImpl - Updated Employee with name Santhosh
+[INFO ] 2024-08-17 12:53:17.974 [main] DepartmentServiceImpl - Retrieving list of all Employees
+[ERROR] 2024-08-17 12:53:17.982 [main] DepartmentServiceImpl - Employee is deleted with ID: 1
+[ERROR] 2024-08-17 12:53:17.992 [main] DepartmentServiceImpl - Employee not found  with ID: 1
+[INFO ] 2024-08-17 12:53:17.999 [main] DepartmentServiceImpl - Removing sport Basketball to Employee Santhosh
+[INFO ] 2024-08-17 12:54:02.226 [main] DepartmentServiceImpl - Adding Employee with name: Santhosh department ID: null
+[INFO ] 2024-08-17 12:54:02.259 [main] DepartmentServiceImpl - Adding sport Basketball to Employee Santhosh
+[ERROR] 2024-08-17 12:54:02.270 [main] DepartmentServiceImpl - Employee is deleted with ID: 1
+[INFO ] 2024-08-17 12:54:02.275 [main] DepartmentServiceImpl - Updated Employee with name Santhosh
+[INFO ] 2024-08-17 12:54:02.280 [main] DepartmentServiceImpl - Retrieving list of all Employees
+[ERROR] 2024-08-17 12:54:02.290 [main] DepartmentServiceImpl - Employee is deleted with ID: 1
+[ERROR] 2024-08-17 12:54:02.301 [main] DepartmentServiceImpl - Employee not found  with ID: 1
+[INFO ] 2024-08-17 12:54:02.312 [main] DepartmentServiceImpl - Removing sport Basketball to Employee Santhosh
+[INFO ] 2024-08-17 12:54:02.408 [main] SportServiceImpl - Adding sport with name: Cricket
+[INFO ] 2024-08-17 12:54:02.415 [main] SportServiceImpl - Retrieving list of all active employees in sport with name: Cricket
+[INFO ] 2024-08-17 12:54:02.420 [main] SportServiceImpl - Retrieving list of all active sports
+[INFO ] 2024-08-17 12:54:02.424 [main] SportServiceImpl - Retrieving sport with ID: 1
+[ERROR] 2024-08-17 12:54:02.428 [main] SportServiceImpl - Sport already exists with name: Cricket
+[INFO ] 2024-08-17 12:54:02.434 [main] SportServiceImpl - Updated sport with name: Football
+[INFO ] 2024-08-17 12:54:02.439 [main] SportServiceImpl - Sport is deleted with name: Cricket

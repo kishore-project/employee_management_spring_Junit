@@ -13,7 +13,6 @@ import com.ideas2it.employeemanagement.sport.dto.SportDto;
 import com.ideas2it.employeemanagement.sport.mapper.SportMapper;
 import com.ideas2it.employeemanagement.sport.service.SportServiceImpl;
 
-
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
@@ -216,16 +215,16 @@ public class SportServiceImplTest {
     void getEmployeesBySportId_ValidSportId_ReturnsActiveEmployeeDtos() {
         // Create Address objects
         Address address1 = Address.builder()
-                .street("123 Elm Street")
-                .city("Springfield")
-                .state("IL")
+                .street("123 ashok Street")
+                .city("chnenai")
+                .state("Tamil Nadu")
                 .zip("627012")
                 .build();
 
         Address address2 = Address.builder()
-                .street("456 Oak Avenue")
-                .city("Springfield")
-                .state("IL")
+                .street("456 NGO Avenue")
+                .city("chennai")
+                .state("Tamil Nadu")
                 .zip("627022")
                 .build();
 
@@ -243,9 +242,9 @@ public class SportServiceImplTest {
         // Create Employee objects with Address
         Employee activeEmployee1 = Employee.builder()
                 .id(1)
-                .name("John Doe")
+                .name("kishore ")
                 .dob(LocalDate.of(1990, 1, 1))
-                .emailId("john.doe@example.com")
+                .emailId("kishore@gmail.com")
                 .isActive(true)
                 .address(address1) // Set the address
                 .department(department1) // Set the department
@@ -253,9 +252,9 @@ public class SportServiceImplTest {
 
         Employee activeEmployee2 = Employee.builder()
                 .id(2)
-                .name("Jane Smith")
+                .name("Lefin")
                 .dob(LocalDate.of(1992, 2, 2))
-                .emailId("jane.smith@example.com")
+                .emailId("Lefin@example.com")
                 .isActive(true)
                 .address(address2) // Set the address
                 .department(department2) // Set the department
@@ -263,9 +262,9 @@ public class SportServiceImplTest {
 
         Employee inactiveEmployee = Employee.builder()
                 .id(3)
-                .name("Inactive Employee")
+                .name("Pari")
                 .dob(LocalDate.of(1985, 3, 3))
-                .emailId("inactive.employee@example.com")
+                .emailId("Pari@gmail.com")
                 .isActive(false)
                 .address(address1)
                 .department(department1)
