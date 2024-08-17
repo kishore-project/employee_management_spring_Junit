@@ -1,0 +1,697 @@
+[INFO ] 2024-08-12 19:01:46.684 [main] EmployeemanagementApplication - Application Started1
+[INFO ] 2024-08-12 19:01:47.309 [main] EmployeemanagementApplication - Starting EmployeemanagementApplication using Java 22.0.2 with PID 21744 (C:\Users\kishorekumar.n\Documents\spring\employeemanagement\target\classes started by kishorekumar.n in C:\Users\kishorekumar.n\Documents\spring\employeemanagement)
+[DEBUG] 2024-08-12 19:01:47.313 [main] EmployeemanagementApplication - Running with Spring Boot v3.3.2, Spring v6.1.11
+[INFO ] 2024-08-12 19:01:47.315 [main] EmployeemanagementApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2024-08-12 19:01:52.578 [main] EmployeemanagementApplication - Started EmployeemanagementApplication in 5.786 seconds (process running for 7.162)
+[INFO ] 2024-08-12 19:01:52.586 [main] EmployeemanagementApplication - Application Started2
+[DEBUG] 2024-08-12 19:02:46.075 [http-nio-8080-exec-4] DepartmentController - Getting department list
+[INFO ] 2024-08-12 22:05:06.383 [main] EmployeemanagementApplication - Starting EmployeemanagementApplication using Java 22.0.2 with PID 2400 (C:\Users\kishorekumar.n\Documents\spring\employeemanagement\target\classes started by kishorekumar.n in C:\Users\kishorekumar.n\Documents\spring\employeemanagement)
+[DEBUG] 2024-08-12 22:05:06.393 [main] EmployeemanagementApplication - Running with Spring Boot v3.3.2, Spring v6.1.11
+[INFO ] 2024-08-12 22:05:06.394 [main] EmployeemanagementApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2024-08-12 22:05:10.925 [main] EmployeemanagementApplication - Started EmployeemanagementApplication in 5.032 seconds (process running for 6.352)
+[INFO ] 2024-08-12 22:05:10.928 [main] EmployeemanagementApplication - Application Started
+[INFO ] 2024-08-12 22:05:34.140 [http-nio-8080-exec-3] DepartmentController - Retrieving list of all departments
+[INFO ] 2024-08-12 22:05:34.338 [http-nio-8080-exec-3] DepartmentController - Retrieved 7 departments
+[INFO ] 2024-08-12 22:05:48.569 [http-nio-8080-exec-4] SportController - Retrieving list of all sports
+[INFO ] 2024-08-12 22:05:48.586 [http-nio-8080-exec-4] SportController - Retrieved 3 sports
+[INFO ] 2024-08-12 22:09:48.069 [main] EmployeemanagementApplication - Starting EmployeemanagementApplication using Java 22.0.2 with PID 23380 (C:\Users\kishorekumar.n\Documents\spring\employeemanagement\target\classes started by kishorekumar.n in C:\Users\kishorekumar.n\Documents\spring\employeemanagement)
+[DEBUG] 2024-08-12 22:09:48.081 [main] EmployeemanagementApplication - Running with Spring Boot v3.3.2, Spring v6.1.11
+[INFO ] 2024-08-12 22:09:48.082 [main] EmployeemanagementApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2024-08-12 22:09:52.758 [main] EmployeemanagementApplication - Started EmployeemanagementApplication in 5.186 seconds (process running for 6.509)
+[INFO ] 2024-08-12 22:09:52.762 [main] EmployeemanagementApplication - Application Started
+[INFO ] 2024-08-12 22:10:35.848 [http-nio-8080-exec-4] EmployeeController - Request to retrieve all employees
+[INFO ] 2024-08-12 22:10:36.061 [http-nio-8080-exec-4] EmployeeController - Retrieved 2 employees
+[INFO ] 2024-08-13 11:44:02.887 [main] EmployeemanagementApplication - Starting EmployeemanagementApplication using Java 22.0.2 with PID 5548 (C:\Users\kishorekumar.n\Documents\spring\employeemanagement\target\classes started by kishorekumar.n in C:\Users\kishorekumar.n\Documents\spring\employeemanagement)
+[DEBUG] 2024-08-13 11:44:02.905 [main] EmployeemanagementApplication - Running with Spring Boot v3.3.2, Spring v6.1.11
+[INFO ] 2024-08-13 11:44:02.906 [main] EmployeemanagementApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2024-08-13 11:44:09.172 [main] EmployeemanagementApplication - Started EmployeemanagementApplication in 6.951 seconds (process running for 8.448)
+[INFO ] 2024-08-13 11:44:09.176 [main] EmployeemanagementApplication - Application Started
+[INFO ] 2024-08-13 11:50:38.953 [main] EmployeemanagementApplication - Starting EmployeemanagementApplication using Java 22.0.2 with PID 18244 (C:\Users\kishorekumar.n\Documents\spring\employeemanagement\target\classes started by kishorekumar.n in C:\Users\kishorekumar.n\Documents\spring\employeemanagement)
+[DEBUG] 2024-08-13 11:50:38.968 [main] EmployeemanagementApplication - Running with Spring Boot v3.3.2, Spring v6.1.11
+[INFO ] 2024-08-13 11:50:38.970 [main] EmployeemanagementApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2024-08-13 11:50:44.682 [main] EmployeemanagementApplication - Started EmployeemanagementApplication in 6.358 seconds (process running for 7.744)
+[INFO ] 2024-08-13 11:50:44.685 [main] EmployeemanagementApplication - Application Started
+[INFO ] 2024-08-13 11:52:11.274 [main] EmployeemanagementApplication - Starting EmployeemanagementApplication using Java 22.0.2 with PID 22168 (C:\Users\kishorekumar.n\Documents\spring\employeemanagement\target\classes started by kishorekumar.n in C:\Users\kishorekumar.n\Documents\spring\employeemanagement)
+[DEBUG] 2024-08-13 11:52:11.290 [main] EmployeemanagementApplication - Running with Spring Boot v3.3.2, Spring v6.1.11
+[INFO ] 2024-08-13 11:52:11.292 [main] EmployeemanagementApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2024-08-13 11:52:17.231 [main] EmployeemanagementApplication - Started EmployeemanagementApplication in 6.654 seconds (process running for 8.053)
+[INFO ] 2024-08-13 11:52:17.235 [main] EmployeemanagementApplication - Application Started
+[INFO ] 2024-08-13 11:52:24.748 [http-nio-8080-exec-2] EmployeeController - Request to retrieve all employees
+[INFO ] 2024-08-13 11:52:25.219 [http-nio-8080-exec-2] EmployeeController - Retrieved 2 employees
+[INFO ] 2024-08-13 11:54:52.450 [main] EmployeemanagementApplication - Starting EmployeemanagementApplication using Java 22.0.2 with PID 23452 (C:\Users\kishorekumar.n\Documents\spring\employeemanagement\target\classes started by kishorekumar.n in C:\Users\kishorekumar.n\Documents\spring\employeemanagement)
+[DEBUG] 2024-08-13 11:54:52.466 [main] EmployeemanagementApplication - Running with Spring Boot v3.3.2, Spring v6.1.11
+[INFO ] 2024-08-13 11:54:52.467 [main] EmployeemanagementApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2024-08-13 11:54:58.842 [main] EmployeemanagementApplication - Started EmployeemanagementApplication in 7.059 seconds (process running for 8.661)
+[INFO ] 2024-08-13 11:54:58.850 [main] EmployeemanagementApplication - Application Started
+[INFO ] 2024-08-13 11:55:17.599 [http-nio-8080-exec-1] EmployeeController - Request to create employee with details: com.ideas2it.employeemanagement.employee.dto.EmployeeDto@9abad22
+[INFO ] 2024-08-13 11:55:17.868 [http-nio-8080-exec-1] EmployeeController - Employee created with ID: 3
+[INFO ] 2024-08-13 11:55:29.878 [http-nio-8080-exec-3] SportController - Retrieving list of all sports
+[INFO ] 2024-08-13 11:55:30.026 [http-nio-8080-exec-3] SportController - Retrieved 3 sports
+[INFO ] 2024-08-13 14:03:40.823 [main] EmployeemanagementApplication - Starting EmployeemanagementApplication using Java 22.0.2 with PID 12776 (C:\Users\kishorekumar.n\Documents\spring\employeemanagement\target\classes started by kishorekumar.n in C:\Users\kishorekumar.n\Documents\spring\employeemanagement)
+[DEBUG] 2024-08-13 14:03:40.833 [main] EmployeemanagementApplication - Running with Spring Boot v3.3.2, Spring v6.1.11
+[INFO ] 2024-08-13 14:03:40.834 [main] EmployeemanagementApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2024-08-13 14:03:45.603 [main] EmployeemanagementApplication - Started EmployeemanagementApplication in 5.259 seconds (process running for 6.554)
+[INFO ] 2024-08-13 14:03:45.608 [main] EmployeemanagementApplication - Application Started
+[INFO ] 2024-08-13 14:05:14.937 [http-nio-8080-exec-3] SportController - Request to retrieve employees for sport with ID: 1
+[INFO ] 2024-08-13 14:05:15.029 [http-nio-8080-exec-3] SportServiceImpl - Retrieving list of all Employee in Sport football
+[INFO ] 2024-08-13 14:05:15.029 [http-nio-8080-exec-3] SportController - Retrieved 1 employees for sport with ID: 1
+[INFO ] 2024-08-13 14:29:36.946 [main] EmployeemanagementApplication - Starting EmployeemanagementApplication using Java 22.0.2 with PID 24252 (C:\Users\kishorekumar.n\Documents\spring\employeemanagement\target\classes started by kishorekumar.n in C:\Users\kishorekumar.n\Documents\spring\employeemanagement)
+[DEBUG] 2024-08-13 14:29:36.959 [main] EmployeemanagementApplication - Running with Spring Boot v3.3.2, Spring v6.1.11
+[INFO ] 2024-08-13 14:29:36.961 [main] EmployeemanagementApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2024-08-13 14:29:41.573 [main] EmployeemanagementApplication - Started EmployeemanagementApplication in 5.122 seconds (process running for 6.448)
+[INFO ] 2024-08-13 14:29:41.576 [main] EmployeemanagementApplication - Application Started
+[INFO ] 2024-08-13 14:36:04.084 [main] EmployeemanagementApplication - Starting EmployeemanagementApplication using Java 22.0.2 with PID 22448 (C:\Users\kishorekumar.n\Documents\spring\employeemanagement\target\classes started by kishorekumar.n in C:\Users\kishorekumar.n\Documents\spring\employeemanagement)
+[DEBUG] 2024-08-13 14:36:04.095 [main] EmployeemanagementApplication - Running with Spring Boot v3.3.2, Spring v6.1.11
+[INFO ] 2024-08-13 14:36:04.097 [main] EmployeemanagementApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2024-08-13 14:36:08.586 [main] EmployeemanagementApplication - Started EmployeemanagementApplication in 4.996 seconds (process running for 6.308)
+[INFO ] 2024-08-13 14:36:08.589 [main] EmployeemanagementApplication - Application Started
+[INFO ] 2024-08-13 14:41:07.299 [main] EmployeemanagementApplication - Starting EmployeemanagementApplication using Java 22.0.2 with PID 4328 (C:\Users\kishorekumar.n\Documents\spring\employeemanagement\target\classes started by kishorekumar.n in C:\Users\kishorekumar.n\Documents\spring\employeemanagement)
+[DEBUG] 2024-08-13 14:41:07.300 [main] EmployeemanagementApplication - Running with Spring Boot v3.3.2, Spring v6.1.11
+[INFO ] 2024-08-13 14:41:07.300 [main] EmployeemanagementApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2024-08-13 14:41:12.577 [main] EmployeemanagementApplication - Started EmployeemanagementApplication in 6.084 seconds (process running for 7.885)
+[INFO ] 2024-08-13 14:41:12.577 [main] EmployeemanagementApplication - Application Started
+[INFO ] 2024-08-13 14:41:30.930 [http-nio-8080-exec-1] EmployeeController - Request to retrieve all employees
+[INFO ] 2024-08-13 14:41:31.159 [http-nio-8080-exec-1] DepartmentServiceImpl - Retrieving list of all Employees
+[INFO ] 2024-08-13 14:41:31.159 [http-nio-8080-exec-1] EmployeeController - Retrieved 3 employees
+[INFO ] 2024-08-13 15:17:24.379 [main] EmployeemanagementApplication - Starting EmployeemanagementApplication using Java 22.0.2 with PID 8540 (C:\Users\kishorekumar.n\Documents\spring\employeemanagement\target\classes started by kishorekumar.n in C:\Users\kishorekumar.n\Documents\spring\employeemanagement)
+[DEBUG] 2024-08-13 15:17:24.389 [main] EmployeemanagementApplication - Running with Spring Boot v3.3.2, Spring v6.1.11
+[INFO ] 2024-08-13 15:17:24.391 [main] EmployeemanagementApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2024-08-13 15:19:38.482 [main] EmployeemanagementApplication - Starting EmployeemanagementApplication using Java 22.0.2 with PID 12772 (C:\Users\kishorekumar.n\Documents\spring\employeemanagement\target\classes started by kishorekumar.n in C:\Users\kishorekumar.n\Documents\spring\employeemanagement)
+[DEBUG] 2024-08-13 15:19:38.498 [main] EmployeemanagementApplication - Running with Spring Boot v3.3.2, Spring v6.1.11
+[INFO ] 2024-08-13 15:19:38.500 [main] EmployeemanagementApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2024-08-13 15:19:44.289 [main] EmployeemanagementApplication - Started EmployeemanagementApplication in 6.52 seconds (process running for 8.058)
+[INFO ] 2024-08-13 15:19:44.294 [main] EmployeemanagementApplication - Application Started
+[INFO ] 2024-08-13 17:03:51.875 [main] EmployeemanagementApplication - Starting EmployeemanagementApplication using Java 22.0.2 with PID 22760 (C:\Users\kishorekumar.n\Documents\spring\employeemanagement\target\classes started by kishorekumar.n in C:\Users\kishorekumar.n\Documents\spring\employeemanagement)
+[DEBUG] 2024-08-13 17:03:51.885 [main] EmployeemanagementApplication - Running with Spring Boot v3.3.2, Spring v6.1.11
+[INFO ] 2024-08-13 17:03:51.886 [main] EmployeemanagementApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2024-08-13 17:07:39.349 [main] EmployeemanagementApplication - Starting EmployeemanagementApplication using Java 22.0.2 with PID 16056 (C:\Users\kishorekumar.n\Documents\spring\employeemanagement\target\classes started by kishorekumar.n in C:\Users\kishorekumar.n\Documents\spring\employeemanagement)
+[DEBUG] 2024-08-13 17:07:39.361 [main] EmployeemanagementApplication - Running with Spring Boot v3.3.2, Spring v6.1.11
+[INFO ] 2024-08-13 17:07:39.362 [main] EmployeemanagementApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2024-08-13 17:08:59.051 [main] EmployeemanagementApplication - Starting EmployeemanagementApplication using Java 22.0.2 with PID 16772 (C:\Users\kishorekumar.n\Documents\spring\employeemanagement\target\classes started by kishorekumar.n in C:\Users\kishorekumar.n\Documents\spring\employeemanagement)
+[DEBUG] 2024-08-13 17:08:59.067 [main] EmployeemanagementApplication - Running with Spring Boot v3.3.2, Spring v6.1.11
+[INFO ] 2024-08-13 17:08:59.069 [main] EmployeemanagementApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2024-08-13 17:09:04.620 [main] EmployeemanagementApplication - Started EmployeemanagementApplication in 6.187 seconds (process running for 7.584)
+[INFO ] 2024-08-13 17:09:04.623 [main] EmployeemanagementApplication - Application Started
+[INFO ] 2024-08-13 17:32:40.676 [main] EmployeemanagementApplication - Starting EmployeemanagementApplication using Java 22.0.2 with PID 17124 (C:\Users\kishorekumar.n\Documents\spring\employeemanagement\target\classes started by kishorekumar.n in C:\Users\kishorekumar.n\Documents\spring\employeemanagement)
+[DEBUG] 2024-08-13 17:32:40.689 [main] EmployeemanagementApplication - Running with Spring Boot v3.3.2, Spring v6.1.11
+[INFO ] 2024-08-13 17:32:40.690 [main] EmployeemanagementApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2024-08-14 09:42:07.268 [main] EmployeemanagementApplication - Starting EmployeemanagementApplication using Java 22.0.2 with PID 1564 (C:\Users\kishorekumar.n\Documents\spring\employeemanagement\target\classes started by kishorekumar.n in C:\Users\kishorekumar.n\Documents\spring\employeemanagement)
+[DEBUG] 2024-08-14 09:42:07.282 [main] EmployeemanagementApplication - Running with Spring Boot v3.3.2, Spring v6.1.11
+[INFO ] 2024-08-14 09:42:07.284 [main] EmployeemanagementApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2024-08-14 09:42:14.354 [main] EmployeemanagementApplication - Started EmployeemanagementApplication in 7.772 seconds (process running for 9.357)
+[INFO ] 2024-08-14 09:42:14.359 [main] EmployeemanagementApplication - Application Started
+[INFO ] 2024-08-14 10:10:24.380 [main] EmployeemanagementApplication - Starting EmployeemanagementApplication using Java 22.0.2 with PID 21416 (C:\Users\kishorekumar.n\Documents\spring\employeemanagement\target\classes started by kishorekumar.n in C:\Users\kishorekumar.n\Documents\spring\employeemanagement)
+[DEBUG] 2024-08-14 10:10:24.398 [main] EmployeemanagementApplication - Running with Spring Boot v3.3.2, Spring v6.1.11
+[INFO ] 2024-08-14 10:10:24.400 [main] EmployeemanagementApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2024-08-14 10:10:30.840 [main] EmployeemanagementApplication - Started EmployeemanagementApplication in 7.119 seconds (process running for 8.533)
+[INFO ] 2024-08-14 10:10:30.843 [main] EmployeemanagementApplication - Application Started
+[INFO ] 2024-08-14 10:11:18.853 [http-nio-8080-exec-4] EmployeeController - Request to retrieve all employees
+[INFO ] 2024-08-14 10:11:19.369 [http-nio-8080-exec-4] DepartmentServiceImpl - Retrieving list of all Employees
+[INFO ] 2024-08-14 10:11:19.370 [http-nio-8080-exec-4] EmployeeController - Retrieved 3 employees
+[INFO ] 2024-08-14 11:09:02.686 [main] EmployeemanagementApplication - Starting EmployeemanagementApplication using Java 22.0.2 with PID 9056 (C:\Users\kishorekumar.n\Documents\spring\employeemanagement\target\classes started by kishorekumar.n in C:\Users\kishorekumar.n\Documents\spring\employeemanagement)
+[DEBUG] 2024-08-14 11:09:02.698 [main] EmployeemanagementApplication - Running with Spring Boot v3.3.2, Spring v6.1.11
+[INFO ] 2024-08-14 11:09:02.700 [main] EmployeemanagementApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2024-08-14 11:09:07.866 [main] EmployeemanagementApplication - Started EmployeemanagementApplication in 5.674 seconds (process running for 7.085)
+[INFO ] 2024-08-14 11:09:07.869 [main] EmployeemanagementApplication - Application Started
+[INFO ] 2024-08-14 11:09:46.952 [http-nio-8080-exec-2] SportController - Request to create sport with name: game1
+[ERROR] 2024-08-14 11:09:47.106 [http-nio-8080-exec-2] SportServiceImpl - Sport already exists with name: game1
+[ERROR] 2024-08-14 11:09:47.106 [http-nio-8080-exec-2] SportController - Error creating sport
+com.ideas2it.employeemanagement.exceptions.ResourceAlreadyExistsException: Sport already exists with name: game1
+	at com.ideas2it.employeemanagement.sport.service.SportServiceImpl.addSport(SportServiceImpl.java:31) ~[classes/:?]
+	at com.ideas2it.employeemanagement.sport.controller.SportController.createSport(SportController.java:39) ~[classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:389) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:904) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at java.base/java.lang.Thread.run(Thread.java:1570) [?:?]
+[INFO ] 2024-08-14 12:08:55.267 [main] EmployeemanagementApplication - Starting EmployeemanagementApplication using Java 22.0.2 with PID 17052 (C:\Users\kishorekumar.n\Documents\spring\employeemanagement\target\classes started by kishorekumar.n in C:\Users\kishorekumar.n\Documents\spring\employeemanagement)
+[DEBUG] 2024-08-14 12:08:55.279 [main] EmployeemanagementApplication - Running with Spring Boot v3.3.2, Spring v6.1.11
+[INFO ] 2024-08-14 12:08:55.280 [main] EmployeemanagementApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2024-08-14 12:08:59.885 [main] EmployeemanagementApplication - Started EmployeemanagementApplication in 5.123 seconds (process running for 6.591)
+[INFO ] 2024-08-14 12:08:59.889 [main] EmployeemanagementApplication - Application Started
+[INFO ] 2024-08-14 12:10:46.297 [http-nio-8080-exec-2] SportController - Request to create sport with name: game1
+[ERROR] 2024-08-14 12:10:46.455 [http-nio-8080-exec-2] SportServiceImpl - Sport already exists with name: game1
+[ERROR] 2024-08-14 12:10:46.456 [http-nio-8080-exec-2] SportController - Error creating sport
+com.ideas2it.employeemanagement.exceptions.ResourceAlreadyExistsException: Sport already exists with name: game1
+	at com.ideas2it.employeemanagement.sport.service.SportServiceImpl.addSport(SportServiceImpl.java:31) ~[classes/:?]
+	at com.ideas2it.employeemanagement.sport.controller.SportController.createSport(SportController.java:39) ~[classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:389) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:904) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at java.base/java.lang.Thread.run(Thread.java:1570) [?:?]
+[INFO ] 2024-08-14 12:13:35.865 [main] EmployeemanagementApplication - Starting EmployeemanagementApplication using Java 22.0.2 with PID 22300 (C:\Users\kishorekumar.n\Documents\spring\employeemanagement\target\classes started by kishorekumar.n in C:\Users\kishorekumar.n\Documents\spring\employeemanagement)
+[DEBUG] 2024-08-14 12:13:35.879 [main] EmployeemanagementApplication - Running with Spring Boot v3.3.2, Spring v6.1.11
+[INFO ] 2024-08-14 12:13:35.880 [main] EmployeemanagementApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2024-08-14 12:13:42.206 [main] EmployeemanagementApplication - Started EmployeemanagementApplication in 7.019 seconds (process running for 8.556)
+[INFO ] 2024-08-14 12:13:42.209 [main] EmployeemanagementApplication - Application Started
+[INFO ] 2024-08-14 12:17:41.343 [main] EmployeemanagementApplication - Starting EmployeemanagementApplication using Java 22.0.2 with PID 9288 (C:\Users\kishorekumar.n\Documents\spring\employeemanagement\target\classes started by kishorekumar.n in C:\Users\kishorekumar.n\Documents\spring\employeemanagement)
+[DEBUG] 2024-08-14 12:17:41.357 [main] EmployeemanagementApplication - Running with Spring Boot v3.3.2, Spring v6.1.11
+[INFO ] 2024-08-14 12:17:41.358 [main] EmployeemanagementApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2024-08-14 12:17:47.656 [main] EmployeemanagementApplication - Started EmployeemanagementApplication in 6.935 seconds (process running for 8.314)
+[INFO ] 2024-08-14 12:17:47.660 [main] EmployeemanagementApplication - Application Started
+[INFO ] 2024-08-14 12:18:00.162 [http-nio-8080-exec-1] SportController - Request to create sport with name: game1
+[ERROR] 2024-08-14 12:18:00.312 [http-nio-8080-exec-1] SportServiceImpl - Sport already exists with name: game1
+[INFO ] 2024-08-14 12:22:55.917 [main] EmployeemanagementApplication - Starting EmployeemanagementApplication using Java 22.0.2 with PID 13728 (C:\Users\kishorekumar.n\Documents\spring\employeemanagement\target\classes started by kishorekumar.n in C:\Users\kishorekumar.n\Documents\spring\employeemanagement)
+[DEBUG] 2024-08-14 12:22:55.928 [main] EmployeemanagementApplication - Running with Spring Boot v3.3.2, Spring v6.1.11
+[INFO ] 2024-08-14 12:22:55.929 [main] EmployeemanagementApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2024-08-14 12:23:01.771 [main] EmployeemanagementApplication - Started EmployeemanagementApplication in 6.49 seconds (process running for 7.898)
+[INFO ] 2024-08-14 12:23:01.774 [main] EmployeemanagementApplication - Application Started
+[INFO ] 2024-08-14 12:26:13.005 [main] EmployeemanagementApplication - Starting EmployeemanagementApplication using Java 22.0.2 with PID 21288 (C:\Users\kishorekumar.n\Documents\spring\employeemanagement\target\classes started by kishorekumar.n in C:\Users\kishorekumar.n\Documents\spring\employeemanagement)
+[DEBUG] 2024-08-14 12:26:13.022 [main] EmployeemanagementApplication - Running with Spring Boot v3.3.2, Spring v6.1.11
+[INFO ] 2024-08-14 12:26:13.024 [main] EmployeemanagementApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2024-08-14 12:26:19.488 [main] EmployeemanagementApplication - Started EmployeemanagementApplication in 7.09 seconds (process running for 8.518)
+[INFO ] 2024-08-14 12:26:19.491 [main] EmployeemanagementApplication - Application Started
+[INFO ] 2024-08-14 12:26:24.226 [http-nio-8080-exec-1] SportController - Request to create sport with name: game1
+[ERROR] 2024-08-14 12:26:24.390 [http-nio-8080-exec-1] SportServiceImpl - Sport already exists with name: game1
+[INFO ] 2024-08-14 12:31:20.660 [main] EmployeemanagementApplication - Starting EmployeemanagementApplication using Java 22.0.2 with PID 22484 (C:\Users\kishorekumar.n\Documents\spring\employeemanagement\target\classes started by kishorekumar.n in C:\Users\kishorekumar.n\Documents\spring\employeemanagement)
+[DEBUG] 2024-08-14 12:31:20.675 [main] EmployeemanagementApplication - Running with Spring Boot v3.3.2, Spring v6.1.11
+[INFO ] 2024-08-14 12:31:20.677 [main] EmployeemanagementApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2024-08-14 12:31:29.234 [main] EmployeemanagementApplication - Started EmployeemanagementApplication in 9.229 seconds (process running for 10.634)
+[INFO ] 2024-08-14 12:31:29.241 [main] EmployeemanagementApplication - Application Started
+[INFO ] 2024-08-14 12:31:31.115 [http-nio-8080-exec-1] SportController - Request to create sport with name: game1
+[ERROR] 2024-08-14 12:31:31.416 [http-nio-8080-exec-1] SportServiceImpl - Sport already exists with name: game1
+[INFO ] 2024-08-14 12:32:22.923 [main] EmployeemanagementApplication - Starting EmployeemanagementApplication using Java 22.0.2 with PID 7304 (C:\Users\kishorekumar.n\Documents\spring\employeemanagement\target\classes started by kishorekumar.n in C:\Users\kishorekumar.n\Documents\spring\employeemanagement)
+[DEBUG] 2024-08-14 12:32:22.942 [main] EmployeemanagementApplication - Running with Spring Boot v3.3.2, Spring v6.1.11
+[INFO ] 2024-08-14 12:32:22.943 [main] EmployeemanagementApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2024-08-14 12:32:28.958 [main] EmployeemanagementApplication - Started EmployeemanagementApplication in 6.653 seconds (process running for 8.093)
+[INFO ] 2024-08-14 12:32:28.961 [main] EmployeemanagementApplication - Application Started
+[INFO ] 2024-08-14 12:32:32.552 [http-nio-8080-exec-2] SportController - Request to create sport with name: game1
+[ERROR] 2024-08-14 12:32:32.738 [http-nio-8080-exec-2] SportServiceImpl - Sport already exists with name: game1
+[INFO ] 2024-08-14 13:07:16.383 [http-nio-8080-exec-1] EmployeeController - Request to retrieve all employees
+[INFO ] 2024-08-14 13:07:16.575 [http-nio-8080-exec-1] DepartmentServiceImpl - Retrieving list of all Employees
+[INFO ] 2024-08-14 13:07:16.576 [http-nio-8080-exec-1] EmployeeController - Retrieved 3 employees
+[INFO ] 2024-08-14 13:18:20.405 [main] EmployeemanagementApplication - Starting EmployeemanagementApplication using Java 22.0.2 with PID 17956 (C:\Users\kishorekumar.n\Documents\spring\employeemanagement\target\classes started by kishorekumar.n in C:\Users\kishorekumar.n\Documents\spring\employeemanagement)
+[DEBUG] 2024-08-14 13:18:20.424 [main] EmployeemanagementApplication - Running with Spring Boot v3.3.2, Spring v6.1.11
+[INFO ] 2024-08-14 13:18:20.425 [main] EmployeemanagementApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2024-08-14 13:18:25.370 [main] EmployeemanagementApplication - Started EmployeemanagementApplication in 5.506 seconds (process running for 6.952)
+[INFO ] 2024-08-14 13:18:25.373 [main] EmployeemanagementApplication - Application Started
+[INFO ] 2024-08-14 13:18:34.184 [http-nio-8080-exec-2] SportController - Request to create sport with name: game1
+[ERROR] 2024-08-14 13:18:34.332 [http-nio-8080-exec-2] SportServiceImpl - Sport already exists with name: game1
+[INFO ] 2024-08-14 13:59:48.332 [main] EmployeemanagementApplication - Starting EmployeemanagementApplication using Java 22.0.2 with PID 24484 (C:\Users\kishorekumar.n\Documents\spring\employeemanagement\target\classes started by kishorekumar.n in C:\Users\kishorekumar.n\Documents\spring\employeemanagement)
+[DEBUG] 2024-08-14 13:59:48.345 [main] EmployeemanagementApplication - Running with Spring Boot v3.3.2, Spring v6.1.11
+[INFO ] 2024-08-14 13:59:48.346 [main] EmployeemanagementApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2024-08-14 13:59:53.266 [main] EmployeemanagementApplication - Started EmployeemanagementApplication in 5.443 seconds (process running for 6.772)
+[INFO ] 2024-08-14 13:59:53.269 [main] EmployeemanagementApplication - Application Started
+[INFO ] 2024-08-14 14:00:07.513 [http-nio-8080-exec-1] SportController - Request to create sport with name: game1
+[ERROR] 2024-08-14 14:00:07.654 [http-nio-8080-exec-1] SportServiceImpl - Sport already exists with name: game1
+[INFO ] 2024-08-14 14:00:57.724 [main] EmployeemanagementApplication - Starting EmployeemanagementApplication using Java 22.0.2 with PID 17668 (C:\Users\kishorekumar.n\Documents\spring\employeemanagement\target\classes started by kishorekumar.n in C:\Users\kishorekumar.n\Documents\spring\employeemanagement)
+[DEBUG] 2024-08-14 14:00:57.735 [main] EmployeemanagementApplication - Running with Spring Boot v3.3.2, Spring v6.1.11
+[INFO ] 2024-08-14 14:00:57.736 [main] EmployeemanagementApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2024-08-14 14:01:02.407 [main] EmployeemanagementApplication - Started EmployeemanagementApplication in 5.181 seconds (process running for 6.529)
+[INFO ] 2024-08-14 14:01:02.410 [main] EmployeemanagementApplication - Application Started
+[INFO ] 2024-08-14 14:01:12.056 [http-nio-8080-exec-1] SportController - Request to create sport with name: game1
+[ERROR] 2024-08-14 14:01:12.181 [http-nio-8080-exec-1] SportServiceImpl - Sport already exists with name: game1
+[INFO ] 2024-08-14 14:01:18.569 [http-nio-8080-exec-3] SportController - Request to create sport with name: game1
+[ERROR] 2024-08-14 14:01:18.572 [http-nio-8080-exec-3] SportServiceImpl - Sport already exists with name: game1
+[INFO ] 2024-08-14 14:03:05.193 [main] EmployeemanagementApplication - Starting EmployeemanagementApplication using Java 22.0.2 with PID 9316 (C:\Users\kishorekumar.n\Documents\spring\employeemanagement\target\classes started by kishorekumar.n in C:\Users\kishorekumar.n\Documents\spring\employeemanagement)
+[DEBUG] 2024-08-14 14:03:05.206 [main] EmployeemanagementApplication - Running with Spring Boot v3.3.2, Spring v6.1.11
+[INFO ] 2024-08-14 14:03:05.208 [main] EmployeemanagementApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2024-08-14 14:03:10.118 [main] EmployeemanagementApplication - Started EmployeemanagementApplication in 5.422 seconds (process running for 6.753)
+[INFO ] 2024-08-14 14:03:10.121 [main] EmployeemanagementApplication - Application Started
+[INFO ] 2024-08-14 14:03:15.733 [http-nio-8080-exec-2] SportController - Request to create sport with name: game1
+[ERROR] 2024-08-14 14:03:15.887 [http-nio-8080-exec-2] SportServiceImpl - Sport already exists with name: game1
+[INFO ] 2024-08-14 14:59:52.961 [main] EmployeemanagementApplication - Starting EmployeemanagementApplication using Java 22.0.2 with PID 5008 (C:\Users\kishorekumar.n\Documents\spring\employeemanagement\target\classes started by kishorekumar.n in C:\Users\kishorekumar.n\Documents\spring\employeemanagement)
+[DEBUG] 2024-08-14 14:59:52.986 [main] EmployeemanagementApplication - Running with Spring Boot v3.3.2, Spring v6.1.11
+[INFO ] 2024-08-14 14:59:52.987 [main] EmployeemanagementApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2024-08-14 14:59:58.881 [main] EmployeemanagementApplication - Started EmployeemanagementApplication in 6.539 seconds (process running for 7.956)
+[INFO ] 2024-08-14 14:59:58.885 [main] EmployeemanagementApplication - Application Started
+[INFO ] 2024-08-14 15:01:29.441 [http-nio-8080-exec-6] DepartmentController - Creating department with name: sdfg
+[INFO ] 2024-08-14 15:01:29.885 [http-nio-8080-exec-6] DepartmentServiceImpl - Adding department with name: sdfg
+[INFO ] 2024-08-14 15:01:29.886 [http-nio-8080-exec-6] DepartmentController - Department created with ID: 11
+[INFO ] 2024-08-14 15:07:20.660 [http-nio-8080-exec-9] SportController - Request to create sport with name: game1
+[ERROR] 2024-08-14 15:07:20.669 [http-nio-8080-exec-9] SportServiceImpl - Sport already exists with name: game1
+[INFO ] 2024-08-14 15:07:44.279 [http-nio-8080-exec-10] SportController - Request to create sport with name: 123
+[INFO ] 2024-08-14 15:07:44.315 [http-nio-8080-exec-10] SportServiceImpl - Adding sport with name: 123
+[INFO ] 2024-08-14 15:07:44.315 [http-nio-8080-exec-10] SportController - Sport created with ID: 7
+[INFO ] 2024-08-14 15:10:56.967 [main] EmployeemanagementApplication - Starting EmployeemanagementApplication using Java 22.0.2 with PID 23064 (C:\Users\kishorekumar.n\Documents\spring\employeemanagement\target\classes started by kishorekumar.n in C:\Users\kishorekumar.n\Documents\spring\employeemanagement)
+[DEBUG] 2024-08-14 15:10:56.990 [main] EmployeemanagementApplication - Running with Spring Boot v3.3.2, Spring v6.1.11
+[INFO ] 2024-08-14 15:10:56.991 [main] EmployeemanagementApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2024-08-14 15:11:08.293 [main] EmployeemanagementApplication - Started EmployeemanagementApplication in 12.07 seconds (process running for 13.691)
+[INFO ] 2024-08-14 15:11:08.298 [main] EmployeemanagementApplication - Application Started
+[INFO ] 2024-08-14 15:12:59.909 [main] EmployeemanagementApplication - Starting EmployeemanagementApplication using Java 22.0.2 with PID 3652 (C:\Users\kishorekumar.n\Documents\spring\employeemanagement\target\classes started by kishorekumar.n in C:\Users\kishorekumar.n\Documents\spring\employeemanagement)
+[DEBUG] 2024-08-14 15:12:59.937 [main] EmployeemanagementApplication - Running with Spring Boot v3.3.2, Spring v6.1.11
+[INFO ] 2024-08-14 15:12:59.939 [main] EmployeemanagementApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2024-08-14 15:13:06.026 [main] EmployeemanagementApplication - Started EmployeemanagementApplication in 6.745 seconds (process running for 8.127)
+[INFO ] 2024-08-14 15:13:06.029 [main] EmployeemanagementApplication - Application Started
+[INFO ] 2024-08-14 15:18:39.559 [main] EmployeemanagementApplication - Starting EmployeemanagementApplication using Java 22.0.2 with PID 4932 (C:\Users\kishorekumar.n\Documents\spring\employeemanagement\target\classes started by kishorekumar.n in C:\Users\kishorekumar.n\Documents\spring\employeemanagement)
+[DEBUG] 2024-08-14 15:18:39.578 [main] EmployeemanagementApplication - Running with Spring Boot v3.3.2, Spring v6.1.11
+[INFO ] 2024-08-14 15:18:39.580 [main] EmployeemanagementApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2024-08-14 15:18:45.608 [main] EmployeemanagementApplication - Started EmployeemanagementApplication in 6.646 seconds (process running for 8.061)
+[INFO ] 2024-08-14 15:18:45.614 [main] EmployeemanagementApplication - Application Started
+[INFO ] 2024-08-14 15:28:39.863 [main] EmployeemanagementApplication - Starting EmployeemanagementApplication using Java 22.0.2 with PID 2096 (C:\Users\kishorekumar.n\Documents\spring\employeemanagement\target\classes started by kishorekumar.n in C:\Users\kishorekumar.n\Documents\spring\employeemanagement)
+[DEBUG] 2024-08-14 15:28:39.879 [main] EmployeemanagementApplication - Running with Spring Boot v3.3.2, Spring v6.1.11
+[INFO ] 2024-08-14 15:28:39.881 [main] EmployeemanagementApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2024-08-14 15:28:46.169 [main] EmployeemanagementApplication - Started EmployeemanagementApplication in 7.029 seconds (process running for 8.449)
+[INFO ] 2024-08-14 15:28:46.173 [main] EmployeemanagementApplication - Application Started
+[INFO ] 2024-08-14 15:38:32.899 [main] EmployeemanagementApplication - Starting EmployeemanagementApplication using Java 22.0.2 with PID 22180 (C:\Users\kishorekumar.n\Documents\spring\employeemanagement\target\classes started by kishorekumar.n in C:\Users\kishorekumar.n\Documents\spring\employeemanagement)
+[DEBUG] 2024-08-14 15:38:32.919 [main] EmployeemanagementApplication - Running with Spring Boot v3.3.2, Spring v6.1.11
+[INFO ] 2024-08-14 15:38:32.920 [main] EmployeemanagementApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2024-08-14 15:38:39.037 [main] EmployeemanagementApplication - Started EmployeemanagementApplication in 6.736 seconds (process running for 8.198)
+[INFO ] 2024-08-14 15:38:39.040 [main] EmployeemanagementApplication - Application Started
+[INFO ] 2024-08-14 15:48:24.370 [main] EmployeemanagementApplication - Starting EmployeemanagementApplication using Java 22.0.2 with PID 21252 (C:\Users\kishorekumar.n\Documents\spring\employeemanagement\target\classes started by kishorekumar.n in C:\Users\kishorekumar.n\Documents\spring\employeemanagement)
+[DEBUG] 2024-08-14 15:48:24.390 [main] EmployeemanagementApplication - Running with Spring Boot v3.3.2, Spring v6.1.11
+[INFO ] 2024-08-14 15:48:24.391 [main] EmployeemanagementApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2024-08-14 15:48:30.582 [main] EmployeemanagementApplication - Started EmployeemanagementApplication in 6.784 seconds (process running for 8.211)
+[INFO ] 2024-08-14 15:48:30.585 [main] EmployeemanagementApplication - Application Started
+[INFO ] 2024-08-14 15:50:53.287 [main] EmployeemanagementApplication - Starting EmployeemanagementApplication using Java 22.0.2 with PID 12076 (C:\Users\kishorekumar.n\Documents\spring\employeemanagement\target\classes started by kishorekumar.n in C:\Users\kishorekumar.n\Documents\spring\employeemanagement)
+[DEBUG] 2024-08-14 15:50:53.306 [main] EmployeemanagementApplication - Running with Spring Boot v3.3.2, Spring v6.1.11
+[INFO ] 2024-08-14 15:50:53.308 [main] EmployeemanagementApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2024-08-14 15:50:59.663 [main] EmployeemanagementApplication - Started EmployeemanagementApplication in 6.946 seconds (process running for 8.361)
+[INFO ] 2024-08-14 15:50:59.667 [main] EmployeemanagementApplication - Application Started
+[INFO ] 2024-08-14 15:53:14.143 [main] EmployeemanagementApplication - Starting EmployeemanagementApplication using Java 22.0.2 with PID 21932 (C:\Users\kishorekumar.n\Documents\spring\employeemanagement\target\classes started by kishorekumar.n in C:\Users\kishorekumar.n\Documents\spring\employeemanagement)
+[DEBUG] 2024-08-14 15:53:14.159 [main] EmployeemanagementApplication - Running with Spring Boot v3.3.2, Spring v6.1.11
+[INFO ] 2024-08-14 15:53:14.160 [main] EmployeemanagementApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2024-08-14 15:53:24.465 [main] EmployeemanagementApplication - Started EmployeemanagementApplication in 10.943 seconds (process running for 12.437)
+[INFO ] 2024-08-14 15:53:24.473 [main] EmployeemanagementApplication - Application Started
+[INFO ] 2024-08-14 15:54:46.212 [main] EmployeemanagementApplication - Starting EmployeemanagementApplication using Java 22.0.2 with PID 22500 (C:\Users\kishorekumar.n\Documents\spring\employeemanagement\target\classes started by kishorekumar.n in C:\Users\kishorekumar.n\Documents\spring\employeemanagement)
+[DEBUG] 2024-08-14 15:54:46.225 [main] EmployeemanagementApplication - Running with Spring Boot v3.3.2, Spring v6.1.11
+[INFO ] 2024-08-14 15:54:46.227 [main] EmployeemanagementApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2024-08-14 15:54:52.461 [main] EmployeemanagementApplication - Started EmployeemanagementApplication in 6.839 seconds (process running for 8.256)
+[INFO ] 2024-08-14 15:54:52.465 [main] EmployeemanagementApplication - Application Started
+[INFO ] 2024-08-14 15:57:40.241 [main] EmployeemanagementApplication - Starting EmployeemanagementApplication using Java 22.0.2 with PID 19512 (C:\Users\kishorekumar.n\Documents\spring\employeemanagement\target\classes started by kishorekumar.n in C:\Users\kishorekumar.n\Documents\spring\employeemanagement)
+[DEBUG] 2024-08-14 15:57:40.259 [main] EmployeemanagementApplication - Running with Spring Boot v3.3.2, Spring v6.1.11
+[INFO ] 2024-08-14 15:57:40.260 [main] EmployeemanagementApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2024-08-14 15:57:46.432 [main] EmployeemanagementApplication - Started EmployeemanagementApplication in 6.805 seconds (process running for 8.202)
+[INFO ] 2024-08-14 15:57:46.438 [main] EmployeemanagementApplication - Application Started
+[INFO ] 2024-08-14 16:00:11.023 [main] EmployeemanagementApplication - Starting EmployeemanagementApplication using Java 22.0.2 with PID 18308 (C:\Users\kishorekumar.n\Documents\spring\employeemanagement\target\classes started by kishorekumar.n in C:\Users\kishorekumar.n\Documents\spring\employeemanagement)
+[DEBUG] 2024-08-14 16:00:11.051 [main] EmployeemanagementApplication - Running with Spring Boot v3.3.2, Spring v6.1.11
+[INFO ] 2024-08-14 16:00:11.053 [main] EmployeemanagementApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2024-08-14 16:00:17.173 [main] EmployeemanagementApplication - Started EmployeemanagementApplication in 6.765 seconds (process running for 8.232)
+[INFO ] 2024-08-14 16:00:17.177 [main] EmployeemanagementApplication - Application Started
+[INFO ] 2024-08-14 16:01:19.585 [main] EmployeemanagementApplication - Starting EmployeemanagementApplication using Java 22.0.2 with PID 4480 (C:\Users\kishorekumar.n\Documents\spring\employeemanagement\target\classes started by kishorekumar.n in C:\Users\kishorekumar.n\Documents\spring\employeemanagement)
+[DEBUG] 2024-08-14 16:01:19.607 [main] EmployeemanagementApplication - Running with Spring Boot v3.3.2, Spring v6.1.11
+[INFO ] 2024-08-14 16:01:19.608 [main] EmployeemanagementApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2024-08-14 16:01:25.556 [main] EmployeemanagementApplication - Started EmployeemanagementApplication in 6.607 seconds (process running for 8.032)
+[INFO ] 2024-08-14 16:01:25.562 [main] EmployeemanagementApplication - Application Started
+[INFO ] 2024-08-14 16:02:38.795 [main] EmployeemanagementApplication - Starting EmployeemanagementApplication using Java 22.0.2 with PID 15960 (C:\Users\kishorekumar.n\Documents\spring\employeemanagement\target\classes started by kishorekumar.n in C:\Users\kishorekumar.n\Documents\spring\employeemanagement)
+[DEBUG] 2024-08-14 16:02:38.809 [main] EmployeemanagementApplication - Running with Spring Boot v3.3.2, Spring v6.1.11
+[INFO ] 2024-08-14 16:02:38.810 [main] EmployeemanagementApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2024-08-14 16:02:45.015 [main] EmployeemanagementApplication - Started EmployeemanagementApplication in 6.813 seconds (process running for 8.248)
+[INFO ] 2024-08-14 16:02:45.022 [main] EmployeemanagementApplication - Application Started
+[INFO ] 2024-08-14 16:03:12.882 [http-nio-8080-exec-6] EmployeeController - Request to retrieve all employees
+[INFO ] 2024-08-14 16:03:13.317 [http-nio-8080-exec-6] DepartmentServiceImpl - Retrieving list of all Employees
+[INFO ] 2024-08-14 16:03:13.318 [http-nio-8080-exec-6] EmployeeController - Retrieved 3 employees
+[INFO ] 2024-08-14 16:05:15.411 [main] EmployeemanagementApplication - Starting EmployeemanagementApplication using Java 22.0.2 with PID 17480 (C:\Users\kishorekumar.n\Documents\spring\employeemanagement\target\classes started by kishorekumar.n in C:\Users\kishorekumar.n\Documents\spring\employeemanagement)
+[DEBUG] 2024-08-14 16:05:15.437 [main] EmployeemanagementApplication - Running with Spring Boot v3.3.2, Spring v6.1.11
+[INFO ] 2024-08-14 16:05:15.440 [main] EmployeemanagementApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2024-08-14 16:05:21.408 [main] EmployeemanagementApplication - Started EmployeemanagementApplication in 6.634 seconds (process running for 8.077)
+[INFO ] 2024-08-14 16:05:21.412 [main] EmployeemanagementApplication - Application Started
+[INFO ] 2024-08-14 16:12:13.849 [http-nio-8080-exec-8] DepartmentController - Creating department with name: HR
+[ERROR] 2024-08-14 16:12:14.114 [http-nio-8080-exec-8] DepartmentServiceImpl - Department already exists with name: HR
+[INFO ] 2024-08-14 16:27:45.125 [main] EmployeemanagementApplication - Starting EmployeemanagementApplication using Java 22.0.2 with PID 7064 (C:\Users\kishorekumar.n\Documents\spring\employeemanagement\target\classes started by kishorekumar.n in C:\Users\kishorekumar.n\Documents\spring\employeemanagement)
+[DEBUG] 2024-08-14 16:27:45.144 [main] EmployeemanagementApplication - Running with Spring Boot v3.3.2, Spring v6.1.11
+[INFO ] 2024-08-14 16:27:45.145 [main] EmployeemanagementApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2024-08-14 16:27:50.999 [main] EmployeemanagementApplication - Started EmployeemanagementApplication in 6.472 seconds (process running for 7.893)
+[INFO ] 2024-08-14 16:27:51.002 [main] EmployeemanagementApplication - Application Started
+[INFO ] 2024-08-14 16:27:55.949 [http-nio-8080-exec-1] DepartmentController - Creating department with name: HR
+[ERROR] 2024-08-14 16:27:56.111 [http-nio-8080-exec-1] DepartmentServiceImpl - Department already exists with name: HR
+[INFO ] 2024-08-14 16:36:19.215 [main] EmployeemanagementApplication - Starting EmployeemanagementApplication using Java 22.0.2 with PID 23092 (C:\Users\kishorekumar.n\Documents\spring\employeemanagement\target\classes started by kishorekumar.n in C:\Users\kishorekumar.n\Documents\spring\employeemanagement)
+[DEBUG] 2024-08-14 16:36:19.235 [main] EmployeemanagementApplication - Running with Spring Boot v3.3.2, Spring v6.1.11
+[INFO ] 2024-08-14 16:36:19.236 [main] EmployeemanagementApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2024-08-14 16:36:25.394 [main] EmployeemanagementApplication - Started EmployeemanagementApplication in 6.776 seconds (process running for 8.205)
+[INFO ] 2024-08-14 16:36:25.397 [main] EmployeemanagementApplication - Application Started
+[INFO ] 2024-08-14 16:41:02.351 [main] EmployeemanagementApplication - Starting EmployeemanagementApplication using Java 22.0.2 with PID 12016 (C:\Users\kishorekumar.n\Documents\spring\employeemanagement\target\classes started by kishorekumar.n in C:\Users\kishorekumar.n\Documents\spring\employeemanagement)
+[DEBUG] 2024-08-14 16:41:02.371 [main] EmployeemanagementApplication - Running with Spring Boot v3.3.2, Spring v6.1.11
+[INFO ] 2024-08-14 16:41:02.372 [main] EmployeemanagementApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2024-08-14 16:41:08.315 [main] EmployeemanagementApplication - Started EmployeemanagementApplication in 6.595 seconds (process running for 7.998)
+[INFO ] 2024-08-14 16:41:08.318 [main] EmployeemanagementApplication - Application Started
+[INFO ] 2024-08-14 16:42:02.042 [main] EmployeemanagementApplication - Starting EmployeemanagementApplication using Java 22.0.2 with PID 23760 (C:\Users\kishorekumar.n\Documents\spring\employeemanagement\target\classes started by kishorekumar.n in C:\Users\kishorekumar.n\Documents\spring\employeemanagement)
+[DEBUG] 2024-08-14 16:42:02.059 [main] EmployeemanagementApplication - Running with Spring Boot v3.3.2, Spring v6.1.11
+[INFO ] 2024-08-14 16:42:02.061 [main] EmployeemanagementApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2024-08-14 16:42:07.780 [main] EmployeemanagementApplication - Started EmployeemanagementApplication in 6.376 seconds (process running for 7.777)
+[INFO ] 2024-08-14 16:42:07.783 [main] EmployeemanagementApplication - Application Started
+[INFO ] 2024-08-14 17:23:54.006 [main] EmployeemanagementApplication - Starting EmployeemanagementApplication using Java 22.0.2 with PID 2768 (C:\Users\kishorekumar.n\Documents\spring\employeemanagement\target\classes started by kishorekumar.n in C:\Users\kishorekumar.n\Documents\spring\employeemanagement)
+[DEBUG] 2024-08-14 17:23:54.026 [main] EmployeemanagementApplication - Running with Spring Boot v3.3.2, Spring v6.1.11
+[INFO ] 2024-08-14 17:23:54.028 [main] EmployeemanagementApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2024-08-14 17:24:00.435 [main] EmployeemanagementApplication - Started EmployeemanagementApplication in 7.032 seconds (process running for 8.417)
+[INFO ] 2024-08-14 17:24:00.441 [main] EmployeemanagementApplication - Application Started
+[INFO ] 2024-08-14 18:23:44.052 [http-nio-8080-exec-4] DepartmentController - Creating department with name: HR
+[ERROR] 2024-08-14 18:23:44.187 [http-nio-8080-exec-4] DepartmentServiceImpl - Department already exists with name: HR
+[INFO ] 2024-08-14 18:24:08.734 [http-nio-8080-exec-6] DepartmentController - Creating department with name: hr
+[ERROR] 2024-08-14 18:24:08.738 [http-nio-8080-exec-6] DepartmentServiceImpl - Department already exists with name: hr
+[INFO ] 2024-08-14 18:25:19.384 [main] EmployeemanagementApplication - Starting EmployeemanagementApplication using Java 22.0.2 with PID 23904 (C:\Users\kishorekumar.n\Documents\spring\employeemanagement\target\classes started by kishorekumar.n in C:\Users\kishorekumar.n\Documents\spring\employeemanagement)
+[DEBUG] 2024-08-14 18:25:19.397 [main] EmployeemanagementApplication - Running with Spring Boot v3.3.2, Spring v6.1.11
+[INFO ] 2024-08-14 18:25:19.400 [main] EmployeemanagementApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2024-08-14 18:25:25.387 [main] EmployeemanagementApplication - Started EmployeemanagementApplication in 6.608 seconds (process running for 7.992)
+[INFO ] 2024-08-14 18:25:25.391 [main] EmployeemanagementApplication - Application Started
+[INFO ] 2024-08-16 10:40:35.939 [main] EmployeemanagementApplication - Starting EmployeemanagementApplication using Java 22.0.2 with PID 13316 (C:\Users\kishorekumar.n\Documents\spring\employeemanagement\target\classes started by kishorekumar.n in C:\Users\kishorekumar.n\Documents\spring\employeemanagement)
+[DEBUG] 2024-08-16 10:40:35.958 [main] EmployeemanagementApplication - Running with Spring Boot v3.3.2, Spring v6.1.11
+[INFO ] 2024-08-16 10:40:35.958 [main] EmployeemanagementApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2024-08-16 10:40:44.232 [main] EmployeemanagementApplication - Started EmployeemanagementApplication in 9.388 seconds (process running for 11.742)
+[INFO ] 2024-08-16 10:40:44.238 [main] EmployeemanagementApplication - Application Started
+[INFO ] 2024-08-16 10:41:30.610 [http-nio-8080-exec-1] EmployeeController - Request to retrieve all employees
+[INFO ] 2024-08-16 10:41:31.140 [http-nio-8080-exec-1] DepartmentServiceImpl - Retrieving list of all Employees
+[INFO ] 2024-08-16 10:41:31.141 [http-nio-8080-exec-1] EmployeeController - Retrieved 3 employees
+[INFO ] 2024-08-16 11:39:55.289 [main] SportServiceImpl - Department is Deleted Cricket
+[INFO ] 2024-08-16 11:40:32.507 [main] SportServiceImpl - Department is Deleted Cricket
+[INFO ] 2024-08-16 11:41:19.547 [main] SportServiceImpl - Adding sport with name: Cricket
+[ERROR] 2024-08-16 11:41:19.653 [main] SportServiceImpl - Sport already exists with name: Cricket
+[INFO ] 2024-08-16 11:41:19.670 [main] SportServiceImpl - Department is Deleted Cricket
+[INFO ] 2024-08-16 11:43:53.582 [main] SportServiceImpl - Adding sport with name: Cricket
+[ERROR] 2024-08-16 11:43:53.666 [main] SportServiceImpl - Sport already exists with name: Cricket
+[INFO ] 2024-08-16 11:43:53.686 [main] SportServiceImpl - Department is Deleted Cricket
+[INFO ] 2024-08-16 11:45:46.570 [main] SportServiceImpl - Adding sport with name: Cricket
+[ERROR] 2024-08-16 11:45:46.612 [main] SportServiceImpl - Sport already exists with name: Cricket
+[INFO ] 2024-08-16 11:45:46.658 [main] SportServiceImpl - Department is Deleted Cricket
+[INFO ] 2024-08-16 11:47:11.996 [main] SportServiceImpl - Adding sport with name: Cricket
+[ERROR] 2024-08-16 11:47:12.051 [main] SportServiceImpl - Sport already exists with name: Cricket
+[INFO ] 2024-08-16 11:47:12.069 [main] SportServiceImpl - Department is Deleted Cricket
+[ERROR] 2024-08-16 11:56:08.341 [main] SportServiceImpl - Sport already exists with name: Cricket
+[INFO ] 2024-08-16 12:10:14.055 [main] SportServiceImpl - Adding sport with name: Cricket
+[INFO ] 2024-08-16 12:11:32.230 [main] SportServiceImpl - Adding sport with name: Cricket
+[ERROR] 2024-08-16 12:12:18.434 [main] SportServiceImpl - Sport already exists with name: Cricket
+[ERROR] 2024-08-16 12:13:37.449 [main] SportServiceImpl - Sport already exists with name: Cricket
+[INFO ] 2024-08-16 12:16:16.696 [main] SportServiceImpl - Adding sport with name: Cricket
+[INFO ] 2024-08-16 12:18:43.181 [main] SportServiceImpl - Adding sport with name: Cricket
+[INFO ] 2024-08-16 12:19:03.600 [main] SportServiceImpl - Adding sport with name: Cricket
+[INFO ] 2024-08-16 12:19:03.645 [main] SportServiceImpl - Retrieving sport with ID: 1
+[ERROR] 2024-08-16 12:19:03.652 [main] SportServiceImpl - Sport already exists with name: Cricket
+[INFO ] 2024-08-16 12:19:03.669 [main] SportServiceImpl - Sport is deleted with name: Cricket
+[INFO ] 2024-08-16 12:21:22.850 [main] EmployeemanagementApplicationTests - Starting EmployeemanagementApplicationTests using Java 22.0.2 with PID 15444 (started by kishorekumar.n in C:\Users\kishorekumar.n\Documents\spring\employeemanagement)
+[DEBUG] 2024-08-16 12:21:22.868 [main] EmployeemanagementApplicationTests - Running with Spring Boot v3.3.2, Spring v6.1.11
+[INFO ] 2024-08-16 12:21:22.869 [main] EmployeemanagementApplicationTests - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2024-08-16 12:27:25.416 [main] SportServiceImpl - Adding sport with name: Cricket
+[INFO ] 2024-08-16 12:27:25.462 [main] SportServiceImpl - Retrieving sport with ID: 1
+[ERROR] 2024-08-16 12:27:25.469 [main] SportServiceImpl - Sport already exists with name: Cricket
+[INFO ] 2024-08-16 12:27:25.479 [main] SportServiceImpl - Sport is deleted with name: Cricket
+[INFO ] 2024-08-16 12:35:54.681 [main] SportServiceImpl - Adding sport with name: Cricket
+[INFO ] 2024-08-16 12:35:54.702 [main] SportServiceImpl - Sport is deleted with name: Basketball
+[INFO ] 2024-08-16 12:35:54.725 [main] SportServiceImpl - Adding sport with name: 
+[INFO ] 2024-08-16 12:35:54.757 [main] SportServiceImpl - Retrieving sport with ID: 1
+[INFO ] 2024-08-16 12:35:54.765 [main] SportServiceImpl - Adding sport with name: null
+[ERROR] 2024-08-16 12:35:54.777 [main] SportServiceImpl - Sport already exists with name: Cricket
+[INFO ] 2024-08-16 12:35:54.803 [main] SportServiceImpl - Updated sport with name: Football
+[INFO ] 2024-08-16 12:35:54.814 [main] SportServiceImpl - Sport is deleted with name: Cricket
+[INFO ] 2024-08-16 12:36:47.908 [main] SportServiceImpl - Adding sport with name: null
+[INFO ] 2024-08-16 12:39:09.581 [main] SportServiceImpl - Adding sport with name: null
+[INFO ] 2024-08-16 12:41:45.705 [main] SportServiceImpl - Updated sport with name: Football
+[INFO ] 2024-08-16 12:42:17.006 [main] SportServiceImpl - Sport is deleted with name: Basketball
+[INFO ] 2024-08-16 12:42:57.605 [main] SportServiceImpl - Adding sport with name: 
+[INFO ] 2024-08-16 12:46:12.640 [main] SportServiceImpl - Adding sport with name: null
+[INFO ] 2024-08-16 12:46:52.887 [main] SportServiceImpl - Adding sport with name: 
+[INFO ] 2024-08-16 12:48:18.475 [main] SportServiceImpl - Adding sport with name: 
+[INFO ] 2024-08-16 12:49:00.890 [main] SportServiceImpl - Adding sport with name: null
+[INFO ] 2024-08-16 12:49:40.838 [main] SportServiceImpl - Adding sport with name: null
+[INFO ] 2024-08-16 12:52:26.908 [main] SportServiceImpl - Adding sport with name: null
+[INFO ] 2024-08-16 12:58:55.732 [main] SportServiceImpl - Adding sport with name: 123456
+[INFO ] 2024-08-16 13:34:23.265 [main] SportServiceImpl - Sport is deleted with name: Basketball
+[INFO ] 2024-08-16 13:40:28.954 [main] SportServiceImpl - Adding sport with name: 123456
+[INFO ] 2024-08-16 13:45:34.950 [main] SportServiceImpl - Adding sport with name: 123456
+[INFO ] 2024-08-16 13:45:39.881 [main] SportServiceImpl - Adding sport with name: 123456
+[INFO ] 2024-08-16 14:08:49.636 [main] SportControllerTest - Starting SportControllerTest using Java 22.0.2 with PID 17620 (started by kishorekumar.n in C:\Users\kishorekumar.n\Documents\spring\employeemanagement)
+[DEBUG] 2024-08-16 14:08:49.650 [main] SportControllerTest - Running with Spring Boot v3.3.2, Spring v6.1.11
+[INFO ] 2024-08-16 14:08:49.652 [main] SportControllerTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2024-08-16 14:10:26.006 [main] SportControllerTest - Starting SportControllerTest using Java 22.0.2 with PID 16960 (started by kishorekumar.n in C:\Users\kishorekumar.n\Documents\spring\employeemanagement)
+[DEBUG] 2024-08-16 14:10:26.025 [main] SportControllerTest - Running with Spring Boot v3.3.2, Spring v6.1.11
+[INFO ] 2024-08-16 14:10:26.027 [main] SportControllerTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2024-08-16 14:14:07.989 [main] SportControllerTest - Starting SportControllerTest using Java 22.0.2 with PID 2852 (started by kishorekumar.n in C:\Users\kishorekumar.n\Documents\spring\employeemanagement)
+[DEBUG] 2024-08-16 14:14:08.010 [main] SportControllerTest - Running with Spring Boot v3.3.2, Spring v6.1.11
+[INFO ] 2024-08-16 14:14:08.011 [main] SportControllerTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2024-08-16 14:14:10.470 [main] SportControllerTest - Started SportControllerTest in 3.037 seconds (process running for 5.246)
+[INFO ] 2024-08-16 14:31:50.520 [main] SportServiceImpl - Adding sport with name: Cricket
+[INFO ] 2024-08-16 14:31:50.572 [main] SportServiceImpl - Retrieving sport with ID: 1
+[ERROR] 2024-08-16 14:31:50.582 [main] SportServiceImpl - Sport already exists with name: Cricket
+[INFO ] 2024-08-16 14:31:50.602 [main] SportServiceImpl - Updated sport with name: Football
+[INFO ] 2024-08-16 14:31:50.610 [main] SportServiceImpl - Sport is deleted with name: Cricket
+[INFO ] 2024-08-16 15:10:45.169 [main] SportServiceImpl - Adding sport with name: Cricket
+[INFO ] 2024-08-16 15:10:45.189 [main] SportServiceImpl - Retrieving sport with ID: 1
+[ERROR] 2024-08-16 15:10:45.194 [main] SportServiceImpl - Sport already exists with name: Cricket
+[INFO ] 2024-08-16 15:10:45.203 [main] SportServiceImpl - Updated sport with name: Football
+[INFO ] 2024-08-16 15:10:45.208 [main] SportServiceImpl - Sport is deleted with name: Cricket
+[INFO ] 2024-08-16 15:36:23.467 [main] SportControllerTest - Starting SportControllerTest using Java 22.0.2 with PID 16656 (started by kishorekumar.n in C:\Users\kishorekumar.n\Documents\spring\employeemanagement)
+[DEBUG] 2024-08-16 15:36:23.476 [main] SportControllerTest - Running with Spring Boot v3.3.2, Spring v6.1.11
+[INFO ] 2024-08-16 15:36:23.478 [main] SportControllerTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2024-08-16 15:36:25.256 [main] SportControllerTest - Started SportControllerTest in 2.25 seconds (process running for 4.005)
+[INFO ] 2024-08-16 15:36:25.625 [main] EmployeemanagementApplicationTests - Starting EmployeemanagementApplicationTests using Java 22.0.2 with PID 16656 (started by kishorekumar.n in C:\Users\kishorekumar.n\Documents\spring\employeemanagement)
+[DEBUG] 2024-08-16 15:36:25.626 [main] EmployeemanagementApplicationTests - Running with Spring Boot v3.3.2, Spring v6.1.11
+[INFO ] 2024-08-16 15:36:25.627 [main] EmployeemanagementApplicationTests - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2024-08-16 15:36:26.935 [main] SportServiceImpl - Adding sport with name: Cricket
+[INFO ] 2024-08-16 15:36:26.945 [main] SportServiceImpl - Retrieving sport with ID: 1
+[ERROR] 2024-08-16 15:36:26.949 [main] SportServiceImpl - Sport already exists with name: Cricket
+[INFO ] 2024-08-16 15:36:26.956 [main] SportServiceImpl - Updated sport with name: Football
+[INFO ] 2024-08-16 15:36:26.961 [main] SportServiceImpl - Sport is deleted with name: Cricket
+[INFO ] 2024-08-16 15:39:05.874 [main] SportServiceImpl - Adding sport with name: Cricket
+[INFO ] 2024-08-16 15:39:05.895 [main] SportServiceImpl - Retrieving sport with ID: 1
+[ERROR] 2024-08-16 15:39:05.901 [main] SportServiceImpl - Sport already exists with name: Cricket
+[INFO ] 2024-08-16 15:39:05.913 [main] SportServiceImpl - Updated sport with name: Football
+[INFO ] 2024-08-16 15:39:05.917 [main] SportServiceImpl - Sport is deleted with name: Cricket
+[INFO ] 2024-08-16 15:39:21.875 [main] SportControllerTest - Starting SportControllerTest using Java 22.0.2 with PID 3936 (started by kishorekumar.n in C:\Users\kishorekumar.n\Documents\spring\employeemanagement)
+[DEBUG] 2024-08-16 15:39:21.886 [main] SportControllerTest - Running with Spring Boot v3.3.2, Spring v6.1.11
+[INFO ] 2024-08-16 15:39:21.887 [main] SportControllerTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2024-08-16 15:39:23.643 [main] SportControllerTest - Started SportControllerTest in 2.21 seconds (process running for 4.052)
+[INFO ] 2024-08-16 15:39:24.031 [main] EmployeemanagementApplicationTests - Starting EmployeemanagementApplicationTests using Java 22.0.2 with PID 3936 (started by kishorekumar.n in C:\Users\kishorekumar.n\Documents\spring\employeemanagement)
+[DEBUG] 2024-08-16 15:39:24.032 [main] EmployeemanagementApplicationTests - Running with Spring Boot v3.3.2, Spring v6.1.11
+[INFO ] 2024-08-16 15:39:24.032 [main] EmployeemanagementApplicationTests - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2024-08-16 15:39:25.282 [main] SportServiceImpl - Adding sport with name: Cricket
+[INFO ] 2024-08-16 15:39:25.293 [main] SportServiceImpl - Retrieving sport with ID: 1
+[ERROR] 2024-08-16 15:39:25.297 [main] SportServiceImpl - Sport already exists with name: Cricket
+[INFO ] 2024-08-16 15:39:25.306 [main] SportServiceImpl - Updated sport with name: Football
+[INFO ] 2024-08-16 15:39:25.310 [main] SportServiceImpl - Sport is deleted with name: Cricket
+[INFO ] 2024-08-16 15:41:37.582 [main] SportControllerTest - Starting SportControllerTest using Java 22.0.2 with PID 14828 (started by kishorekumar.n in C:\Users\kishorekumar.n\Documents\spring\employeemanagement)
+[DEBUG] 2024-08-16 15:41:37.597 [main] SportControllerTest - Running with Spring Boot v3.3.2, Spring v6.1.11
+[INFO ] 2024-08-16 15:41:37.598 [main] SportControllerTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2024-08-16 15:41:41.042 [main] SportControllerTest - Started SportControllerTest in 4.113 seconds (process running for 6.352)
+[INFO ] 2024-08-16 15:41:41.868 [main] EmployeemanagementApplicationTests - Starting EmployeemanagementApplicationTests using Java 22.0.2 with PID 14828 (started by kishorekumar.n in C:\Users\kishorekumar.n\Documents\spring\employeemanagement)
+[DEBUG] 2024-08-16 15:41:41.870 [main] EmployeemanagementApplicationTests - Running with Spring Boot v3.3.2, Spring v6.1.11
+[INFO ] 2024-08-16 15:41:41.871 [main] EmployeemanagementApplicationTests - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2024-08-16 15:41:43.813 [main] SportServiceImpl - Adding sport with name: Cricket
+[INFO ] 2024-08-16 15:41:43.825 [main] SportServiceImpl - Retrieving sport with ID: 1
+[ERROR] 2024-08-16 15:41:43.834 [main] SportServiceImpl - Sport already exists with name: Cricket
+[INFO ] 2024-08-16 15:41:43.843 [main] SportServiceImpl - Updated sport with name: Football
+[INFO ] 2024-08-16 15:41:43.848 [main] SportServiceImpl - Sport is deleted with name: Cricket
+[INFO ] 2024-08-16 15:41:45.412 [main] SportControllerTest - Starting SportControllerTest using Java 22.0.2 with PID 20160 (started by kishorekumar.n in C:\Users\kishorekumar.n\Documents\spring\employeemanagement)
+[DEBUG] 2024-08-16 15:41:45.425 [main] SportControllerTest - Running with Spring Boot v3.3.2, Spring v6.1.11
+[INFO ] 2024-08-16 15:41:45.426 [main] SportControllerTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2024-08-16 15:41:47.351 [main] SportControllerTest - Started SportControllerTest in 2.584 seconds (process running for 5.234)
+[INFO ] 2024-08-16 15:41:47.751 [main] EmployeemanagementApplicationTests - Starting EmployeemanagementApplicationTests using Java 22.0.2 with PID 20160 (started by kishorekumar.n in C:\Users\kishorekumar.n\Documents\spring\employeemanagement)
+[DEBUG] 2024-08-16 15:41:47.752 [main] EmployeemanagementApplicationTests - Running with Spring Boot v3.3.2, Spring v6.1.11
+[INFO ] 2024-08-16 15:41:47.752 [main] EmployeemanagementApplicationTests - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2024-08-16 15:41:49.044 [main] SportServiceImpl - Adding sport with name: Cricket
+[INFO ] 2024-08-16 15:41:49.053 [main] SportServiceImpl - Retrieving sport with ID: 1
+[ERROR] 2024-08-16 15:41:49.057 [main] SportServiceImpl - Sport already exists with name: Cricket
+[INFO ] 2024-08-16 15:41:49.063 [main] SportServiceImpl - Updated sport with name: Football
+[INFO ] 2024-08-16 15:41:49.067 [main] SportServiceImpl - Sport is deleted with name: Cricket
+[INFO ] 2024-08-16 15:49:11.608 [main] SportControllerTest - Starting SportControllerTest using Java 22.0.2 with PID 21396 (started by kishorekumar.n in C:\Users\kishorekumar.n\Documents\spring\employeemanagement)
+[DEBUG] 2024-08-16 15:49:11.619 [main] SportControllerTest - Running with Spring Boot v3.3.2, Spring v6.1.11
+[INFO ] 2024-08-16 15:49:11.620 [main] SportControllerTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2024-08-16 15:49:13.374 [main] SportControllerTest - Started SportControllerTest in 2.24 seconds (process running for 3.985)
+[INFO ] 2024-08-16 15:49:13.757 [main] EmployeemanagementApplicationTests - Starting EmployeemanagementApplicationTests using Java 22.0.2 with PID 21396 (started by kishorekumar.n in C:\Users\kishorekumar.n\Documents\spring\employeemanagement)
+[DEBUG] 2024-08-16 15:49:13.757 [main] EmployeemanagementApplicationTests - Running with Spring Boot v3.3.2, Spring v6.1.11
+[INFO ] 2024-08-16 15:49:13.758 [main] EmployeemanagementApplicationTests - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2024-08-16 15:49:14.966 [main] SportServiceImpl - Adding sport with name: Cricket
+[INFO ] 2024-08-16 15:49:14.978 [main] SportServiceImpl - Retrieving sport with ID: 1
+[ERROR] 2024-08-16 15:49:14.983 [main] SportServiceImpl - Sport already exists with name: Cricket
+[INFO ] 2024-08-16 15:49:14.993 [main] SportServiceImpl - Updated sport with name: Football
+[INFO ] 2024-08-16 15:49:14.998 [main] SportServiceImpl - Sport is deleted with name: Cricket
+[INFO ] 2024-08-16 15:53:47.670 [main] SportControllerTest - Starting SportControllerTest using Java 22.0.2 with PID 21160 (started by kishorekumar.n in C:\Users\kishorekumar.n\Documents\spring\employeemanagement)
+[DEBUG] 2024-08-16 15:53:47.682 [main] SportControllerTest - Running with Spring Boot v3.3.2, Spring v6.1.11
+[INFO ] 2024-08-16 15:53:47.683 [main] SportControllerTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2024-08-16 15:53:49.520 [main] SportControllerTest - Started SportControllerTest in 2.336 seconds (process running for 4.555)
+[INFO ] 2024-08-16 15:53:49.905 [main] EmployeemanagementApplicationTests - Starting EmployeemanagementApplicationTests using Java 22.0.2 with PID 21160 (started by kishorekumar.n in C:\Users\kishorekumar.n\Documents\spring\employeemanagement)
+[DEBUG] 2024-08-16 15:53:49.907 [main] EmployeemanagementApplicationTests - Running with Spring Boot v3.3.2, Spring v6.1.11
+[INFO ] 2024-08-16 15:53:49.907 [main] EmployeemanagementApplicationTests - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2024-08-16 15:53:51.111 [main] SportServiceImpl - Adding sport with name: Cricket
+[INFO ] 2024-08-16 15:53:51.121 [main] SportServiceImpl - Retrieving sport with ID: 1
+[ERROR] 2024-08-16 15:53:51.125 [main] SportServiceImpl - Sport already exists with name: Cricket
+[INFO ] 2024-08-16 15:53:51.133 [main] SportServiceImpl - Updated sport with name: Football
+[INFO ] 2024-08-16 15:53:51.137 [main] SportServiceImpl - Sport is deleted with name: Cricket
+[INFO ] 2024-08-16 15:59:55.785 [main] EmployeemanagementApplication - Starting EmployeemanagementApplication using Java 22.0.2 with PID 19924 (C:\Users\kishorekumar.n\Documents\spring\employeemanagement\target\classes started by kishorekumar.n in C:\Users\kishorekumar.n\Documents\spring\employeemanagement)
+[DEBUG] 2024-08-16 15:59:55.794 [main] EmployeemanagementApplication - Running with Spring Boot v3.3.2, Spring v6.1.11
+[INFO ] 2024-08-16 15:59:55.795 [main] EmployeemanagementApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2024-08-16 16:00:18.303 [main] EmployeemanagementApplication - Starting EmployeemanagementApplication using Java 22.0.2 with PID 14684 (C:\Users\kishorekumar.n\Documents\spring\employeemanagement\target\classes started by kishorekumar.n in C:\Users\kishorekumar.n\Documents\spring\employeemanagement)
+[DEBUG] 2024-08-16 16:00:18.316 [main] EmployeemanagementApplication - Running with Spring Boot v3.3.2, Spring v6.1.11
+[INFO ] 2024-08-16 16:00:18.317 [main] EmployeemanagementApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2024-08-16 16:16:58.032 [main] EmployeemanagementApplication - Starting EmployeemanagementApplication using Java 22.0.2 with PID 15568 (C:\Users\kishorekumar.n\Documents\spring\employeemanagement\target\classes started by kishorekumar.n in C:\Users\kishorekumar.n\Documents\spring\employeemanagement)
+[DEBUG] 2024-08-16 16:16:58.044 [main] EmployeemanagementApplication - Running with Spring Boot v3.3.2, Spring v6.1.11
+[INFO ] 2024-08-16 16:16:58.045 [main] EmployeemanagementApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2024-08-16 16:17:07.976 [main] EmployeemanagementApplication - Starting EmployeemanagementApplication using Java 22.0.2 with PID 16284 (C:\Users\kishorekumar.n\Documents\spring\employeemanagement\target\classes started by kishorekumar.n in C:\Users\kishorekumar.n\Documents\spring\employeemanagement)
+[DEBUG] 2024-08-16 16:17:07.993 [main] EmployeemanagementApplication - Running with Spring Boot v3.3.2, Spring v6.1.11
+[INFO ] 2024-08-16 16:17:07.995 [main] EmployeemanagementApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2024-08-16 16:17:52.284 [main] EmployeemanagementApplication - Starting EmployeemanagementApplication using Java 22.0.2 with PID 16692 (C:\Users\kishorekumar.n\Documents\spring\employeemanagement\target\classes started by kishorekumar.n in C:\Users\kishorekumar.n\Documents\spring\employeemanagement)
+[DEBUG] 2024-08-16 16:17:52.296 [main] EmployeemanagementApplication - Running with Spring Boot v3.3.2, Spring v6.1.11
+[INFO ] 2024-08-16 16:17:52.298 [main] EmployeemanagementApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2024-08-16 16:18:36.734 [main] EmployeemanagementApplication - Starting EmployeemanagementApplication using Java 22.0.2 with PID 16904 (C:\Users\kishorekumar.n\Documents\spring\employeemanagement\target\classes started by kishorekumar.n in C:\Users\kishorekumar.n\Documents\spring\employeemanagement)
+[DEBUG] 2024-08-16 16:18:36.751 [main] EmployeemanagementApplication - Running with Spring Boot v3.3.2, Spring v6.1.11
+[INFO ] 2024-08-16 16:18:36.753 [main] EmployeemanagementApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2024-08-16 16:19:13.838 [main] EmployeemanagementApplication - Starting EmployeemanagementApplication using Java 22.0.2 with PID 17380 (C:\Users\kishorekumar.n\Documents\spring\employeemanagement\target\classes started by kishorekumar.n in C:\Users\kishorekumar.n\Documents\spring\employeemanagement)
+[DEBUG] 2024-08-16 16:19:13.852 [main] EmployeemanagementApplication - Running with Spring Boot v3.3.2, Spring v6.1.11
+[INFO ] 2024-08-16 16:19:13.854 [main] EmployeemanagementApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2024-08-16 16:19:18.511 [main] EmployeemanagementApplication - Started EmployeemanagementApplication in 5.15 seconds (process running for 6.469)
+[INFO ] 2024-08-16 16:19:18.514 [main] EmployeemanagementApplication - Application Started
+[INFO ] 2024-08-16 16:23:15.476 [main] SportControllerTest - Starting SportControllerTest using Java 22.0.2 with PID 16020 (started by kishorekumar.n in C:\Users\kishorekumar.n\Documents\spring\employeemanagement)
+[DEBUG] 2024-08-16 16:23:15.487 [main] SportControllerTest - Running with Spring Boot v3.3.2, Spring v6.1.11
+[INFO ] 2024-08-16 16:23:15.488 [main] SportControllerTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2024-08-16 16:23:17.250 [main] SportControllerTest - Started SportControllerTest in 2.22 seconds (process running for 3.987)
+[INFO ] 2024-08-16 16:23:17.585 [main] EmployeemanagementApplicationTests - Starting EmployeemanagementApplicationTests using Java 22.0.2 with PID 16020 (started by kishorekumar.n in C:\Users\kishorekumar.n\Documents\spring\employeemanagement)
+[DEBUG] 2024-08-16 16:23:17.585 [main] EmployeemanagementApplicationTests - Running with Spring Boot v3.3.2, Spring v6.1.11
+[INFO ] 2024-08-16 16:23:17.586 [main] EmployeemanagementApplicationTests - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2024-08-16 16:23:19.325 [main] SportServiceImpl - Adding sport with name: Cricket
+[INFO ] 2024-08-16 16:23:19.335 [main] SportServiceImpl - Retrieving sport with ID: 1
+[ERROR] 2024-08-16 16:23:19.338 [main] SportServiceImpl - Sport already exists with name: Cricket
+[INFO ] 2024-08-16 16:23:19.346 [main] SportServiceImpl - Updated sport with name: Football
+[INFO ] 2024-08-16 16:23:19.350 [main] SportServiceImpl - Sport is deleted with name: Cricket
+[INFO ] 2024-08-16 16:27:57.588 [main] SportControllerTest - Starting SportControllerTest using Java 22.0.2 with PID 20916 (started by kishorekumar.n in C:\Users\kishorekumar.n\Documents\spring\employeemanagement)
+[DEBUG] 2024-08-16 16:27:57.604 [main] SportControllerTest - Running with Spring Boot v3.3.2, Spring v6.1.11
+[INFO ] 2024-08-16 16:27:57.605 [main] SportControllerTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2024-08-16 16:27:59.441 [main] SportControllerTest - Started SportControllerTest in 2.339 seconds (process running for 4.359)
+[INFO ] 2024-08-16 17:34:23.459 [main] SportServiceImpl - Adding sport with name: Cricket
+[INFO ] 2024-08-16 17:34:23.525 [main] SportServiceImpl - Retrieving sport with ID: 1
+[ERROR] 2024-08-16 17:34:23.531 [main] SportServiceImpl - Sport already exists with name: Cricket
+[INFO ] 2024-08-16 17:34:23.540 [main] SportServiceImpl - Updated sport with name: Football
+[INFO ] 2024-08-16 17:34:23.544 [main] SportServiceImpl - Sport is deleted with name: Cricket
+[INFO ] 2024-08-16 17:39:38.050 [main] SportServiceImpl - Adding sport with name: Cricket
+[INFO ] 2024-08-16 17:39:38.073 [main] SportServiceImpl - Retrieving sport with ID: 1
+[ERROR] 2024-08-16 17:39:38.080 [main] SportServiceImpl - Sport already exists with name: Cricket
+[INFO ] 2024-08-16 17:39:38.090 [main] SportServiceImpl - Updated sport with name: Football
+[INFO ] 2024-08-16 17:39:38.093 [main] SportServiceImpl - Sport is deleted with name: Cricket
+[INFO ] 2024-08-16 17:43:27.801 [main] SportServiceImpl - Adding sport with name: Cricket
+[INFO ] 2024-08-16 17:43:27.826 [main] SportServiceImpl - Retrieving sport with ID: 1
+[ERROR] 2024-08-16 17:43:27.831 [main] SportServiceImpl - Sport already exists with name: Cricket
+[INFO ] 2024-08-16 17:43:27.841 [main] SportServiceImpl - Updated sport with name: Football
+[INFO ] 2024-08-16 17:43:27.845 [main] SportServiceImpl - Sport is deleted with name: Cricket
+[INFO ] 2024-08-16 18:08:03.959 [main] SportServiceImpl - Adding sport with name: Cricket
+[INFO ] 2024-08-16 18:08:03.985 [main] SportServiceImpl - Retrieving sport with ID: 1
+[ERROR] 2024-08-16 18:08:03.991 [main] SportServiceImpl - Sport already exists with name: Cricket
+[INFO ] 2024-08-16 18:08:04.005 [main] SportServiceImpl - Updated sport with name: Football
+[INFO ] 2024-08-16 18:08:04.009 [main] SportServiceImpl - Sport is deleted with name: Cricket
+[INFO ] 2024-08-16 18:12:47.583 [main] SportServiceImpl - Adding sport with name: Cricket
+[INFO ] 2024-08-16 18:22:03.926 [main] SportServiceImpl - Adding sport with name: Cricket
+[INFO ] 2024-08-16 18:22:03.949 [main] SportServiceImpl - Retrieving sport with ID: 1
+[ERROR] 2024-08-16 18:22:03.958 [main] SportServiceImpl - Sport already exists with name: Cricket
+[INFO ] 2024-08-16 18:22:03.974 [main] SportServiceImpl - Updated sport with name: Football
+[INFO ] 2024-08-16 18:22:03.978 [main] SportServiceImpl - Sport is deleted with name: Cricket
+[INFO ] 2024-08-16 18:41:49.173 [main] SportServiceImpl - Adding sport with name: Cricket
+[INFO ] 2024-08-16 18:42:32.185 [main] SportServiceImpl - Adding sport with name: Cricket
+[INFO ] 2024-08-16 18:42:32.211 [main] SportServiceImpl - Retrieving sport with ID: 1
+[ERROR] 2024-08-16 18:42:32.215 [main] SportServiceImpl - Sport already exists with name: Cricket
+[INFO ] 2024-08-16 18:42:32.225 [main] SportServiceImpl - Updated sport with name: Football
+[INFO ] 2024-08-16 18:42:32.229 [main] SportServiceImpl - Sport is deleted with name: Cricket
+[INFO ] 2024-08-16 18:51:17.060 [main] SportControllerTest - Starting SportControllerTest using Java 22.0.2 with PID 6784 (started by kishorekumar.n in C:\Users\kishorekumar.n\Documents\spring\employeemanagement)
+[DEBUG] 2024-08-16 18:51:17.082 [main] SportControllerTest - Running with Spring Boot v3.3.2, Spring v6.1.11
+[INFO ] 2024-08-16 18:51:17.085 [main] SportControllerTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2024-08-16 18:51:19.423 [main] SportControllerTest - Started SportControllerTest in 2.977 seconds (process running for 6.117)
+[INFO ] 2024-08-16 18:52:31.264 [main] SportControllerTest - Starting SportControllerTest using Java 22.0.2 with PID 13324 (started by kishorekumar.n in C:\Users\kishorekumar.n\Documents\spring\employeemanagement)
+[DEBUG] 2024-08-16 18:52:31.274 [main] SportControllerTest - Running with Spring Boot v3.3.2, Spring v6.1.11
+[INFO ] 2024-08-16 18:52:31.276 [main] SportControllerTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2024-08-16 18:52:33.842 [main] SportControllerTest - Started SportControllerTest in 3.209 seconds (process running for 6.309)
+[INFO ] 2024-08-16 18:52:44.895 [main] SportControllerTest - Starting SportControllerTest using Java 22.0.2 with PID 8408 (started by kishorekumar.n in C:\Users\kishorekumar.n\Documents\spring\employeemanagement)
+[DEBUG] 2024-08-16 18:52:44.907 [main] SportControllerTest - Running with Spring Boot v3.3.2, Spring v6.1.11
+[INFO ] 2024-08-16 18:52:44.908 [main] SportControllerTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2024-08-16 18:52:47.663 [main] SportControllerTest - Started SportControllerTest in 3.546 seconds (process running for 7.255)
+[INFO ] 2024-08-16 18:59:18.160 [main] SportControllerTest - Starting SportControllerTest using Java 22.0.2 with PID 19116 (started by kishorekumar.n in C:\Users\kishorekumar.n\Documents\spring\employeemanagement)
+[DEBUG] 2024-08-16 18:59:18.172 [main] SportControllerTest - Running with Spring Boot v3.3.2, Spring v6.1.11
+[INFO ] 2024-08-16 18:59:18.173 [main] SportControllerTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2024-08-16 18:59:20.638 [main] SportControllerTest - Started SportControllerTest in 3.111 seconds (process running for 6.267)
+[INFO ] 2024-08-16 19:00:19.148 [main] SportServiceImpl - Adding sport with name: Cricket
+[INFO ] 2024-08-16 19:00:19.167 [main] SportServiceImpl - Retrieving sport with ID: 1
+[ERROR] 2024-08-16 19:00:19.170 [main] SportServiceImpl - Sport already exists with name: Cricket
+[INFO ] 2024-08-16 19:00:19.183 [main] SportServiceImpl - Updated sport with name: Football
+[INFO ] 2024-08-16 19:00:19.187 [main] SportServiceImpl - Sport is deleted with name: Cricket
+[INFO ] 2024-08-16 19:01:31.602 [main] SportControllerTest - Starting SportControllerTest using Java 22.0.2 with PID 8324 (started by kishorekumar.n in C:\Users\kishorekumar.n\Documents\spring\employeemanagement)
+[DEBUG] 2024-08-16 19:01:31.616 [main] SportControllerTest - Running with Spring Boot v3.3.2, Spring v6.1.11
+[INFO ] 2024-08-16 19:01:31.617 [main] SportControllerTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2024-08-16 19:01:34.304 [main] SportControllerTest - Started SportControllerTest in 3.313 seconds (process running for 6.462)
+[INFO ] 2024-08-16 19:06:16.385 [main] SportControllerTest - Starting SportControllerTest using Java 22.0.2 with PID 3068 (started by kishorekumar.n in C:\Users\kishorekumar.n\Documents\spring\employeemanagement)
+[DEBUG] 2024-08-16 19:06:16.408 [main] SportControllerTest - Running with Spring Boot v3.3.2, Spring v6.1.11
+[INFO ] 2024-08-16 19:06:16.410 [main] SportControllerTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2024-08-16 19:06:21.374 [main] SportControllerTest - Started SportControllerTest in 6.21 seconds (process running for 9.475)
+[INFO ] 2024-08-16 19:09:42.939 [main] SportControllerTest - Starting SportControllerTest using Java 22.0.2 with PID 20728 (started by kishorekumar.n in C:\Users\kishorekumar.n\Documents\spring\employeemanagement)
+[DEBUG] 2024-08-16 19:09:42.958 [main] SportControllerTest - Running with Spring Boot v3.3.2, Spring v6.1.11
+[INFO ] 2024-08-16 19:09:42.959 [main] SportControllerTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2024-08-16 19:09:46.094 [main] SportControllerTest - Started SportControllerTest in 3.76 seconds (process running for 6.947)
+[INFO ] 2024-08-16 19:09:47.586 [main] SportServiceImpl - Adding sport with name: Cricket
+[INFO ] 2024-08-16 19:09:47.617 [main] SportServiceImpl - Retrieving sport with ID: 1
+[ERROR] 2024-08-16 19:09:47.624 [main] SportServiceImpl - Sport already exists with name: Cricket
+[INFO ] 2024-08-16 19:09:47.640 [main] SportServiceImpl - Updated sport with name: Football
+[INFO ] 2024-08-16 19:09:47.646 [main] SportServiceImpl - Sport is deleted with name: Cricket
+[INFO ] 2024-08-16 19:10:53.746 [main] SportControllerTest - Starting SportControllerTest using Java 22.0.2 with PID 6372 (started by kishorekumar.n in C:\Users\kishorekumar.n\Documents\spring\employeemanagement)
+[DEBUG] 2024-08-16 19:10:53.763 [main] SportControllerTest - Running with Spring Boot v3.3.2, Spring v6.1.11
+[INFO ] 2024-08-16 19:10:53.765 [main] SportControllerTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2024-08-16 19:10:56.263 [main] SportControllerTest - Started SportControllerTest in 3.141 seconds (process running for 6.421)
