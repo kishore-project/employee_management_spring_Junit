@@ -5,6 +5,7 @@ import com.ideas2it.employeemanagement.model.Employee;
 import com.ideas2it.employeemanagement.sport.dto.SportDto;
 import com.ideas2it.employeemanagement.utilities.Validator;
 
+import java.util.Collections;
 import java.util.stream.Collectors;
 
 /**
@@ -19,23 +20,25 @@ public class EmployeeMapper {
      * @return The corresponding EmployeeDto.
      */
     public static EmployeeDto mapToEmployeeDto(Employee employee) {
-        EmployeeDto employeeDto = new EmployeeDto();
-        employeeDto.setId(employee.getId());
-        employeeDto.setName(employee.getName());
-        employeeDto.setDob(employee.getDob());
-        employeeDto.setEmailId(employee.getEmailId());
-        employeeDto.setDepartmentID(employee.getDepartment().getId());
-        employeeDto.setDepartmentName(employee.getDepartment().getName());
-        employeeDto.setStreet(employee.getAddress().getStreet());
-        employeeDto.setCity(employee.getAddress().getCity());
-        employeeDto.setState(employee.getAddress().getState());
-        employeeDto.setZip(employee.getAddress().getZip());
-
-        // Convert the set of sport entities to a set of SportDto
-        employeeDto.setSports(employee.getSports().stream()
-                .map(sport -> new SportDto(sport.getId(), sport.getName()))
-                .collect(Collectors.toSet()));
-        employeeDto.setAge(Validator.calculateAge(employee.getDob()));
+        EmployeeDto employeeDto = EmployeeDto.builder()
+                .id(employee.getId())
+                .name(employee.getName())
+                .dob(employee.getDob())
+                .emailId(employee.getEmailId())
+                .departmentID(employee.getDepartment() != null ? employee.getDepartment().getId() : 0)
+                .departmentName(employee.getDepartment() != null ? employee.getDepartment().getName() : null)
+                .street(employee.getAddress() != null ? employee.getAddress().getStreet() : null)
+                .city(employee.getAddress() != null ? employee.getAddress().getCity() : null)
+                .state(employee.getAddress() != null ? employee.getAddress().getState() : null)
+                .zip(employee.getAddress() != null ? employee.getAddress().getZip() : null)
+                .sports(employee.getSports() != null ? employee.getSports().stream()
+                        .map(sport -> SportDto.builder()
+                                .id(sport.getId())
+                                .name(sport.getName())
+                                .build())
+                        .collect(Collectors.toSet()) : Collections.emptySet())
+                .age(Validator.calculateAge(employee.getDob()))
+                .build();
 
         return employeeDto;
     }

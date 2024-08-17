@@ -1,13 +1,19 @@
 package com.ideas2it.employeemanagement.service;
 
+import com.ideas2it.employeemanagement.employee.dto.EmployeeDto;
+import com.ideas2it.employeemanagement.employee.mapper.EmployeeMapper;
 import com.ideas2it.employeemanagement.exceptions.ResourceAlreadyExistsException;
 import com.ideas2it.employeemanagement.exceptions.ResourceNotFoundException;
+import com.ideas2it.employeemanagement.model.Address;
+import com.ideas2it.employeemanagement.model.Department;
+import com.ideas2it.employeemanagement.model.Employee;
 import com.ideas2it.employeemanagement.model.Sport;
 import com.ideas2it.employeemanagement.sport.dao.SportRepository;
 import com.ideas2it.employeemanagement.sport.dto.SportDto;
+import com.ideas2it.employeemanagement.sport.mapper.SportMapper;
 import com.ideas2it.employeemanagement.sport.service.SportServiceImpl;
 
-import org.junit.jupiter.api.Assertions;
+
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
@@ -16,11 +22,14 @@ import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.Spy;
 import org.mockito.junit.jupiter.MockitoExtension;
-import org.springframework.boot.test.system.CapturedOutput;
 
+import java.time.LocalDate;
+import java.util.Arrays;
+import java.util.HashSet;
+import java.util.List;
 import java.util.Optional;
+import java.util.Set;
 
-import static org.apache.logging.log4j.core.impl.ThrowableFormatOptions.MESSAGE;
 import static org.junit.jupiter.api.Assertions.*;
 import static org.mockito.ArgumentMatchers.any;
 import static org.mockito.Mockito.*;
@@ -38,11 +47,7 @@ public class SportServiceImplTest {
     private Sport sport;
 
 
-    @Test
-    public void testLogMessage(CapturedOutput output) {
-        sportService.logMessage(MESSAGE);
-        Assertions.assertTrue(output.getOut().contains(MESSAGE));
-    }
+
 
     @BeforeEach
     void setUp() {
@@ -166,4 +171,121 @@ public class SportServiceImplTest {
 
       //  verify(sportService.getLogger()).error("Sport not found with ID: {}", 2);
     }
+
+    @Test
+    void testGetAllSports() {
+        Sport activeSport1 = Sport.builder()
+                .id(1)
+                .name("Cricket")
+                .isActive(true)
+                .build();
+
+        Sport activeSport2 = Sport.builder()
+                .id(2)
+                .name("Chess")
+                .isActive(true)
+                .build();
+
+        Sport inactiveSport = Sport.builder()
+                .id(3)
+                .name("Football")
+                .isActive(false)
+                .build();
+
+        List<Sport> sports = Arrays.asList(activeSport1, activeSport2, inactiveSport);
+
+        when(sportRepository.findAll()).thenReturn(sports);
+
+        List<SportDto> sportDtos = sportService.getAllSports();
+        assertEquals(2, sportDtos.size());
+
+        SportDto expectedSportDto1 = SportMapper.mapToSportDto(activeSport1);
+        SportDto actualSportDto1 = sportDtos.get(0);
+
+        SportDto expectedSportDto2 = SportMapper.mapToSportDto(activeSport2);
+        SportDto actualSportDto2 = sportDtos.get(1);
+
+        assertEquals(expectedSportDto1.getId(), actualSportDto1.getId());
+        assertEquals(expectedSportDto1.getName(), actualSportDto1.getName());
+
+        assertEquals(expectedSportDto2.getId(), actualSportDto2.getId());
+        assertEquals(expectedSportDto2.getName(), actualSportDto2.getName());
+
+    }
+    @Test
+    void getEmployeesBySportId_ValidSportId_ReturnsActiveEmployeeDtos() {
+        // Create Address objects
+        Address address1 = Address.builder()
+                .street("123 Elm Street")
+                .city("Springfield")
+                .state("IL")
+                .zip("627012")
+                .build();
+
+        Address address2 = Address.builder()
+                .street("456 Oak Avenue")
+                .city("Springfield")
+                .state("IL")
+                .zip("627022")
+                .build();
+
+        // Create Department objects
+        Department department1 = Department.builder()
+                .id(1)
+                .name("IT")
+                .build();
+
+        Department department2 = Department.builder()
+                .id(2)
+                .name("HR")
+                .build();
+
+        // Create Employee objects with Address
+        Employee activeEmployee1 = Employee.builder()
+                .id(1)
+                .name("John Doe")
+                .dob(LocalDate.of(1990, 1, 1))
+                .emailId("john.doe@example.com")
+                .isActive(true)
+                .address(address1) // Set the address
+                .department(department1) // Set the department
+                .build();
+
+        Employee activeEmployee2 = Employee.builder()
+                .id(2)
+                .name("Jane Smith")
+                .dob(LocalDate.of(1992, 2, 2))
+                .emailId("jane.smith@example.com")
+                .isActive(true)
+                .address(address2) // Set the address
+                .department(department2) // Set the department
+                .build();
+
+        Employee inactiveEmployee = Employee.builder()
+                .id(3)
+                .name("Inactive Employee")
+                .dob(LocalDate.of(1985, 3, 3))
+                .emailId("inactive.employee@example.com")
+                .isActive(false)
+                .address(address1)
+                .department(department1)
+                .build();
+
+
+        Set<Employee> employees = new HashSet<>(Arrays.asList(activeEmployee1, activeEmployee2, inactiveEmployee));
+        sport.setEmployees(employees);
+
+        when(sportRepository.findById(sport.getId())).thenReturn(Optional.of(sport));
+
+        List<EmployeeDto> employeeDtos = sportService.getEmployeesBySportId(sport.getId());
+
+        assertEquals(2, employeeDtos.size());
+
+        EmployeeDto expectedEmployeeDto1 = EmployeeMapper.mapToEmployeeDto(activeEmployee1);
+        EmployeeDto expectedEmployeeDto2 = EmployeeMapper.mapToEmployeeDto(activeEmployee2);
+
+        assertTrue(employeeDtos.stream().anyMatch(dto -> dto.getId() == expectedEmployeeDto1.getId()));
+        assertTrue(employeeDtos.stream().anyMatch(dto -> dto.getId() == expectedEmployeeDto2.getId()));
+    }
+
 }

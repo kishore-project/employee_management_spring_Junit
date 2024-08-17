@@ -52,7 +52,12 @@ public class EmployeeServiceImpl implements EmployeeService {
             throw new ResourceAlreadyExistsException("Employee already exists in the department.");
         }
         DepartmentDto department = departmentService.getDepartmentById(employeeDto.getDepartmentID());
-        Address address = new Address(employeeDto.getStreet(), employeeDto.getCity(), employeeDto.getState(), employeeDto.getZip());
+        Address address = Address.builder()
+                .street(employeeDto.getStreet())
+                .city(employeeDto.getCity())
+                .state(employeeDto.getState())
+                .zip(employeeDto.getZip())
+                .build();
 
         Employee employee = mapToEmployee(employeeDto);
         employee.setDepartment(DepartmentMapper.mapToDepartment(department));
@@ -98,7 +103,12 @@ public class EmployeeServiceImpl implements EmployeeService {
         }
 
         DepartmentDto department = departmentService.getDepartmentById(employeeDto.getDepartmentID());
-        Address address = new Address(employeeDto.getStreet(), employeeDto.getCity(), employeeDto.getState(), employeeDto.getZip());
+        Address address = Address.builder()
+                .street(employeeDto.getStreet())
+                .city(employeeDto.getCity())
+                .state(employeeDto.getState())
+                .zip(employeeDto.getZip())
+                .build();
 
         Employee employee = mapToEmployee(employeeDto);
         employee.setId(id);

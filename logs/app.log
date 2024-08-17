@@ -695,3 +695,4 @@ com.ideas2it.employeemanagement.exceptions.ResourceAlreadyExistsException: Sport
 [DEBUG] 2024-08-16 19:10:53.763 [main] SportControllerTest - Running with Spring Boot v3.3.2, Spring v6.1.11
 [INFO ] 2024-08-16 19:10:53.765 [main] SportControllerTest - No active profile set, falling back to 1 default profile: "default"
 [INFO ] 2024-08-16 19:10:56.263 [main] SportControllerTest - Started SportControllerTest in 3.141 seconds (process running for 6.421)
+[INFO ] 2024-08-17 12:02:47.204 [main] SportServiceImpl - Retrieving list of all active employees in sport with name: Cricket
