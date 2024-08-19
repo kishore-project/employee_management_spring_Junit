@@ -15,8 +15,8 @@ import com.ideas2it.employeemanagement.sport.service.SportServiceImpl;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import org.junit.jupiter.api.extension.ExtendWith;
 
+import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.Spy;
@@ -45,9 +45,6 @@ public class SportServiceImplTest {
     private SportDto sportDto;
     private Sport sport;
 
-
-
-
     @BeforeEach
     void setUp() {
         sportDto = SportDto.builder()
@@ -71,7 +68,6 @@ public class SportServiceImplTest {
 
         assertNotNull(createdSport);
         assertEquals(sportDto.getName(), createdSport.getName());
-        //verify(sportService.getLogger()).info("Adding sport with name: {}", sportDto.getName());
     }
 
     @Test
@@ -80,7 +76,6 @@ public class SportServiceImplTest {
 
         assertThrows(ResourceAlreadyExistsException.class, () -> sportService.addSport(sportDto));
 
-        //verify(sportService.getLogger()).error("Sport already exists with name: {}", sportDto.getName());
     }
 
     @Test
@@ -99,7 +94,6 @@ public class SportServiceImplTest {
 
         assertThrows(ResourceNotFoundException.class, () -> sportService.getSportById(1));
 
-      //  verify(sportService.getLogger()).error("Sport not found with ID: {}", 1);
     }
 
     @Test
@@ -110,7 +104,7 @@ public class SportServiceImplTest {
 
         assertFalse(sport.isActive());
         verify(sportRepository).save(sport);
-       // verify(sportService.getLogger()).info("Sport is deleted with name: {}", sport.getName());
+
     }
 
     @Test
@@ -119,7 +113,6 @@ public class SportServiceImplTest {
 
         assertThrows(ResourceNotFoundException.class, () -> sportService.deleteSport(1));
 
-      //  verify(sportService.getLogger()).error("Sport not found with ID: {}", 1);
     }
 
     @Test
@@ -134,7 +127,6 @@ public class SportServiceImplTest {
 
         assertThrows(IllegalStateException.class, () -> sportService.deleteSport(1));
 
-       // verify(sportService.getLogger()).error("Sport is already deleted: {}", inactiveSport.getName());
     }
 
     @Test
@@ -168,7 +160,6 @@ public class SportServiceImplTest {
 
         assertThrows(ResourceNotFoundException.class, () -> sportService.updateSport(2, updatedSportDto));
 
-      //  verify(sportService.getLogger()).error("Sport not found with ID: {}", 2);
     }
 
     @Test
@@ -213,10 +204,9 @@ public class SportServiceImplTest {
     }
     @Test
     void getEmployeesBySportId_ValidSportId_ReturnsActiveEmployeeDtos() {
-        // Create Address objects
         Address address1 = Address.builder()
                 .street("123 ashok Street")
-                .city("chnenai")
+                .city("chennai")
                 .state("Tamil Nadu")
                 .zip("627012")
                 .build();
@@ -227,8 +217,6 @@ public class SportServiceImplTest {
                 .state("Tamil Nadu")
                 .zip("627022")
                 .build();
-
-        // Create Department objects
         Department department1 = Department.builder()
                 .id(1)
                 .name("IT")
@@ -239,15 +227,14 @@ public class SportServiceImplTest {
                 .name("HR")
                 .build();
 
-        // Create Employee objects with Address
         Employee activeEmployee1 = Employee.builder()
                 .id(1)
                 .name("kishore ")
                 .dob(LocalDate.of(1990, 1, 1))
                 .emailId("kishore@gmail.com")
                 .isActive(true)
-                .address(address1) // Set the address
-                .department(department1) // Set the department
+                .address(address1)
+                .department(department1)
                 .build();
 
         Employee activeEmployee2 = Employee.builder()
@@ -256,8 +243,8 @@ public class SportServiceImplTest {
                 .dob(LocalDate.of(1992, 2, 2))
                 .emailId("Lefin@example.com")
                 .isActive(true)
-                .address(address2) // Set the address
-                .department(department2) // Set the department
+                .address(address2)
+                .department(department2)
                 .build();
 
         Employee inactiveEmployee = Employee.builder()

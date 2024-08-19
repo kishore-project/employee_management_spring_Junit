@@ -755,3 +755,517 @@ com.ideas2it.employeemanagement.exceptions.ResourceAlreadyExistsException: Sport
 [ERROR] 2024-08-17 12:54:02.428 [main] SportServiceImpl - Sport already exists with name: Cricket
 [INFO ] 2024-08-17 12:54:02.434 [main] SportServiceImpl - Updated sport with name: Football
 [INFO ] 2024-08-17 12:54:02.439 [main] SportServiceImpl - Sport is deleted with name: Cricket
+[INFO ] 2024-08-19 10:44:15.379 [main] SportControllerTest - Starting SportControllerTest using Java 22.0.2 with PID 16076 (started by kishorekumar.n in C:\Users\kishorekumar.n\Documents\spring\employeemanagement)
+[DEBUG] 2024-08-19 10:44:15.391 [main] SportControllerTest - Running with Spring Boot v3.3.2, Spring v6.1.11
+[INFO ] 2024-08-19 10:44:15.393 [main] SportControllerTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2024-08-19 10:44:17.710 [main] SportControllerTest - Started SportControllerTest in 3.099 seconds (process running for 5.648)
+[INFO ] 2024-08-19 10:44:18.244 [main] DepartmentServiceImpl - Adding Employee with name: Santhosh department ID: null
+[INFO ] 2024-08-19 10:44:18.265 [main] DepartmentServiceImpl - Adding sport Basketball to Employee Santhosh
+[ERROR] 2024-08-19 10:44:18.277 [main] DepartmentServiceImpl - Employee is deleted with ID: 1
+[INFO ] 2024-08-19 10:44:18.284 [main] DepartmentServiceImpl - Updated Employee with name Santhosh
+[INFO ] 2024-08-19 10:44:18.291 [main] DepartmentServiceImpl - Retrieving list of all Employees
+[ERROR] 2024-08-19 10:44:18.304 [main] DepartmentServiceImpl - Employee is deleted with ID: 1
+[ERROR] 2024-08-19 10:44:18.313 [main] DepartmentServiceImpl - Employee not found  with ID: 1
+[INFO ] 2024-08-19 10:44:18.324 [main] DepartmentServiceImpl - Removing sport Basketball to Employee Santhosh
+[INFO ] 2024-08-19 10:44:18.421 [main] SportServiceImpl - Adding sport with name: Cricket
+[INFO ] 2024-08-19 10:44:18.430 [main] SportServiceImpl - Retrieving list of all active employees in sport with name: Cricket
+[INFO ] 2024-08-19 10:44:18.435 [main] SportServiceImpl - Retrieving list of all active sports
+[INFO ] 2024-08-19 10:44:18.439 [main] SportServiceImpl - Retrieving sport with ID: 1
+[ERROR] 2024-08-19 10:44:18.444 [main] SportServiceImpl - Sport already exists with name: Cricket
+[INFO ] 2024-08-19 10:44:18.455 [main] SportServiceImpl - Updated sport with name: Football
+[INFO ] 2024-08-19 10:44:18.460 [main] SportServiceImpl - Sport is deleted with name: Cricket
+[INFO ] 2024-08-19 10:45:32.714 [main] SportServiceImpl - Adding sport with name: Cricket
+[INFO ] 2024-08-19 10:45:32.740 [main] SportServiceImpl - Retrieving list of all active employees in sport with name: Cricket
+[INFO ] 2024-08-19 10:45:32.747 [main] SportServiceImpl - Retrieving list of all active sports
+[INFO ] 2024-08-19 10:45:32.751 [main] SportServiceImpl - Retrieving sport with ID: 1
+[ERROR] 2024-08-19 10:45:32.757 [main] SportServiceImpl - Sport already exists with name: Cricket
+[INFO ] 2024-08-19 10:45:32.767 [main] SportServiceImpl - Updated sport with name: Football
+[INFO ] 2024-08-19 10:45:32.771 [main] SportServiceImpl - Sport is deleted with name: Cricket
+[INFO ] 2024-08-19 10:46:46.292 [main] SportServiceImpl - Adding sport with name: Cricket
+[INFO ] 2024-08-19 10:46:46.329 [main] SportServiceImpl - Retrieving list of all active employees in sport with name: Cricket
+[INFO ] 2024-08-19 10:46:46.336 [main] SportServiceImpl - Retrieving list of all active sports
+[INFO ] 2024-08-19 10:46:46.342 [main] SportServiceImpl - Retrieving sport with ID: 1
+[ERROR] 2024-08-19 10:46:46.351 [main] SportServiceImpl - Sport already exists with name: Cricket
+[INFO ] 2024-08-19 10:46:46.371 [main] SportServiceImpl - Updated sport with name: Football
+[INFO ] 2024-08-19 10:46:46.380 [main] SportServiceImpl - Sport is deleted with name: Cricket
+[INFO ] 2024-08-19 10:48:21.582 [main] SportControllerTest - Starting SportControllerTest using Java 22.0.2 with PID 10620 (started by kishorekumar.n in C:\Users\kishorekumar.n\Documents\spring\employeemanagement)
+[DEBUG] 2024-08-19 10:48:21.599 [main] SportControllerTest - Running with Spring Boot v3.3.2, Spring v6.1.11
+[INFO ] 2024-08-19 10:48:21.601 [main] SportControllerTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2024-08-19 10:48:23.740 [main] SportControllerTest - Started SportControllerTest in 2.743 seconds (process running for 4.85)
+[INFO ] 2024-08-19 10:48:24.338 [main] DepartmentServiceImpl - Adding Employee with name: Santhosh department ID: null
+[INFO ] 2024-08-19 10:48:24.357 [main] DepartmentServiceImpl - Adding sport Basketball to Employee Santhosh
+[ERROR] 2024-08-19 10:48:24.368 [main] DepartmentServiceImpl - Employee is deleted with ID: 1
+[INFO ] 2024-08-19 10:48:24.373 [main] DepartmentServiceImpl - Updated Employee with name Santhosh
+[INFO ] 2024-08-19 10:48:24.377 [main] DepartmentServiceImpl - Retrieving list of all Employees
+[ERROR] 2024-08-19 10:48:24.388 [main] DepartmentServiceImpl - Employee is deleted with ID: 1
+[ERROR] 2024-08-19 10:48:24.396 [main] DepartmentServiceImpl - Employee not found  with ID: 1
+[INFO ] 2024-08-19 10:48:24.409 [main] DepartmentServiceImpl - Removing sport Basketball to Employee Santhosh
+[INFO ] 2024-08-19 10:48:24.502 [main] SportServiceImpl - Adding sport with name: Cricket
+[INFO ] 2024-08-19 10:48:24.513 [main] SportServiceImpl - Retrieving list of all active employees in sport with name: Cricket
+[INFO ] 2024-08-19 10:48:24.517 [main] SportServiceImpl - Retrieving list of all active sports
+[INFO ] 2024-08-19 10:48:24.522 [main] SportServiceImpl - Retrieving sport with ID: 1
+[ERROR] 2024-08-19 10:48:24.528 [main] SportServiceImpl - Sport already exists with name: Cricket
+[INFO ] 2024-08-19 10:48:24.541 [main] SportServiceImpl - Updated sport with name: Football
+[INFO ] 2024-08-19 10:48:24.544 [main] SportServiceImpl - Sport is deleted with name: Cricket
+[ERROR] 2024-08-19 11:00:37.094 [main] DepartmentServiceImpl - Department already exists with name: Engineering
+[INFO ] 2024-08-19 11:00:49.505 [main] DepartmentServiceImpl - Adding department with name: Engineering
+[INFO ] 2024-08-19 11:01:56.801 [main] DepartmentServiceImpl - Retrieving list of all departments
+[INFO ] 2024-08-19 11:36:20.372 [main] DepartmentServiceImpl - Adding department with name: Engineering
+[ERROR] 2024-08-19 11:36:29.857 [main] DepartmentServiceImpl - Department already exists with name: Engineering
+[INFO ] 2024-08-19 11:36:38.070 [main] DepartmentServiceImpl - Retrieving list of all departments
+[INFO ] 2024-08-19 11:38:18.638 [main] DepartmentServiceImpl - Retrieving list of all departments
+[INFO ] 2024-08-19 11:39:22.617 [main] DepartmentServiceImpl - Retrieving list of all departments
+[INFO ] 2024-08-19 11:41:46.236 [main] EmployeemanagementApplication - Starting EmployeemanagementApplication using Java 22.0.2 with PID 15308 (C:\Users\kishorekumar.n\Documents\spring\employeemanagement\target\classes started by kishorekumar.n in C:\Users\kishorekumar.n\Documents\spring\employeemanagement)
+[DEBUG] 2024-08-19 11:41:46.251 [main] EmployeemanagementApplication - Running with Spring Boot v3.3.2, Spring v6.1.11
+[INFO ] 2024-08-19 11:41:46.252 [main] EmployeemanagementApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2024-08-19 11:42:29.733 [main] EmployeemanagementApplication - Starting EmployeemanagementApplication using Java 22.0.2 with PID 17672 (C:\Users\kishorekumar.n\Documents\spring\employeemanagement\target\classes started by kishorekumar.n in C:\Users\kishorekumar.n\Documents\spring\employeemanagement)
+[DEBUG] 2024-08-19 11:42:29.747 [main] EmployeemanagementApplication - Running with Spring Boot v3.3.2, Spring v6.1.11
+[INFO ] 2024-08-19 11:42:29.749 [main] EmployeemanagementApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2024-08-19 11:42:34.691 [main] EmployeemanagementApplication - Started EmployeemanagementApplication in 5.443 seconds (process running for 6.757)
+[INFO ] 2024-08-19 11:42:34.694 [main] EmployeemanagementApplication - Application Started
+[INFO ] 2024-08-19 11:42:56.133 [http-nio-8080-exec-4] DepartmentController - Retrieving list of all departments
+[INFO ] 2024-08-19 11:42:56.340 [http-nio-8080-exec-4] DepartmentServiceImpl - Retrieving list of all departments
+[INFO ] 2024-08-19 11:42:56.340 [http-nio-8080-exec-4] DepartmentController - Retrieved 8 departments
+[ERROR] 2024-08-19 11:44:22.660 [main] DepartmentServiceImpl - Department already exists with name: Engineering
+[INFO ] 2024-08-19 11:45:29.451 [main] DepartmentServiceImpl - Retrieving list of all departments
+[INFO ] 2024-08-19 11:47:55.464 [main] DepartmentServiceImpl - Retrieving list of all departments
+[INFO ] 2024-08-19 11:59:46.487 [main] DepartmentServiceImpl - Department is Deleted Basketball
+[INFO ] 2024-08-19 12:01:58.636 [main] DepartmentServiceImpl - Department is Deleted Basketball
+[INFO ] 2024-08-19 12:24:58.020 [main] DepartmentServiceImpl - Updated department with name Finance
+[INFO ] 2024-08-19 14:09:12.512 [main] DepartmentServiceImpl - Retrieving list of Employee in Department1
+[INFO ] 2024-08-19 14:13:22.850 [main] SportControllerTest - Starting SportControllerTest using Java 22.0.2 with PID 15856 (started by kishorekumar.n in C:\Users\kishorekumar.n\Documents\spring\employeemanagement)
+[DEBUG] 2024-08-19 14:13:22.861 [main] SportControllerTest - Running with Spring Boot v3.3.2, Spring v6.1.11
+[INFO ] 2024-08-19 14:13:22.862 [main] SportControllerTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2024-08-19 14:13:24.645 [main] SportControllerTest - Started SportControllerTest in 2.241 seconds (process running for 3.99)
+[ERROR] 2024-08-19 14:13:25.022 [main] DepartmentServiceImpl - Department already exists with name: Engineering
+[INFO ] 2024-08-19 14:13:25.032 [main] DepartmentServiceImpl - Retrieving list of Employee in Department1
+[INFO ] 2024-08-19 14:13:25.046 [main] DepartmentServiceImpl - Department is Deleted Engineering
+[INFO ] 2024-08-19 14:13:25.077 [main] DepartmentServiceImpl - Adding department with name: Engineering
+[INFO ] 2024-08-19 14:13:25.080 [main] DepartmentServiceImpl - Retrieving list of all departments
+[INFO ] 2024-08-19 14:13:25.085 [main] DepartmentServiceImpl - Updated department with name Finance
+[INFO ] 2024-08-19 14:13:25.207 [main] DepartmentServiceImpl - Adding Employee with name: Santhosh department ID: null
+[INFO ] 2024-08-19 14:13:25.221 [main] DepartmentServiceImpl - Adding sport Basketball to Employee Santhosh
+[ERROR] 2024-08-19 14:13:25.230 [main] DepartmentServiceImpl - Employee is deleted with ID: 1
+[INFO ] 2024-08-19 14:13:25.237 [main] DepartmentServiceImpl - Updated Employee with name Santhosh
+[INFO ] 2024-08-19 14:13:25.241 [main] DepartmentServiceImpl - Retrieving list of all Employees
+[ERROR] 2024-08-19 14:13:25.249 [main] DepartmentServiceImpl - Employee is deleted with ID: 1
+[ERROR] 2024-08-19 14:13:25.261 [main] DepartmentServiceImpl - Employee not found  with ID: 1
+[INFO ] 2024-08-19 14:13:25.270 [main] DepartmentServiceImpl - Removing sport Basketball to Employee Santhosh
+[INFO ] 2024-08-19 14:13:25.356 [main] SportServiceImpl - Adding sport with name: Cricket
+[INFO ] 2024-08-19 14:13:25.364 [main] SportServiceImpl - Retrieving list of all active employees in sport with name: Cricket
+[INFO ] 2024-08-19 14:13:25.369 [main] SportServiceImpl - Retrieving list of all active sports
+[INFO ] 2024-08-19 14:13:25.373 [main] SportServiceImpl - Retrieving sport with ID: 1
+[ERROR] 2024-08-19 14:13:25.377 [main] SportServiceImpl - Sport already exists with name: Cricket
+[INFO ] 2024-08-19 14:13:25.385 [main] SportServiceImpl - Updated sport with name: Football
+[INFO ] 2024-08-19 14:13:25.388 [main] SportServiceImpl - Sport is deleted with name: Cricket
+[INFO ] 2024-08-19 14:14:13.618 [main] SportControllerTest - Starting SportControllerTest using Java 22.0.2 with PID 6948 (started by kishorekumar.n in C:\Users\kishorekumar.n\Documents\spring\employeemanagement)
+[DEBUG] 2024-08-19 14:14:13.631 [main] SportControllerTest - Running with Spring Boot v3.3.2, Spring v6.1.11
+[INFO ] 2024-08-19 14:14:13.632 [main] SportControllerTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2024-08-19 14:14:15.400 [main] SportControllerTest - Started SportControllerTest in 2.232 seconds (process running for 4.039)
+[ERROR] 2024-08-19 14:14:15.783 [main] DepartmentServiceImpl - Department already exists with name: Engineering
+[INFO ] 2024-08-19 14:14:15.793 [main] DepartmentServiceImpl - Retrieving list of Employee in Department1
+[INFO ] 2024-08-19 14:14:15.809 [main] DepartmentServiceImpl - Department is Deleted Engineering
+[INFO ] 2024-08-19 14:14:15.838 [main] DepartmentServiceImpl - Adding department with name: Engineering
+[INFO ] 2024-08-19 14:14:15.843 [main] DepartmentServiceImpl - Retrieving list of all departments
+[INFO ] 2024-08-19 14:14:15.848 [main] DepartmentServiceImpl - Updated department with name Finance
+[INFO ] 2024-08-19 14:14:15.950 [main] DepartmentServiceImpl - Adding Employee with name: Santhosh department ID: null
+[INFO ] 2024-08-19 14:14:15.960 [main] DepartmentServiceImpl - Adding sport Basketball to Employee Santhosh
+[ERROR] 2024-08-19 14:14:15.968 [main] DepartmentServiceImpl - Employee is deleted with ID: 1
+[INFO ] 2024-08-19 14:14:15.974 [main] DepartmentServiceImpl - Updated Employee with name Santhosh
+[INFO ] 2024-08-19 14:14:15.979 [main] DepartmentServiceImpl - Retrieving list of all Employees
+[ERROR] 2024-08-19 14:14:15.986 [main] DepartmentServiceImpl - Employee is deleted with ID: 1
+[ERROR] 2024-08-19 14:14:15.995 [main] DepartmentServiceImpl - Employee not found  with ID: 1
+[INFO ] 2024-08-19 14:14:16.004 [main] DepartmentServiceImpl - Removing sport Basketball to Employee Santhosh
+[INFO ] 2024-08-19 14:14:16.106 [main] SportServiceImpl - Adding sport with name: Cricket
+[INFO ] 2024-08-19 14:14:16.113 [main] SportServiceImpl - Retrieving list of all active employees in sport with name: Cricket
+[INFO ] 2024-08-19 14:14:16.117 [main] SportServiceImpl - Retrieving list of all active sports
+[INFO ] 2024-08-19 14:14:16.121 [main] SportServiceImpl - Retrieving sport with ID: 1
+[ERROR] 2024-08-19 14:14:16.125 [main] SportServiceImpl - Sport already exists with name: Cricket
+[INFO ] 2024-08-19 14:14:16.133 [main] SportServiceImpl - Updated sport with name: Football
+[INFO ] 2024-08-19 14:14:16.135 [main] SportServiceImpl - Sport is deleted with name: Cricket
+[INFO ] 2024-08-19 14:15:15.749 [main] DepartmentServiceImpl - Department is Deleted Engineering
+[INFO ] 2024-08-19 14:17:18.282 [main] DepartmentServiceImpl - Department is Deleted Engineering
+[INFO ] 2024-08-19 14:18:47.156 [main] SportControllerTest - Starting SportControllerTest using Java 22.0.2 with PID 15764 (started by kishorekumar.n in C:\Users\kishorekumar.n\Documents\spring\employeemanagement)
+[DEBUG] 2024-08-19 14:18:47.167 [main] SportControllerTest - Running with Spring Boot v3.3.2, Spring v6.1.11
+[INFO ] 2024-08-19 14:18:47.169 [main] SportControllerTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2024-08-19 14:18:48.926 [main] SportControllerTest - Started SportControllerTest in 2.225 seconds (process running for 4.003)
+[ERROR] 2024-08-19 14:18:49.346 [main] DepartmentServiceImpl - Department already exists with name: Engineering
+[INFO ] 2024-08-19 14:18:49.357 [main] DepartmentServiceImpl - Retrieving list of Employee in Department1
+[INFO ] 2024-08-19 14:18:49.370 [main] DepartmentServiceImpl - Department is Deleted Engineering
+[INFO ] 2024-08-19 14:18:49.400 [main] DepartmentServiceImpl - Adding department with name: Engineering
+[INFO ] 2024-08-19 14:18:49.404 [main] DepartmentServiceImpl - Retrieving list of all departments
+[INFO ] 2024-08-19 14:18:49.408 [main] DepartmentServiceImpl - Updated department with name Finance
+[INFO ] 2024-08-19 14:18:49.510 [main] DepartmentServiceImpl - Adding Employee with name: Santhosh department ID: null
+[INFO ] 2024-08-19 14:18:49.518 [main] DepartmentServiceImpl - Adding sport Basketball to Employee Santhosh
+[ERROR] 2024-08-19 14:18:49.528 [main] DepartmentServiceImpl - Employee is deleted with ID: 1
+[INFO ] 2024-08-19 14:18:49.532 [main] DepartmentServiceImpl - Updated Employee with name Santhosh
+[INFO ] 2024-08-19 14:18:49.537 [main] DepartmentServiceImpl - Retrieving list of all Employees
+[ERROR] 2024-08-19 14:18:49.545 [main] DepartmentServiceImpl - Employee is deleted with ID: 1
+[ERROR] 2024-08-19 14:18:49.556 [main] DepartmentServiceImpl - Employee not found  with ID: 1
+[INFO ] 2024-08-19 14:18:49.568 [main] DepartmentServiceImpl - Removing sport Basketball to Employee Santhosh
+[INFO ] 2024-08-19 14:18:49.644 [main] SportServiceImpl - Adding sport with name: Cricket
+[INFO ] 2024-08-19 14:18:49.650 [main] SportServiceImpl - Retrieving list of all active employees in sport with name: Cricket
+[INFO ] 2024-08-19 14:18:49.655 [main] SportServiceImpl - Retrieving list of all active sports
+[INFO ] 2024-08-19 14:18:49.658 [main] SportServiceImpl - Retrieving sport with ID: 1
+[ERROR] 2024-08-19 14:18:49.661 [main] SportServiceImpl - Sport already exists with name: Cricket
+[INFO ] 2024-08-19 14:18:49.667 [main] SportServiceImpl - Updated sport with name: Football
+[INFO ] 2024-08-19 14:18:49.671 [main] SportServiceImpl - Sport is deleted with name: Cricket
+[INFO ] 2024-08-19 14:23:34.726 [main] SportControllerTest - Starting SportControllerTest using Java 22.0.2 with PID 18384 (started by kishorekumar.n in C:\Users\kishorekumar.n\Documents\spring\employeemanagement)
+[DEBUG] 2024-08-19 14:23:34.743 [main] SportControllerTest - Running with Spring Boot v3.3.2, Spring v6.1.11
+[INFO ] 2024-08-19 14:23:34.743 [main] SportControllerTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2024-08-19 14:23:37.580 [main] SportControllerTest - Started SportControllerTest in 3.57 seconds (process running for 7.473)
+[INFO ] 2024-08-19 14:23:38.132 [main] SportServiceImpl - Adding sport with name: Cricket
+[INFO ] 2024-08-19 14:23:38.148 [main] SportServiceImpl - Retrieving list of all active employees in sport with name: Cricket
+[INFO ] 2024-08-19 14:23:38.148 [main] SportServiceImpl - Retrieving list of all active sports
+[INFO ] 2024-08-19 14:23:38.148 [main] SportServiceImpl - Retrieving sport with ID: 1
+[ERROR] 2024-08-19 14:23:38.163 [main] SportServiceImpl - Sport already exists with name: Cricket
+[INFO ] 2024-08-19 14:23:38.163 [main] SportServiceImpl - Updated sport with name: Football
+[INFO ] 2024-08-19 14:23:38.179 [main] SportServiceImpl - Sport is deleted with name: Cricket
+[ERROR] 2024-08-19 14:23:38.226 [main] DepartmentServiceImpl - Department already exists with name: Engineering
+[INFO ] 2024-08-19 14:23:38.226 [main] DepartmentServiceImpl - Retrieving list of Employee in Department1
+[INFO ] 2024-08-19 14:23:38.241 [main] DepartmentServiceImpl - Department is Deleted Engineering
+[INFO ] 2024-08-19 14:23:38.257 [main] DepartmentServiceImpl - Adding department with name: Engineering
+[INFO ] 2024-08-19 14:23:38.257 [main] DepartmentServiceImpl - Retrieving list of all departments
+[INFO ] 2024-08-19 14:23:38.273 [main] DepartmentServiceImpl - Updated department with name Finance
+[INFO ] 2024-08-19 14:23:38.343 [main] DepartmentServiceImpl - Adding Employee with name: Santhosh department ID: null
+[INFO ] 2024-08-19 14:23:38.343 [main] DepartmentServiceImpl - Adding sport Basketball to Employee Santhosh
+[ERROR] 2024-08-19 14:23:38.343 [main] DepartmentServiceImpl - Employee is deleted with ID: 1
+[INFO ] 2024-08-19 14:23:38.343 [main] DepartmentServiceImpl - Updated Employee with name Santhosh
+[INFO ] 2024-08-19 14:23:38.359 [main] DepartmentServiceImpl - Retrieving list of all Employees
+[ERROR] 2024-08-19 14:23:38.359 [main] DepartmentServiceImpl - Employee is deleted with ID: 1
+[ERROR] 2024-08-19 14:23:38.374 [main] DepartmentServiceImpl - Employee not found  with ID: 1
+[INFO ] 2024-08-19 14:23:38.374 [main] DepartmentServiceImpl - Removing sport Basketball to Employee Santhosh
+[INFO ] 2024-08-19 14:30:04.484 [main] SportControllerTest - Starting SportControllerTest using Java 22.0.2 with PID 10784 (started by kishorekumar.n in C:\Users\kishorekumar.n\Documents\spring\employeemanagement)
+[DEBUG] 2024-08-19 14:30:04.503 [main] SportControllerTest - Running with Spring Boot v3.3.2, Spring v6.1.11
+[INFO ] 2024-08-19 14:30:04.504 [main] SportControllerTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2024-08-19 14:32:02.006 [main] SportControllerTest - Starting SportControllerTest using Java 22.0.2 with PID 16096 (started by kishorekumar.n in C:\Users\kishorekumar.n\Documents\spring\employeemanagement)
+[DEBUG] 2024-08-19 14:32:02.022 [main] SportControllerTest - Running with Spring Boot v3.3.2, Spring v6.1.11
+[INFO ] 2024-08-19 14:32:02.023 [main] SportControllerTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2024-08-19 14:32:03.819 [main] SportControllerTest - Started SportControllerTest in 2.28 seconds (process running for 4.287)
+[INFO ] 2024-08-19 14:40:39.574 [main] SportServiceImpl - Updated sport with name: Football
+[INFO ] 2024-08-19 14:44:34.833 [main] SportServiceImpl - Updated sport with name: Football
+[INFO ] 2024-08-19 14:50:07.250 [main] SportServiceImpl - Updated sport with name: Football
+[INFO ] 2024-08-19 15:19:23.039 [main] SportControllerTest - Starting SportControllerTest using Java 22.0.2 with PID 10168 (started by kishorekumar.n in C:\Users\kishorekumar.n\Documents\spring\employeemanagement)
+[DEBUG] 2024-08-19 15:19:23.053 [main] SportControllerTest - Running with Spring Boot v3.3.2, Spring v6.1.11
+[INFO ] 2024-08-19 15:19:23.055 [main] SportControllerTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2024-08-19 15:19:25.188 [main] SportControllerTest - Started SportControllerTest in 2.731 seconds (process running for 4.893)
+[ERROR] 2024-08-19 15:19:25.647 [main] DepartmentServiceImpl - Department already exists with name: Engineering
+[INFO ] 2024-08-19 15:19:25.659 [main] DepartmentServiceImpl - Retrieving list of Employee in Department1
+[INFO ] 2024-08-19 15:19:25.675 [main] DepartmentServiceImpl - Department is Deleted Engineering
+[INFO ] 2024-08-19 15:19:25.709 [main] DepartmentServiceImpl - Adding department with name: Engineering
+[INFO ] 2024-08-19 15:19:25.714 [main] DepartmentServiceImpl - Retrieving list of all departments
+[INFO ] 2024-08-19 15:19:25.718 [main] DepartmentServiceImpl - Updated department with name Finance
+[INFO ] 2024-08-19 15:19:25.815 [main] DepartmentServiceImpl - Adding Employee with name: Santhosh department ID: null
+[INFO ] 2024-08-19 15:19:25.826 [main] DepartmentServiceImpl - Adding sport Basketball to Employee Santhosh
+[ERROR] 2024-08-19 15:19:25.836 [main] DepartmentServiceImpl - Employee is deleted with ID: 1
+[INFO ] 2024-08-19 15:19:25.843 [main] DepartmentServiceImpl - Updated Employee with name Santhosh
+[INFO ] 2024-08-19 15:19:25.850 [main] DepartmentServiceImpl - Retrieving list of all Employees
+[ERROR] 2024-08-19 15:19:25.858 [main] DepartmentServiceImpl - Employee is deleted with ID: 1
+[ERROR] 2024-08-19 15:19:25.869 [main] DepartmentServiceImpl - Employee not found  with ID: 1
+[INFO ] 2024-08-19 15:19:25.879 [main] DepartmentServiceImpl - Removing sport Basketball to Employee Santhosh
+[INFO ] 2024-08-19 15:19:25.968 [main] SportServiceImpl - Adding sport with name: Cricket
+[INFO ] 2024-08-19 15:19:25.975 [main] SportServiceImpl - Retrieving list of all active employees in sport with name: Cricket
+[INFO ] 2024-08-19 15:19:25.977 [main] SportServiceImpl - Retrieving list of all active sports
+[INFO ] 2024-08-19 15:19:25.980 [main] SportServiceImpl - Retrieving sport with ID: 1
+[ERROR] 2024-08-19 15:19:25.983 [main] SportServiceImpl - Sport already exists with name: Cricket
+[INFO ] 2024-08-19 15:19:25.991 [main] SportServiceImpl - Updated sport with name: Football
+[INFO ] 2024-08-19 15:19:25.995 [main] SportServiceImpl - Sport is deleted with name: Cricket
+[INFO ] 2024-08-19 15:24:39.757 [main] SportControllerTest - Starting SportControllerTest using Java 22.0.2 with PID 13828 (started by kishorekumar.n in C:\Users\kishorekumar.n\Documents\spring\employeemanagement)
+[DEBUG] 2024-08-19 15:24:39.772 [main] SportControllerTest - Running with Spring Boot v3.3.2, Spring v6.1.11
+[INFO ] 2024-08-19 15:24:39.773 [main] SportControllerTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2024-08-19 15:24:41.945 [main] SportControllerTest - Started SportControllerTest in 2.762 seconds (process running for 5.012)
+[INFO ] 2024-08-19 15:24:41.988 [main] SportController - Request to create sport with name: Football
+[INFO ] 2024-08-19 15:25:33.156 [main] SportControllerTest - Starting SportControllerTest using Java 22.0.2 with PID 19636 (started by kishorekumar.n in C:\Users\kishorekumar.n\Documents\spring\employeemanagement)
+[DEBUG] 2024-08-19 15:25:33.173 [main] SportControllerTest - Running with Spring Boot v3.3.2, Spring v6.1.11
+[INFO ] 2024-08-19 15:25:33.174 [main] SportControllerTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2024-08-19 15:25:35.431 [main] SportControllerTest - Started SportControllerTest in 2.857 seconds (process running for 5.177)
+[INFO ] 2024-08-19 15:25:35.464 [main] SportController - Request to create sport with name: Football
+[INFO ] 2024-08-19 15:28:42.830 [main] SportControllerTest - Starting SportControllerTest using Java 22.0.2 with PID 9772 (started by kishorekumar.n in C:\Users\kishorekumar.n\Documents\spring\employeemanagement)
+[DEBUG] 2024-08-19 15:28:42.847 [main] SportControllerTest - Running with Spring Boot v3.3.2, Spring v6.1.11
+[INFO ] 2024-08-19 15:28:42.848 [main] SportControllerTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2024-08-19 15:28:45.064 [main] SportControllerTest - Started SportControllerTest in 2.844 seconds (process running for 5.021)
+[INFO ] 2024-08-19 15:28:45.105 [main] SportController - Request to create sport with name: Football
+[INFO ] 2024-08-19 15:31:20.306 [main] SportControllerTest - Starting SportControllerTest using Java 22.0.2 with PID 3812 (started by kishorekumar.n in C:\Users\kishorekumar.n\Documents\spring\employeemanagement)
+[DEBUG] 2024-08-19 15:31:20.328 [main] SportControllerTest - Running with Spring Boot v3.3.2, Spring v6.1.11
+[INFO ] 2024-08-19 15:31:20.329 [main] SportControllerTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2024-08-19 15:31:22.595 [main] SportControllerTest - Started SportControllerTest in 2.899 seconds (process running for 5.168)
+[INFO ] 2024-08-19 15:31:22.634 [main] SportController - Request to create sport with name: Cricket
+[INFO ] 2024-08-19 15:33:00.178 [main] SportControllerTest - Starting SportControllerTest using Java 22.0.2 with PID 18916 (started by kishorekumar.n in C:\Users\kishorekumar.n\Documents\spring\employeemanagement)
+[DEBUG] 2024-08-19 15:33:00.194 [main] SportControllerTest - Running with Spring Boot v3.3.2, Spring v6.1.11
+[INFO ] 2024-08-19 15:33:00.196 [main] SportControllerTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2024-08-19 15:33:02.358 [main] SportControllerTest - Started SportControllerTest in 2.785 seconds (process running for 4.935)
+[INFO ] 2024-08-19 15:33:02.407 [main] SportController - Request to create sport with name: Cricket
+[INFO ] 2024-08-19 15:33:44.533 [main] SportControllerTest - Starting SportControllerTest using Java 22.0.2 with PID 12008 (started by kishorekumar.n in C:\Users\kishorekumar.n\Documents\spring\employeemanagement)
+[DEBUG] 2024-08-19 15:33:44.549 [main] SportControllerTest - Running with Spring Boot v3.3.2, Spring v6.1.11
+[INFO ] 2024-08-19 15:33:44.550 [main] SportControllerTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2024-08-19 15:33:46.836 [main] SportControllerTest - Started SportControllerTest in 2.901 seconds (process running for 5.181)
+[INFO ] 2024-08-19 15:33:46.873 [main] SportController - Request to create sport with name: Cricket
+[INFO ] 2024-08-19 15:34:34.329 [main] SportControllerTest - Starting SportControllerTest using Java 22.0.2 with PID 12300 (started by kishorekumar.n in C:\Users\kishorekumar.n\Documents\spring\employeemanagement)
+[DEBUG] 2024-08-19 15:34:34.345 [main] SportControllerTest - Running with Spring Boot v3.3.2, Spring v6.1.11
+[INFO ] 2024-08-19 15:34:34.347 [main] SportControllerTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2024-08-19 15:34:36.768 [main] SportControllerTest - Started SportControllerTest in 3.039 seconds (process running for 5.814)
+[INFO ] 2024-08-19 15:34:36.809 [main] SportController - Request to create sport with name: Cricket
+[INFO ] 2024-08-19 15:36:20.801 [main] SportControllerTest - Starting SportControllerTest using Java 22.0.2 with PID 10780 (started by kishorekumar.n in C:\Users\kishorekumar.n\Documents\spring\employeemanagement)
+[DEBUG] 2024-08-19 15:36:20.816 [main] SportControllerTest - Running with Spring Boot v3.3.2, Spring v6.1.11
+[INFO ] 2024-08-19 15:36:20.817 [main] SportControllerTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2024-08-19 15:36:23.044 [main] SportControllerTest - Started SportControllerTest in 2.82 seconds (process running for 5.02)
+[INFO ] 2024-08-19 15:36:23.085 [main] SportController - Request to create sport with name: Cricket
+[INFO ] 2024-08-19 15:38:09.508 [main] SportControllerTest - Starting SportControllerTest using Java 22.0.2 with PID 16976 (started by kishorekumar.n in C:\Users\kishorekumar.n\Documents\spring\employeemanagement)
+[DEBUG] 2024-08-19 15:38:09.527 [main] SportControllerTest - Running with Spring Boot v3.3.2, Spring v6.1.11
+[INFO ] 2024-08-19 15:38:09.529 [main] SportControllerTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2024-08-19 15:38:11.767 [main] SportControllerTest - Started SportControllerTest in 2.893 seconds (process running for 5.226)
+[INFO ] 2024-08-19 15:38:11.810 [main] SportController - Request to create sport with name: Cricket
+[INFO ] 2024-08-19 15:41:25.794 [main] SportControllerTest - Starting SportControllerTest using Java 22.0.2 with PID 6800 (started by kishorekumar.n in C:\Users\kishorekumar.n\Documents\spring\employeemanagement)
+[DEBUG] 2024-08-19 15:41:25.809 [main] SportControllerTest - Running with Spring Boot v3.3.2, Spring v6.1.11
+[INFO ] 2024-08-19 15:41:25.811 [main] SportControllerTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2024-08-19 15:41:28.192 [main] SportControllerTest - Started SportControllerTest in 2.969 seconds (process running for 5.196)
+[INFO ] 2024-08-19 15:41:28.247 [main] SportController - Request to create sport with name: Cricket
+[INFO ] 2024-08-19 15:48:54.554 [main] SportControllerTest - Starting SportControllerTest using Java 22.0.2 with PID 5148 (started by kishorekumar.n in C:\Users\kishorekumar.n\Documents\spring\employeemanagement)
+[DEBUG] 2024-08-19 15:48:54.572 [main] SportControllerTest - Running with Spring Boot v3.3.2, Spring v6.1.11
+[INFO ] 2024-08-19 15:48:54.573 [main] SportControllerTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2024-08-19 15:48:56.905 [main] SportControllerTest - Started SportControllerTest in 2.904 seconds (process running for 5.13)
+[INFO ] 2024-08-19 15:48:56.953 [main] SportController - Request to create sport with name: Cricket
+[INFO ] 2024-08-19 16:08:40.625 [main] SportControllerTest - Starting SportControllerTest using Java 22.0.2 with PID 17528 (started by kishorekumar.n in C:\Users\kishorekumar.n\Documents\spring\employeemanagement)
+[DEBUG] 2024-08-19 16:08:40.640 [main] SportControllerTest - Running with Spring Boot v3.3.2, Spring v6.1.11
+[INFO ] 2024-08-19 16:08:40.641 [main] SportControllerTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2024-08-19 16:08:42.962 [main] SportControllerTest - Started SportControllerTest in 2.939 seconds (process running for 5.227)
+[INFO ] 2024-08-19 16:11:11.083 [main] SportControllerTest - Starting SportControllerTest using Java 22.0.2 with PID 19136 (started by kishorekumar.n in C:\Users\kishorekumar.n\Documents\spring\employeemanagement)
+[DEBUG] 2024-08-19 16:11:11.096 [main] SportControllerTest - Running with Spring Boot v3.3.2, Spring v6.1.11
+[INFO ] 2024-08-19 16:11:11.097 [main] SportControllerTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2024-08-19 16:11:12.916 [main] SportControllerTest - Started SportControllerTest in 2.321 seconds (process running for 5.141)
+[ERROR] 2024-08-19 16:37:14.986 [main] DepartmentServiceImpl - Department already exists with name: Engineering
+[INFO ] 2024-08-19 16:37:15.021 [main] DepartmentServiceImpl - Retrieving list of Employee in Department1
+[INFO ] 2024-08-19 16:37:15.035 [main] DepartmentServiceImpl - Department is Deleted Engineering
+[INFO ] 2024-08-19 16:37:15.077 [main] DepartmentServiceImpl - Adding department with name: Engineering
+[INFO ] 2024-08-19 16:37:15.082 [main] DepartmentServiceImpl - Retrieving list of all departments
+[INFO ] 2024-08-19 16:37:15.088 [main] DepartmentServiceImpl - Updated department with name Finance
+[INFO ] 2024-08-19 16:37:15.239 [main] DepartmentServiceImpl - Adding Employee with name: Santhosh department ID: null
+[INFO ] 2024-08-19 16:37:15.250 [main] DepartmentServiceImpl - Adding sport Basketball to Employee Santhosh
+[ERROR] 2024-08-19 16:37:15.260 [main] DepartmentServiceImpl - Employee is deleted with ID: 1
+[INFO ] 2024-08-19 16:37:15.266 [main] DepartmentServiceImpl - Updated Employee with name Santhosh
+[INFO ] 2024-08-19 16:37:15.269 [main] DepartmentServiceImpl - Retrieving list of all Employees
+[ERROR] 2024-08-19 16:37:15.278 [main] DepartmentServiceImpl - Employee is deleted with ID: 1
+[ERROR] 2024-08-19 16:37:15.288 [main] DepartmentServiceImpl - Employee not found  with ID: 1
+[INFO ] 2024-08-19 16:37:15.299 [main] DepartmentServiceImpl - Removing sport Basketball to Employee Santhosh
+[INFO ] 2024-08-19 16:37:15.377 [main] SportServiceImpl - Adding sport with name: Cricket
+[INFO ] 2024-08-19 16:37:15.385 [main] SportServiceImpl - Retrieving list of all active employees in sport with name: Cricket
+[INFO ] 2024-08-19 16:37:15.389 [main] SportServiceImpl - Retrieving list of all active sports
+[INFO ] 2024-08-19 16:37:15.392 [main] SportServiceImpl - Retrieving sport with ID: 1
+[ERROR] 2024-08-19 16:37:15.395 [main] SportServiceImpl - Sport already exists with name: Cricket
+[INFO ] 2024-08-19 16:37:15.406 [main] SportServiceImpl - Updated sport with name: Football
+[INFO ] 2024-08-19 16:37:15.410 [main] SportServiceImpl - Sport is deleted with name: Cricket
+[ERROR] 2024-08-19 16:38:13.514 [main] DepartmentServiceImpl - Department already exists with name: Engineering
+[INFO ] 2024-08-19 16:38:13.554 [main] DepartmentServiceImpl - Retrieving list of Employee in Department1
+[INFO ] 2024-08-19 16:38:13.569 [main] DepartmentServiceImpl - Department is Deleted Engineering
+[INFO ] 2024-08-19 16:38:13.602 [main] DepartmentServiceImpl - Adding department with name: Engineering
+[INFO ] 2024-08-19 16:38:13.606 [main] DepartmentServiceImpl - Retrieving list of all departments
+[INFO ] 2024-08-19 16:38:13.610 [main] DepartmentServiceImpl - Updated department with name Finance
+[INFO ] 2024-08-19 16:38:13.755 [main] DepartmentServiceImpl - Adding Employee with name: Santhosh department ID: null
+[INFO ] 2024-08-19 16:38:13.770 [main] DepartmentServiceImpl - Adding sport Basketball to Employee Santhosh
+[ERROR] 2024-08-19 16:38:13.781 [main] DepartmentServiceImpl - Employee is deleted with ID: 1
+[INFO ] 2024-08-19 16:38:13.786 [main] DepartmentServiceImpl - Updated Employee with name Santhosh
+[INFO ] 2024-08-19 16:38:13.790 [main] DepartmentServiceImpl - Retrieving list of all Employees
+[ERROR] 2024-08-19 16:38:13.799 [main] DepartmentServiceImpl - Employee is deleted with ID: 1
+[ERROR] 2024-08-19 16:38:13.811 [main] DepartmentServiceImpl - Employee not found  with ID: 1
+[INFO ] 2024-08-19 16:38:13.821 [main] DepartmentServiceImpl - Removing sport Basketball to Employee Santhosh
+[INFO ] 2024-08-19 16:38:13.906 [main] SportServiceImpl - Adding sport with name: Cricket
+[INFO ] 2024-08-19 16:38:13.914 [main] SportServiceImpl - Retrieving list of all active employees in sport with name: Cricket
+[INFO ] 2024-08-19 16:38:13.917 [main] SportServiceImpl - Retrieving list of all active sports
+[INFO ] 2024-08-19 16:38:13.921 [main] SportServiceImpl - Retrieving sport with ID: 1
+[ERROR] 2024-08-19 16:38:13.924 [main] SportServiceImpl - Sport already exists with name: Cricket
+[INFO ] 2024-08-19 16:38:13.937 [main] SportServiceImpl - Updated sport with name: Football
+[INFO ] 2024-08-19 16:38:13.943 [main] SportServiceImpl - Sport is deleted with name: Cricket
+[INFO ] 2024-08-19 16:38:15.387 [main] SportControllerTest - Starting SportControllerTest using Java 22.0.2 with PID 21156 (started by kishorekumar.n in C:\Users\kishorekumar.n\Documents\spring\employeemanagement)
+[DEBUG] 2024-08-19 16:38:15.393 [main] SportControllerTest - Running with Spring Boot v3.3.2, Spring v6.1.11
+[INFO ] 2024-08-19 16:38:15.394 [main] SportControllerTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2024-08-19 16:38:17.368 [main] SportControllerTest - Started SportControllerTest in 2.771 seconds (process running for 8.661)
+[INFO ] 2024-08-19 16:54:44.118 [main] SportControllerTest - Starting SportControllerTest using Java 22.0.2 with PID 6372 (started by kishorekumar.n in C:\Users\kishorekumar.n\Documents\spring\employeemanagement)
+[DEBUG] 2024-08-19 16:54:44.132 [main] SportControllerTest - Running with Spring Boot v3.3.2, Spring v6.1.11
+[INFO ] 2024-08-19 16:54:44.133 [main] SportControllerTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2024-08-19 16:54:45.854 [main] SportControllerTest - Started SportControllerTest in 2.229 seconds (process running for 4.991)
+[INFO ] 2024-08-19 16:54:46.181 [main] SportController - Request to create sport with name: Basketball
+[INFO ] 2024-08-19 16:54:46.184 [main] SportController - Sport created with ID: 1
+[INFO ] 2024-08-19 16:56:03.972 [main] SportControllerTest - Starting SportControllerTest using Java 22.0.2 with PID 21104 (started by kishorekumar.n in C:\Users\kishorekumar.n\Documents\spring\employeemanagement)
+[DEBUG] 2024-08-19 16:56:04.002 [main] SportControllerTest - Running with Spring Boot v3.3.2, Spring v6.1.11
+[INFO ] 2024-08-19 16:56:04.004 [main] SportControllerTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2024-08-19 16:56:06.572 [main] SportControllerTest - Started SportControllerTest in 3.54 seconds (process running for 9.714)
+[INFO ] 2024-08-19 16:56:07.213 [main] SportController - Request to create sport with name: Basketball
+[INFO ] 2024-08-19 16:56:07.227 [main] SportController - Sport created with ID: 1
+[ERROR] 2024-08-19 16:56:08.022 [main] DepartmentServiceImpl - Department already exists with name: Engineering
+[INFO ] 2024-08-19 16:56:08.055 [main] DepartmentServiceImpl - Retrieving list of Employee in Department1
+[INFO ] 2024-08-19 16:56:08.088 [main] DepartmentServiceImpl - Department is Deleted Engineering
+[INFO ] 2024-08-19 16:56:08.140 [main] DepartmentServiceImpl - Adding department with name: Engineering
+[INFO ] 2024-08-19 16:56:08.148 [main] DepartmentServiceImpl - Retrieving list of all departments
+[INFO ] 2024-08-19 16:56:08.157 [main] DepartmentServiceImpl - Updated department with name Finance
+[INFO ] 2024-08-19 16:56:08.381 [main] DepartmentServiceImpl - Adding Employee with name: Santhosh department ID: null
+[INFO ] 2024-08-19 16:56:08.400 [main] DepartmentServiceImpl - Adding sport Basketball to Employee Santhosh
+[ERROR] 2024-08-19 16:56:08.417 [main] DepartmentServiceImpl - Employee is deleted with ID: 1
+[INFO ] 2024-08-19 16:56:08.427 [main] DepartmentServiceImpl - Updated Employee with name Santhosh
+[INFO ] 2024-08-19 16:56:08.436 [main] DepartmentServiceImpl - Retrieving list of all Employees
+[ERROR] 2024-08-19 16:56:08.457 [main] DepartmentServiceImpl - Employee is deleted with ID: 1
+[ERROR] 2024-08-19 16:56:08.474 [main] DepartmentServiceImpl - Employee not found  with ID: 1
+[INFO ] 2024-08-19 16:56:08.491 [main] DepartmentServiceImpl - Removing sport Basketball to Employee Santhosh
+[INFO ] 2024-08-19 16:56:08.654 [main] SportServiceImpl - Adding sport with name: Cricket
+[INFO ] 2024-08-19 16:56:08.667 [main] SportServiceImpl - Retrieving list of all active employees in sport with name: Cricket
+[INFO ] 2024-08-19 16:56:08.677 [main] SportServiceImpl - Retrieving list of all active sports
+[INFO ] 2024-08-19 16:56:08.683 [main] SportServiceImpl - Retrieving sport with ID: 1
+[ERROR] 2024-08-19 16:56:08.688 [main] SportServiceImpl - Sport already exists with name: Cricket
+[INFO ] 2024-08-19 16:56:08.703 [main] SportServiceImpl - Updated sport with name: Football
+[INFO ] 2024-08-19 16:56:08.710 [main] SportServiceImpl - Sport is deleted with name: Cricket
+[INFO ] 2024-08-19 16:58:04.158 [main] SportControllerTest - Starting SportControllerTest using Java 22.0.2 with PID 15500 (started by kishorekumar.n in C:\Users\kishorekumar.n\Documents\spring\employeemanagement)
+[DEBUG] 2024-08-19 16:58:04.172 [main] SportControllerTest - Running with Spring Boot v3.3.2, Spring v6.1.11
+[INFO ] 2024-08-19 16:58:04.173 [main] SportControllerTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2024-08-19 16:58:05.863 [main] SportControllerTest - Started SportControllerTest in 2.219 seconds (process running for 5.02)
+[INFO ] 2024-08-19 16:58:06.182 [main] SportController - Request to create sport with name: Basketball
+[INFO ] 2024-08-19 16:59:52.150 [main] SportControllerTest - Starting SportControllerTest using Java 22.0.2 with PID 5784 (started by kishorekumar.n in C:\Users\kishorekumar.n\Documents\spring\employeemanagement)
+[DEBUG] 2024-08-19 16:59:52.166 [main] SportControllerTest - Running with Spring Boot v3.3.2, Spring v6.1.11
+[INFO ] 2024-08-19 16:59:52.167 [main] SportControllerTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2024-08-19 16:59:53.818 [main] SportControllerTest - Started SportControllerTest in 2.179 seconds (process running for 4.955)
+[INFO ] 2024-08-19 16:59:54.156 [main] SportController - Request to create sport with name: Basketball
+[INFO ] 2024-08-19 16:59:54.160 [main] SportController - Sport created with ID: 1
+[INFO ] 2024-08-19 18:45:11.019 [main] SportController - Request to retrieve employees for sport with ID: 1
+[INFO ] 2024-08-19 18:45:11.031 [main] SportController - Retrieved 2 employees for sport with ID: 1
+[INFO ] 2024-08-19 18:45:11.064 [main] SportController - Request to create sport with name: Basketball
+[INFO ] 2024-08-19 18:45:11.064 [main] SportController - Sport created with ID: 1
+[INFO ] 2024-08-19 18:45:11.069 [main] SportController - Request to delete sport with ID: 1
+[INFO ] 2024-08-19 18:45:11.070 [main] SportController - Sport with ID 1 deleted successfully
+[INFO ] 2024-08-19 18:45:11.073 [main] SportController - Request to retrieve sport with ID: 1
+[INFO ] 2024-08-19 18:45:11.074 [main] SportController - Retrieved sport with ID: 1
+[INFO ] 2024-08-19 18:45:11.077 [main] SportController - Retrieving list of all sports
+[INFO ] 2024-08-19 18:45:11.078 [main] SportController - Retrieved 2 sports
+[INFO ] 2024-08-19 18:45:11.082 [main] SportController - Request to update sport with ID: 1
+[INFO ] 2024-08-19 18:45:11.083 [main] SportController - Updated sport with ID: 1
+[INFO ] 2024-08-19 18:53:41.416 [main] DepartmentController - Deleting department with ID: 1
+[INFO ] 2024-08-19 18:53:41.436 [main] DepartmentController - Department with ID 1 deleted successfully
+[INFO ] 2024-08-19 18:53:41.534 [main] DepartmentController - Creating department with name: HR
+[INFO ] 2024-08-19 18:53:41.537 [main] DepartmentController - Department created with ID: 1
+[INFO ] 2024-08-19 18:53:41.544 [main] DepartmentController - Retrieving department with ID: 1
+[INFO ] 2024-08-19 18:53:41.545 [main] DepartmentController - Retrieved department with ID: 1
+[INFO ] 2024-08-19 18:53:41.552 [main] DepartmentController - Retrieving list of all departments
+[INFO ] 2024-08-19 18:53:41.553 [main] DepartmentController - Retrieved 2 departments
+[INFO ] 2024-08-19 18:53:41.565 [main] DepartmentController - Retrieving employees for department with ID: 1
+[INFO ] 2024-08-19 18:53:41.566 [main] DepartmentController - Retrieved 2 employees for department with ID: 1
+[INFO ] 2024-08-19 18:56:14.355 [main] DepartmentController - Updating department with ID: 1
+[INFO ] 2024-08-19 18:56:14.373 [main] DepartmentController - Updated department with ID: 1
+[INFO ] 2024-08-19 19:02:14.399 [main] DepartmentController - Deleting department with ID: 1
+[INFO ] 2024-08-19 19:02:14.424 [main] DepartmentController - Department with ID 1 deleted successfully
+[INFO ] 2024-08-19 19:02:14.478 [main] DepartmentController - Updating department with ID: 1
+[INFO ] 2024-08-19 19:02:14.479 [main] DepartmentController - Updated department with ID: 1
+[INFO ] 2024-08-19 19:02:14.483 [main] DepartmentController - Creating department with name: HR
+[INFO ] 2024-08-19 19:02:14.484 [main] DepartmentController - Department created with ID: 1
+[INFO ] 2024-08-19 19:02:14.487 [main] DepartmentController - Retrieving department with ID: 1
+[INFO ] 2024-08-19 19:02:14.487 [main] DepartmentController - Retrieved department with ID: 1
+[INFO ] 2024-08-19 19:02:14.491 [main] DepartmentController - Retrieving list of all departments
+[INFO ] 2024-08-19 19:02:14.492 [main] DepartmentController - Retrieved 2 departments
+[INFO ] 2024-08-19 19:02:14.497 [main] DepartmentController - Retrieving employees for department with ID: 1
+[INFO ] 2024-08-19 19:02:14.498 [main] DepartmentController - Retrieved 2 employees for department with ID: 1
+[INFO ] 2024-08-19 19:02:14.532 [main] SportController - Request to retrieve employees for sport with ID: 1
+[INFO ] 2024-08-19 19:02:14.533 [main] SportController - Retrieved 2 employees for sport with ID: 1
+[INFO ] 2024-08-19 19:02:14.537 [main] SportController - Request to create sport with name: Basketball
+[INFO ] 2024-08-19 19:02:14.538 [main] SportController - Sport created with ID: 1
+[INFO ] 2024-08-19 19:02:14.542 [main] SportController - Request to delete sport with ID: 1
+[INFO ] 2024-08-19 19:02:14.543 [main] SportController - Sport with ID 1 deleted successfully
+[INFO ] 2024-08-19 19:02:14.547 [main] SportController - Request to retrieve sport with ID: 1
+[INFO ] 2024-08-19 19:02:14.548 [main] SportController - Retrieved sport with ID: 1
+[INFO ] 2024-08-19 19:02:14.552 [main] SportController - Retrieving list of all sports
+[INFO ] 2024-08-19 19:02:14.553 [main] SportController - Retrieved 2 sports
+[INFO ] 2024-08-19 19:02:14.556 [main] SportController - Request to update sport with ID: 1
+[INFO ] 2024-08-19 19:02:14.557 [main] SportController - Updated sport with ID: 1
+[ERROR] 2024-08-19 19:02:14.655 [main] DepartmentServiceImpl - Department already exists with name: Engineering
+[INFO ] 2024-08-19 19:02:14.675 [main] DepartmentServiceImpl - Retrieving list of Employee in Department1
+[INFO ] 2024-08-19 19:02:14.691 [main] DepartmentServiceImpl - Department is Deleted Engineering
+[INFO ] 2024-08-19 19:02:14.733 [main] DepartmentServiceImpl - Adding department with name: Engineering
+[INFO ] 2024-08-19 19:02:14.738 [main] DepartmentServiceImpl - Retrieving list of all departments
+[INFO ] 2024-08-19 19:02:14.747 [main] DepartmentServiceImpl - Updated department with name Finance
+[INFO ] 2024-08-19 19:02:14.836 [main] DepartmentServiceImpl - Adding Employee with name: Santhosh department ID: null
+[INFO ] 2024-08-19 19:02:14.845 [main] DepartmentServiceImpl - Adding sport Basketball to Employee Santhosh
+[ERROR] 2024-08-19 19:02:14.854 [main] DepartmentServiceImpl - Employee is deleted with ID: 1
+[INFO ] 2024-08-19 19:02:14.859 [main] DepartmentServiceImpl - Updated Employee with name Santhosh
+[INFO ] 2024-08-19 19:02:14.863 [main] DepartmentServiceImpl - Retrieving list of all Employees
+[ERROR] 2024-08-19 19:02:14.874 [main] DepartmentServiceImpl - Employee is deleted with ID: 1
+[ERROR] 2024-08-19 19:02:14.884 [main] DepartmentServiceImpl - Employee not found  with ID: 1
+[INFO ] 2024-08-19 19:02:14.893 [main] DepartmentServiceImpl - Removing sport Basketball to Employee Santhosh
+[INFO ] 2024-08-19 19:02:14.972 [main] SportServiceImpl - Adding sport with name: Cricket
+[INFO ] 2024-08-19 19:02:14.981 [main] SportServiceImpl - Retrieving list of all active employees in sport with name: Cricket
+[INFO ] 2024-08-19 19:02:14.986 [main] SportServiceImpl - Retrieving list of all active sports
+[INFO ] 2024-08-19 19:02:14.989 [main] SportServiceImpl - Retrieving sport with ID: 1
+[ERROR] 2024-08-19 19:02:14.993 [main] SportServiceImpl - Sport already exists with name: Cricket
+[INFO ] 2024-08-19 19:02:15.005 [main] SportServiceImpl - Updated sport with name: Football
+[INFO ] 2024-08-19 19:02:15.009 [main] SportServiceImpl - Sport is deleted with name: Cricket
+[INFO ] 2024-08-19 19:03:47.810 [main] DepartmentController - Creating department with name: HR
+[INFO ] 2024-08-19 19:03:47.825 [main] DepartmentController - Department created with ID: 1
+[INFO ] 2024-08-19 19:08:26.299 [main] DepartmentController - Deleting department with ID: 1
+[INFO ] 2024-08-19 19:08:26.329 [main] DepartmentController - Department with ID 1 deleted successfully
+[INFO ] 2024-08-19 20:56:42.076 [main] EmployeeController - Request to delete employee with ID: 1
+[INFO ] 2024-08-19 20:56:42.091 [main] EmployeeController - Employee with ID 1 deleted successfully
+[INFO ] 2024-08-19 20:56:42.118 [main] EmployeeController - Request to add sport with ID: 2 to employee with ID: 1
+[INFO ] 2024-08-19 20:56:42.119 [main] EmployeeController - Added sport with ID: 2 to employee with ID: 1
+[INFO ] 2024-08-19 20:56:42.126 [main] EmployeeController - Request to create employee with details: com.ideas2it.employeemanagement.employee.dto.EmployeeDto@7899de11
+[INFO ] 2024-08-19 20:56:42.127 [main] EmployeeController - Employee created with ID: 1
+[INFO ] 2024-08-19 20:56:42.131 [main] EmployeeController - Request to retrieve employee with ID: 1
+[INFO ] 2024-08-19 20:56:42.131 [main] EmployeeController - Retrieved employee with ID: 1
+[INFO ] 2024-08-19 20:56:42.135 [main] EmployeeController - Request to update employee with ID: 1
+[INFO ] 2024-08-19 20:56:42.135 [main] EmployeeController - Updated employee with ID: 1
+[INFO ] 2024-08-19 20:56:42.141 [main] EmployeeController - Request to retrieve all employees
+[INFO ] 2024-08-19 20:56:42.141 [main] EmployeeController - Retrieved 1 employees
+[INFO ] 2024-08-19 20:56:42.145 [main] EmployeeController - Request to remove sport with ID: 2 from employee with ID: 1
+[INFO ] 2024-08-19 20:56:42.146 [main] EmployeeController - Removed sport with ID: 2 from employee with ID: 1
+[INFO ] 2024-08-19 20:58:25.415 [main] SportServiceImpl - Adding sport with name: Cricket
+[INFO ] 2024-08-19 20:58:25.453 [main] SportServiceImpl - Retrieving list of all active employees in sport with name: Cricket
+[INFO ] 2024-08-19 20:58:25.459 [main] SportServiceImpl - Retrieving list of all active sports
+[INFO ] 2024-08-19 20:58:25.464 [main] SportServiceImpl - Retrieving sport with ID: 1
+[ERROR] 2024-08-19 20:58:25.469 [main] SportServiceImpl - Sport already exists with name: Cricket
+[INFO ] 2024-08-19 20:58:25.482 [main] SportServiceImpl - Updated sport with name: Football
+[INFO ] 2024-08-19 20:58:25.487 [main] SportServiceImpl - Sport is deleted with name: Cricket
+[INFO ] 2024-08-19 20:58:25.554 [main] DepartmentController - Deleting department with ID: 1
+[INFO ] 2024-08-19 20:58:25.555 [main] DepartmentController - Department with ID 1 deleted successfully
+[INFO ] 2024-08-19 20:58:25.590 [main] DepartmentController - Updating department with ID: 1
+[INFO ] 2024-08-19 20:58:25.590 [main] DepartmentController - Updated department with ID: 1
+[INFO ] 2024-08-19 20:58:25.595 [main] DepartmentController - Creating department with name: HR
+[INFO ] 2024-08-19 20:58:25.596 [main] DepartmentController - Department created with ID: 1
+[INFO ] 2024-08-19 20:58:25.601 [main] DepartmentController - Retrieving department with ID: 1
+[INFO ] 2024-08-19 20:58:25.602 [main] DepartmentController - Retrieved department with ID: 1
+[INFO ] 2024-08-19 20:58:25.607 [main] DepartmentController - Retrieving list of all departments
+[INFO ] 2024-08-19 20:58:25.608 [main] DepartmentController - Retrieved 2 departments
+[INFO ] 2024-08-19 20:58:25.613 [main] DepartmentController - Retrieving employees for department with ID: 1
+[INFO ] 2024-08-19 20:58:25.614 [main] DepartmentController - Retrieved 2 employees for department with ID: 1
+[INFO ] 2024-08-19 20:58:25.662 [main] EmployeeController - Request to delete employee with ID: 1
+[INFO ] 2024-08-19 20:58:25.663 [main] EmployeeController - Employee with ID 1 deleted successfully
+[INFO ] 2024-08-19 20:58:25.668 [main] EmployeeController - Request to add sport with ID: 2 to employee with ID: 1
+[INFO ] 2024-08-19 20:58:25.668 [main] EmployeeController - Added sport with ID: 2 to employee with ID: 1
+[INFO ] 2024-08-19 20:58:25.674 [main] EmployeeController - Request to create employee with details: com.ideas2it.employeemanagement.employee.dto.EmployeeDto@775b7dff
+[INFO ] 2024-08-19 20:58:25.674 [main] EmployeeController - Employee created with ID: 1
+[INFO ] 2024-08-19 20:58:25.679 [main] EmployeeController - Request to retrieve employee with ID: 1
+[INFO ] 2024-08-19 20:58:25.679 [main] EmployeeController - Retrieved employee with ID: 1
+[INFO ] 2024-08-19 20:58:25.684 [main] EmployeeController - Request to update employee with ID: 1
+[INFO ] 2024-08-19 20:58:25.684 [main] EmployeeController - Updated employee with ID: 1
+[INFO ] 2024-08-19 20:58:25.690 [main] EmployeeController - Request to retrieve all employees
+[INFO ] 2024-08-19 20:58:25.690 [main] EmployeeController - Retrieved 1 employees
+[INFO ] 2024-08-19 20:58:25.696 [main] EmployeeController - Request to remove sport with ID: 2 from employee with ID: 1
+[INFO ] 2024-08-19 20:58:25.696 [main] EmployeeController - Removed sport with ID: 2 from employee with ID: 1
+[INFO ] 2024-08-19 20:58:25.704 [main] SportController - Request to retrieve employees for sport with ID: 1
+[INFO ] 2024-08-19 20:58:25.704 [main] SportController - Retrieved 2 employees for sport with ID: 1
+[INFO ] 2024-08-19 20:58:25.708 [main] SportController - Request to create sport with name: Basketball
+[INFO ] 2024-08-19 20:58:25.708 [main] SportController - Sport created with ID: 1
+[INFO ] 2024-08-19 20:58:25.712 [main] SportController - Request to delete sport with ID: 1
+[INFO ] 2024-08-19 20:58:25.712 [main] SportController - Sport with ID 1 deleted successfully
+[INFO ] 2024-08-19 20:58:25.715 [main] SportController - Request to retrieve sport with ID: 1
+[INFO ] 2024-08-19 20:58:25.716 [main] SportController - Retrieved sport with ID: 1
+[INFO ] 2024-08-19 20:58:25.718 [main] SportController - Retrieving list of all sports
+[INFO ] 2024-08-19 20:58:25.720 [main] SportController - Retrieved 2 sports
+[INFO ] 2024-08-19 20:58:25.723 [main] SportController - Request to update sport with ID: 1
+[INFO ] 2024-08-19 20:58:25.725 [main] SportController - Updated sport with ID: 1
+[ERROR] 2024-08-19 20:58:25.762 [main] DepartmentServiceImpl - Department already exists with name: Engineering
+[INFO ] 2024-08-19 20:58:25.768 [main] DepartmentServiceImpl - Retrieving list of Employee in Department1
+[INFO ] 2024-08-19 20:58:25.781 [main] DepartmentServiceImpl - Department is Deleted Engineering
+[INFO ] 2024-08-19 20:58:25.796 [main] DepartmentServiceImpl - Adding department with name: Engineering
+[INFO ] 2024-08-19 20:58:25.798 [main] DepartmentServiceImpl - Retrieving list of all departments
+[INFO ] 2024-08-19 20:58:25.802 [main] DepartmentServiceImpl - Updated department with name Finance
+[INFO ] 2024-08-19 20:58:25.864 [main] DepartmentServiceImpl - Adding Employee with name: Santhosh department ID: null
+[INFO ] 2024-08-19 20:58:25.874 [main] DepartmentServiceImpl - Adding sport Basketball to Employee Santhosh
+[ERROR] 2024-08-19 20:58:25.896 [main] DepartmentServiceImpl - Employee is deleted with ID: 1
+[INFO ] 2024-08-19 20:58:25.905 [main] DepartmentServiceImpl - Updated Employee with name Santhosh
+[INFO ] 2024-08-19 20:58:25.927 [main] DepartmentServiceImpl - Retrieving list of all Employees
+[ERROR] 2024-08-19 20:58:25.938 [main] DepartmentServiceImpl - Employee is deleted with ID: 1
+[ERROR] 2024-08-19 20:58:25.950 [main] DepartmentServiceImpl - Employee not found  with ID: 1
+[INFO ] 2024-08-19 20:58:25.957 [main] DepartmentServiceImpl - Removing sport Basketball to Employee Santhosh

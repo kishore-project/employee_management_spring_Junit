@@ -88,6 +88,9 @@ public class DepartmentServiceImpl implements DepartmentService {
     public void deleteDepartment(int id) {
         Department existingDepartment = departmentRepository.findById(id)
                 .orElseThrow(() -> new ResourceNotFoundException("Department not found with ID: " + id));
+        if (existingDepartment.isDeleted()) {
+            throw new IllegalStateException("Department is already deleted: " + existingDepartment.getName());
+        }
         existingDepartment.setDeleted(true);
         departmentRepository.save(existingDepartment);
         logger.info("Department is Deleted {}",existingDepartment.getName());
