@@ -52,7 +52,7 @@ public class EmployeeController {
      *
      * @return A list of employee DTOs with HTTP status 200 OK.
      */
-    @GetMapping("/list")
+    @GetMapping
     public ResponseEntity<List<EmployeeDto>> getAllEmployees() {
         logger.info("Request to retrieve all employees");
             List<EmployeeDto> employeeDtos = employeeService.getAllEmployees();
@@ -95,7 +95,7 @@ public class EmployeeController {
      * @param id The ID of the employee to be deleted.
      * @return HTTP status 204 No Content.
      */
-    @DeleteMapping("/delete/{id}")
+    @DeleteMapping("/{id}")
     public ResponseEntity<Void> deleteEmployee(@PathVariable int id) {
         logger.info("Request to delete employee with ID: {}", id);
             employeeService.deleteEmployee(id);

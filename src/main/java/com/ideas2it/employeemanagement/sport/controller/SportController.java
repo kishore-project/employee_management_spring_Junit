@@ -46,7 +46,7 @@ public class SportController {
      * @param id The ID of the sport to be deleted.
      * @return HTTP status 302 Found.
      */
-    @DeleteMapping("/delete/{id}")
+    @DeleteMapping("/{id}")
     public ResponseEntity<Void> deleteSport(@PathVariable int id) {
         logger.info("Request to delete sport with ID: {}", id);
             sportService.deleteSport(id);
@@ -59,7 +59,7 @@ public class SportController {
      *
      * @return A list of sport DTOs with HTTP status 200 OK.
      */
-    @GetMapping("/list")
+    @GetMapping
     public ResponseEntity<List<SportDto>> getAllSports() {
         logger.info("Retrieving list of all sports");
             List<SportDto> sportDtos = sportService.getAllSports();
@@ -88,7 +88,7 @@ public class SportController {
      * @param sportDto {@link SportDto}The DTO containing updated sport data.
      * @return The updated sport DTO with HTTP status 200 OK.
      */
-    @PutMapping("/update/{id}")
+    @PutMapping("/{id}")
     public ResponseEntity<SportDto> updateSport(@Valid @PathVariable int id, @RequestBody SportDto sportDto) {
         logger.info("Request to update sport with ID: {}", id);
             SportDto updatedSportDto = sportService.updateSport(id, sportDto);

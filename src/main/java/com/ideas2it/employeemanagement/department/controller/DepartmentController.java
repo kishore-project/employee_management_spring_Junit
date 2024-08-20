@@ -46,7 +46,7 @@ public class DepartmentController {
      * @param id The ID of the department to be deleted.
      * @return HTTP status 204 No Content.
      */
-    @DeleteMapping("/delete/{id}")
+    @DeleteMapping("/{id}")
     public ResponseEntity<Void> deleteDepartment(@PathVariable int id) {
         logger.info("Deleting department with ID: {}", id);
             departmentService.deleteDepartment(id);
@@ -59,7 +59,7 @@ public class DepartmentController {
      *
      * @return A list of department DTOs with HTTP status 200 OK.
      */
-    @GetMapping("/list")
+    @GetMapping
     public ResponseEntity<List<DepartmentDto>> getAllDepartments() {
         logger.info("Retrieving list of all departments");
             List<DepartmentDto> departmentDtos = departmentService.getAllDepartments();
@@ -88,7 +88,7 @@ public class DepartmentController {
      * @param departmentDto {@link DepartmentDto} The DTO containing updated department data.
      * @return The updated department DTO with HTTP status 200 OK.
      */
-    @PutMapping("/update/{id}")
+    @PutMapping("/{id}")
     public ResponseEntity<DepartmentDto> updateDepartment(@Valid @PathVariable int id, @RequestBody DepartmentDto departmentDto) {
         logger.info("Updating department with ID: {}", id);
             DepartmentDto updatedDepartmentDto = departmentService.updateDepartment(id, departmentDto);
@@ -102,7 +102,7 @@ public class DepartmentController {
      * @param departmentId The ID of the department.
      * @return The EmployeeDto List by departmentId with HTTP status 200 OK.
      */
-    @GetMapping("/employees/{departmentId}")
+    @GetMapping("/{departmentId}/employees")
     public ResponseEntity<List<EmployeeDto>> getEmployeesByDepartmentId(@PathVariable int departmentId) {
         logger.info("Retrieving employees for department with ID: {}", departmentId);
             List<EmployeeDto> employeeDtos = departmentService.getEmployeesByDepartmentId(departmentId);

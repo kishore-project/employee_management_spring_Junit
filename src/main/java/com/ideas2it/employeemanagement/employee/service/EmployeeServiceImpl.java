@@ -88,7 +88,6 @@ public class EmployeeServiceImpl implements EmployeeService {
         if (!employee.isActive()) {
             throw new IllegalArgumentException("Employee is inactive with ID: " + id);
         }
-
         return mapToEmployeeDto(employee);
     }
 
