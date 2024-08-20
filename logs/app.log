@@ -1269,3 +1269,11 @@ com.ideas2it.employeemanagement.exceptions.ResourceAlreadyExistsException: Sport
 [ERROR] 2024-08-19 20:58:25.938 [main] DepartmentServiceImpl - Employee is deleted with ID: 1
 [ERROR] 2024-08-19 20:58:25.950 [main] DepartmentServiceImpl - Employee not found  with ID: 1
 [INFO ] 2024-08-19 20:58:25.957 [main] DepartmentServiceImpl - Removing sport Basketball to Employee Santhosh
+[INFO ] 2024-08-20 09:28:16.654 [main] DepartmentServiceImpl - Adding Employee with name: Santhosh department ID: null
+[INFO ] 2024-08-20 09:28:16.670 [main] DepartmentServiceImpl - Adding sport Basketball to Employee Santhosh
+[ERROR] 2024-08-20 09:28:16.685 [main] DepartmentServiceImpl - Employee is deleted with ID: 1
+[INFO ] 2024-08-20 09:28:16.685 [main] DepartmentServiceImpl - Updated Employee with name Santhosh
+[INFO ] 2024-08-20 09:28:16.701 [main] DepartmentServiceImpl - Retrieving list of all Employees
+[ERROR] 2024-08-20 09:28:16.717 [main] DepartmentServiceImpl - Employee is deleted with ID: 1
+[ERROR] 2024-08-20 09:28:16.717 [main] DepartmentServiceImpl - Employee not found  with ID: 1
+[INFO ] 2024-08-20 09:28:16.732 [main] DepartmentServiceImpl - Removing sport Basketball to Employee Santhosh

@@ -40,7 +40,7 @@ public class EmployeeControllerTest {
         MockitoAnnotations.openMocks(this);
         employeeDto = new EmployeeDto();
         employeeDto.setId(1);
-        employeeDto.setName("John Doe");
+        employeeDto.setName("John");
     }
 
     @Test
