@@ -18,12 +18,10 @@ import org.mockito.Mock;
 import org.mockito.junit.jupiter.MockitoExtension;
 
 import java.time.LocalDate;
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Optional;
-import java.util.Set;
 
 import static org.junit.jupiter.api.Assertions.*;
 import static org.mockito.Mockito.*;
@@ -64,9 +62,7 @@ public class DepartmentServiceImplTest {
     void addDepartment_ValidDepartment_ReturnsSportDto() {
         when(departmentRepository.existsByName(departmentDto.getName())).thenReturn(false);
         when(departmentRepository.save(any(Department.class))).thenReturn(department);
-
         DepartmentDto createdDepartment = departmentServiceImpl.addDepartment(departmentDto);
-
         assertNotNull(createdDepartment);
         assertEquals(departmentDto.getName(), createdDepartment.getName());
     }
@@ -74,9 +70,7 @@ public class DepartmentServiceImplTest {
     @Test
     void addDepartment_DepartmentAlreadyExists_ThrowsException() {
         when(departmentRepository.existsByName(departmentDto.getName())).thenReturn(true);
-
         assertThrows(ResourceAlreadyExistsException.class, () -> departmentServiceImpl.addDepartment(departmentDto));
-
     }
 
     @Test
@@ -98,21 +92,15 @@ public class DepartmentServiceImplTest {
                 .build();
 
         List<Department> departments = Arrays.asList(activeDepartment1, activeDepartment2, inactiveDepartment);
-
         when(departmentRepository.findAll()).thenReturn(departments);
-
         List<DepartmentDto> departmentDtos = departmentServiceImpl.getAllDepartments();
         assertEquals(2, departmentDtos.size());
-
         DepartmentDto expectedDepartmentDto1 = DepartmentMapper.mapToDepartmentDto(activeDepartment1);
         DepartmentDto actualDepartmentDto1 = departmentDtos.get(0);
-
         DepartmentDto expectedDepartmentDto2 = DepartmentMapper.mapToDepartmentDto(activeDepartment2);
         DepartmentDto actualDepartmentDto2 = departmentDtos.get(1);
-
         assertEquals(expectedDepartmentDto1.getId(), actualDepartmentDto1.getId());
         assertEquals(expectedDepartmentDto1.getName(), actualDepartmentDto1.getName());
-
         assertEquals(expectedDepartmentDto2.getId(), actualDepartmentDto2.getId());
         assertEquals(expectedDepartmentDto2.getName(), actualDepartmentDto2.getName());
     }
@@ -120,9 +108,7 @@ public class DepartmentServiceImplTest {
     @Test
     void getDepartmentById_ValidId_ReturnsDepartmentDto() {
         when(departmentRepository.findById(1)).thenReturn(Optional.of(department));
-
         DepartmentDto foundDepartment = departmentServiceImpl.getDepartmentById(1);
-
         assertNotNull(foundDepartment);
         assertEquals(departmentDto.getName(), foundDepartment.getName());
     }
@@ -130,28 +116,21 @@ public class DepartmentServiceImplTest {
     @Test
     void getDepartmentById_InvalidId_ThrowsException() {
         when(departmentRepository.findById(1)).thenReturn(Optional.empty());
-
         assertThrows(ResourceNotFoundException.class, () -> departmentServiceImpl.getDepartmentById(1));
-
     }
 
     @Test
     void deleteDepartment_ValidId_DeletesDepartment() {
         when(departmentRepository.findById(1)).thenReturn(Optional.of(department));
-
         departmentServiceImpl.deleteDepartment(1);
-
         assertTrue(department.isDeleted());
         verify(departmentRepository).save(department);
-
     }
 
     @Test
     void deleteDepartment_InvalidId_ThrowsException() {
         when(departmentRepository.findById(1)).thenReturn(Optional.empty());
-
         assertThrows(ResourceNotFoundException.class, () -> departmentServiceImpl.deleteDepartment(1));
-
     }
 
     @Test
@@ -163,9 +142,7 @@ public class DepartmentServiceImplTest {
                 .build();
 
         when(departmentRepository.findById(1)).thenReturn(Optional.of(inActiveDepartment));
-
         assertThrows(IllegalStateException.class, () -> departmentServiceImpl.deleteDepartment(1));
-
     }
 
     @Test
@@ -181,9 +158,7 @@ public class DepartmentServiceImplTest {
             updatedDepartment.setName(updatedDepartmentDto.getName());
             return updatedDepartment;
         });
-
         DepartmentDto result = departmentServiceImpl.updateDepartment(1, updatedDepartmentDto);
-
         assertNotNull(result);
         assertEquals(updatedDepartmentDto.getName(), result.getName());
     }
@@ -196,7 +171,6 @@ public class DepartmentServiceImplTest {
                 .build();
 
         when(departmentRepository.findById(2)).thenReturn(Optional.empty());
-
         assertThrows(ResourceNotFoundException.class, () -> departmentServiceImpl.updateDepartment(2, updatedDepartmentDto));
     }
 
@@ -225,22 +199,17 @@ public class DepartmentServiceImplTest {
                 .build();
 
         department.setEmployees(new HashSet<>(Arrays.asList(activeEmployee, inactiveEmployee)));
-
         when(departmentRepository.findById(department.getId())).thenReturn(Optional.of(department));
-
         List<EmployeeDto> employeeDtos = departmentServiceImpl.getEmployeesByDepartmentId(department.getId());
-
         assertNotNull(employeeDtos);
         assertEquals(1, employeeDtos.size());
         assertEquals(activeEmployee.getId(), employeeDtos.get(0).getId());
         assertEquals(department.getId(), employeeDtos.get(0).getDepartmentID());
-
     }
 
     @Test
     void getEmployeesByDepartmentId_DepartmentNotFound_ThrowsException() {
         when(departmentRepository.findById(department.getId())).thenReturn(Optional.empty());
-
         assertThrows(ResourceNotFoundException.class, () -> departmentServiceImpl.getEmployeesByDepartmentId(department.getId()));
     }
 }

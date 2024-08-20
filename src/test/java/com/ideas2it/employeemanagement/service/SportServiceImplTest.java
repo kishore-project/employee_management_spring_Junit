@@ -63,9 +63,7 @@ public class SportServiceImplTest {
     void addSport_ValidSport_ReturnsSportDto() {
         when(sportRepository.existsByName(sportDto.getName())).thenReturn(false);
         when(sportRepository.save(any(Sport.class))).thenReturn(sport);
-
         SportDto createdSport = sportService.addSport(sportDto);
-
         assertNotNull(createdSport);
         assertEquals(sportDto.getName(), createdSport.getName());
     }
@@ -73,7 +71,6 @@ public class SportServiceImplTest {
     @Test
     void addSport_SportAlreadyExists_ThrowsException() {
         when(sportRepository.existsByName(sportDto.getName())).thenReturn(true);
-
         assertThrows(ResourceAlreadyExistsException.class, () -> sportService.addSport(sportDto));
 
     }
@@ -81,9 +78,7 @@ public class SportServiceImplTest {
     @Test
     void getSportById_ValidId_ReturnsSportDto() {
         when(sportRepository.findById(1)).thenReturn(Optional.of(sport));
-
         SportDto foundSport = sportService.getSportById(1);
-
         assertNotNull(foundSport);
         assertEquals(sportDto.getName(), foundSport.getName());
     }
@@ -91,7 +86,6 @@ public class SportServiceImplTest {
     @Test
     void getSportById_InvalidId_ThrowsException() {
         when(sportRepository.findById(1)).thenReturn(Optional.empty());
-
         assertThrows(ResourceNotFoundException.class, () -> sportService.getSportById(1));
 
     }
@@ -99,9 +93,7 @@ public class SportServiceImplTest {
     @Test
     void deleteSport_ValidId_DeletesSport() {
         when(sportRepository.findById(1)).thenReturn(Optional.of(sport));
-
         sportService.deleteSport(1);
-
         assertFalse(sport.isActive());
         verify(sportRepository).save(sport);
 
@@ -110,7 +102,6 @@ public class SportServiceImplTest {
     @Test
     void deleteSport_InvalidId_ThrowsException() {
         when(sportRepository.findById(1)).thenReturn(Optional.empty());
-
         assertThrows(ResourceNotFoundException.class, () -> sportService.deleteSport(1));
 
     }
@@ -124,7 +115,6 @@ public class SportServiceImplTest {
                 .build();
 
         when(sportRepository.findById(1)).thenReturn(Optional.of(inactiveSport));
-
         assertThrows(IllegalStateException.class, () -> sportService.deleteSport(1));
 
     }
@@ -142,9 +132,7 @@ public class SportServiceImplTest {
             updatedSport.setName(updatedSportDto.getName());
             return updatedSport;
         });
-
         SportDto result = sportService.updateSport(1, updatedSportDto);
-
         assertNotNull(result);
         assertEquals(updatedSportDto.getName(), result.getName());
     }
@@ -157,7 +145,6 @@ public class SportServiceImplTest {
                 .build();
 
         when(sportRepository.findById(2)).thenReturn(Optional.empty());
-
         assertThrows(ResourceNotFoundException.class, () -> sportService.updateSport(2, updatedSportDto));
 
     }
@@ -183,25 +170,19 @@ public class SportServiceImplTest {
                 .build();
 
         List<Sport> sports = Arrays.asList(activeSport1, activeSport2, inactiveSport);
-
         when(sportRepository.findAll()).thenReturn(sports);
-
         List<SportDto> sportDtos = sportService.getAllSports();
         assertEquals(2, sportDtos.size());
-
         SportDto expectedSportDto1 = SportMapper.mapToSportDto(activeSport1);
         SportDto actualSportDto1 = sportDtos.get(0);
-
         SportDto expectedSportDto2 = SportMapper.mapToSportDto(activeSport2);
         SportDto actualSportDto2 = sportDtos.get(1);
-
         assertEquals(expectedSportDto1.getId(), actualSportDto1.getId());
         assertEquals(expectedSportDto1.getName(), actualSportDto1.getName());
-
         assertEquals(expectedSportDto2.getId(), actualSportDto2.getId());
         assertEquals(expectedSportDto2.getName(), actualSportDto2.getName());
-
     }
+
     @Test
     void getEmployeesBySportId_ValidSportId_ReturnsActiveEmployeeDtos() {
         Address address1 = Address.builder()
@@ -260,18 +241,12 @@ public class SportServiceImplTest {
 
         Set<Employee> employees = new HashSet<>(Arrays.asList(activeEmployee1, activeEmployee2, inactiveEmployee));
         sport.setEmployees(employees);
-
         when(sportRepository.findById(sport.getId())).thenReturn(Optional.of(sport));
-
         List<EmployeeDto> employeeDtos = sportService.getEmployeesBySportId(sport.getId());
-
         assertEquals(2, employeeDtos.size());
-
         EmployeeDto expectedEmployeeDto1 = EmployeeMapper.mapToEmployeeDto(activeEmployee1);
         EmployeeDto expectedEmployeeDto2 = EmployeeMapper.mapToEmployeeDto(activeEmployee2);
-
         assertTrue(employeeDtos.stream().anyMatch(dto -> dto.getId() == expectedEmployeeDto1.getId()));
         assertTrue(employeeDtos.stream().anyMatch(dto -> dto.getId() == expectedEmployeeDto2.getId()));
     }
-
 }

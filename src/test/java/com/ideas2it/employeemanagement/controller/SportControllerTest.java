@@ -36,13 +36,10 @@ public class SportControllerTest {
     void createSport_ValidSportDto_ReturnsCreated() {
         SportDto sportDto = SportDto.builder().id(1).name("Basketball").build();
         when(sportService.addSport(any(SportDto.class))).thenReturn(sportDto);
-
         ResponseEntity<SportDto> response = sportController.createSport(sportDto);
-
         assertNotNull(response);
         assertEquals(HttpStatus.CREATED, response.getStatusCode());
         assertEquals(sportDto, response.getBody());
-
         verify(sportService, times(1)).addSport(any(SportDto.class));
     }
 
@@ -50,10 +47,8 @@ public class SportControllerTest {
     void deleteSport_ValidId_ReturnsFound() {
         int sportId = 1;
         ResponseEntity<Void> response = sportController.deleteSport(sportId);
-
         assertNotNull(response);
         assertEquals(HttpStatus.FOUND, response.getStatusCode());
-
         verify(sportService, times(1)).deleteSport(sportId);
     }
 
@@ -64,13 +59,10 @@ public class SportControllerTest {
                 SportDto.builder().id(2).name("Football").build()
         );
         when(sportService.getAllSports()).thenReturn(sportDtos);
-
         ResponseEntity<List<SportDto>> response = sportController.getAllSports();
-
         assertNotNull(response);
         assertEquals(HttpStatus.OK, response.getStatusCode());
         assertEquals(sportDtos, response.getBody());
-
         verify(sportService, times(1)).getAllSports();
     }
 
@@ -78,13 +70,10 @@ public class SportControllerTest {
     void getSportById_ValidId_ReturnsSportDto() {
         SportDto sportDto = SportDto.builder().id(1).name("Basketball").build();
         when(sportService.getSportById(1)).thenReturn(sportDto);
-
         ResponseEntity<SportDto> response = sportController.getSportById(1);
-
         assertNotNull(response);
         assertEquals(HttpStatus.OK, response.getStatusCode());
         assertEquals(sportDto, response.getBody());
-
         verify(sportService, times(1)).getSportById(1);
     }
 
@@ -92,13 +81,10 @@ public class SportControllerTest {
     void updateSport_ValidId_ReturnsUpdatedSport() {
         SportDto updatedSportDto = SportDto.builder().id(1).name("Basketball").build();
         when(sportService.updateSport(eq(1), any(SportDto.class))).thenReturn(updatedSportDto);
-
         ResponseEntity<SportDto> response = sportController.updateSport(1, updatedSportDto);
-
         assertNotNull(response);
         assertEquals(HttpStatus.OK, response.getStatusCode());
         assertEquals(updatedSportDto, response.getBody());
-
         verify(sportService, times(1)).updateSport(eq(1), any(SportDto.class));
     }
 
@@ -109,13 +95,10 @@ public class SportControllerTest {
                 EmployeeDto.builder().id(2).name("Jane Smith").build()
         );
         when(sportService.getEmployeesBySportId(1)).thenReturn(employeeDtos);
-
         ResponseEntity<List<EmployeeDto>> response = sportController.getEmployeesBySportId(1);
-
         assertNotNull(response);
         assertEquals(HttpStatus.OK, response.getStatusCode());
         assertEquals(employeeDtos, response.getBody());
-
         verify(sportService, times(1)).getEmployeesBySportId(1);
     }
 }

@@ -36,13 +36,10 @@ public class DepartmentControllerTest {
     void createDepartment_ValidDepartmentDto_ReturnsCreated() {
         DepartmentDto departmentDto = DepartmentDto.builder().id(1).name("HR").build();
         when(departmentService.addDepartment(any(DepartmentDto.class))).thenReturn(departmentDto);
-
         ResponseEntity<DepartmentDto> response = departmentController.createDepartment(departmentDto);
-
         assertNotNull(response);
         assertEquals(HttpStatus.CREATED, response.getStatusCode());
         assertEquals(departmentDto, response.getBody());
-
         verify(departmentService).addDepartment(any(DepartmentDto.class));
     }
 
@@ -51,10 +48,8 @@ public class DepartmentControllerTest {
        int departmentId = 1;
         doNothing().when(departmentService).deleteDepartment(departmentId);
         ResponseEntity<Void> response = departmentController.deleteDepartment(departmentId);
-
         assertNotNull(response);
         assertEquals(HttpStatus.NO_CONTENT, response.getStatusCode());
-
         verify(departmentService, times(1)).deleteDepartment(departmentId);
     }
 
@@ -65,13 +60,10 @@ public class DepartmentControllerTest {
                 DepartmentDto.builder().id(2).name("Finance").build()
         );
         when(departmentService.getAllDepartments()).thenReturn(departmentDtos);
-
         ResponseEntity<List<DepartmentDto>> response = departmentController.getAllDepartments();
-
         assertNotNull(response);
         assertEquals(HttpStatus.OK, response.getStatusCode());
         assertEquals(departmentDtos, response.getBody());
-
         verify(departmentService, times(1)).getAllDepartments();
     }
 
@@ -79,13 +71,10 @@ public class DepartmentControllerTest {
     void getDepartmentById_ValidId_ReturnsDepartmentDto() {
         DepartmentDto departmentDto = DepartmentDto.builder().id(1).name("HR").build();
         when(departmentService.getDepartmentById(1)).thenReturn(departmentDto);
-
         ResponseEntity<DepartmentDto> response = departmentController.getDepartmentById(1);
-
         assertNotNull(response);
         assertEquals(HttpStatus.OK, response.getStatusCode());
         assertEquals(departmentDto, response.getBody());
-
         verify(departmentService, times(1)).getDepartmentById(1);
     }
 
@@ -93,13 +82,10 @@ public class DepartmentControllerTest {
     void updateDepartment_ValidId_ReturnsUpdatedDepartment() {
         DepartmentDto updatedDepartmentDto = DepartmentDto.builder().id(1).name("HR").build();
         when(departmentService.updateDepartment(eq(1), any(DepartmentDto.class))).thenReturn(updatedDepartmentDto);
-
         ResponseEntity<DepartmentDto> response = departmentController.updateDepartment(1, updatedDepartmentDto);
-
         assertNotNull(response);
         assertEquals(HttpStatus.OK, response.getStatusCode());
         assertEquals(updatedDepartmentDto, response.getBody());
-
         verify(departmentService, times(1)).updateDepartment(eq(1), any(DepartmentDto.class));
     }
 
@@ -110,13 +96,10 @@ public class DepartmentControllerTest {
                 EmployeeDto.builder().id(2).name("Jane Smith").build()
         );
         when(departmentService.getEmployeesByDepartmentId(1)).thenReturn(employeeDtos);
-
         ResponseEntity<List<EmployeeDto>> response = departmentController.getEmployeesByDepartmentId(1);
-
         assertNotNull(response);
         assertEquals(HttpStatus.OK, response.getStatusCode());
         assertEquals(employeeDtos, response.getBody());
-
         verify(departmentService, times(1)).getEmployeesByDepartmentId(1);
     }
 }

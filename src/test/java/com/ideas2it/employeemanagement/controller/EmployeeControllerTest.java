@@ -46,9 +46,7 @@ public class EmployeeControllerTest {
     @Test
     void testAddEmployee() {
         when(employeeService.addEmployee(any(EmployeeDto.class))).thenReturn(employeeDto);
-
         ResponseEntity<EmployeeDto> response = employeeController.addEmployee(employeeDto);
-
         assertEquals(HttpStatus.CREATED, response.getStatusCode());
         assertEquals(employeeDto, response.getBody());
         verify(employeeService, times(1)).addEmployee(any(EmployeeDto.class));
@@ -58,9 +56,7 @@ public class EmployeeControllerTest {
     void testGetAllEmployees() {
         List<EmployeeDto> employeeList = Arrays.asList(employeeDto);
         when(employeeService.getAllEmployees()).thenReturn(employeeList);
-
         ResponseEntity<List<EmployeeDto>> response = employeeController.getAllEmployees();
-
         assertEquals(HttpStatus.OK, response.getStatusCode());
         assertEquals(employeeList, response.getBody());
         verify(employeeService, times(1)).getAllEmployees();
@@ -69,9 +65,7 @@ public class EmployeeControllerTest {
     @Test
     void testGetEmployeeById() {
         when(employeeService.getEmployeeById(eq(1))).thenReturn(employeeDto);
-
         ResponseEntity<EmployeeDto> response = employeeController.getEmployeeById(1);
-
         assertEquals(HttpStatus.OK, response.getStatusCode());
         assertEquals(employeeDto, response.getBody());
         verify(employeeService, times(1)).getEmployeeById(1);
@@ -80,9 +74,7 @@ public class EmployeeControllerTest {
     @Test
     void testUpdateEmployee() {
         when(employeeService.updateEmployee(eq(1), any(EmployeeDto.class))).thenReturn(employeeDto);
-
         ResponseEntity<EmployeeDto> response = employeeController.updateEmployee(1, employeeDto);
-
         assertEquals(HttpStatus.OK, response.getStatusCode());
         assertEquals(employeeDto, response.getBody());
         verify(employeeService, times(1)).updateEmployee(eq(1), any(EmployeeDto.class));
@@ -91,9 +83,7 @@ public class EmployeeControllerTest {
     @Test
     void testDeleteEmployee() {
         doNothing().when(employeeService).deleteEmployee(eq(1));
-
         ResponseEntity<Void> response = employeeController.deleteEmployee(1);
-
         assertEquals(HttpStatus.NO_CONTENT, response.getStatusCode());
         verify(employeeService, times(1)).deleteEmployee(1);
     }
@@ -101,9 +91,7 @@ public class EmployeeControllerTest {
     @Test
     void testAddSportToEmployee() {
         when(employeeService.addSportToEmployee(eq(1), eq(2))).thenReturn(employeeDto);
-
         ResponseEntity<EmployeeDto> response = employeeController.addSportToEmployee(1, 2);
-
         assertEquals(HttpStatus.OK, response.getStatusCode());
         assertEquals(employeeDto, response.getBody());
         verify(employeeService, times(1)).addSportToEmployee(eq(1), eq(2));
@@ -112,9 +100,7 @@ public class EmployeeControllerTest {
     @Test
     void testRemoveSportFromEmployee() {
         when(employeeService.removeSportFromEmployee(eq(1), eq(2))).thenReturn(employeeDto);
-
         ResponseEntity<EmployeeDto> response = employeeController.removeSportFromEmployee(1, 2);
-
         assertEquals(HttpStatus.OK, response.getStatusCode());
         assertEquals(employeeDto, response.getBody());
         verify(employeeService, times(1)).removeSportFromEmployee(eq(1), eq(2));
